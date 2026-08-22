@@ -229,6 +229,72 @@ def validate_cross_dataset_consistency() -> bool:
     return all_consistent
 
 
+# ── Discovery module static-dataset audit ───────────────────────────────────
+# Detect hardcoded creator dicts inside discovery adapter source files.
+# A static creator dataset is identified by finding a Python source file that
+# contains multiple dict literals each supplying BOTH 'profile_url' AND a
+# numeric 'followers' value — the fingerprint of a fabricated record.
+# ─────────────────────────────────────────────────────────────────────────────
+
+DISCOVERY_ADAPTER_FILES = [
+    Path(__file__).resolve().parent.parent / "app" / "discovery" / "directories.py",
+    Path(__file__).resolve().parent.parent / "app" / "discovery" / "marketplaces.py",
+    Path(__file__).resolve().parent.parent / "app" / "discovery" / "search_adapter.py",
+]
+
+# Each signal: if found >= HARDCODED_HIT_THRESHOLD times it flags a violation.
+HARDCODED_CREATOR_SIGNALS = [
+    (r"[\"']profile_url[\"']\s*:", "profile_url literal assignments"),
+    (r"[\"']followers[\"']\s*:\s*\d+", "numeric followers literals"),
+    (r"[\"']engagement_rate[\"']\s*:\s*[0-9]", "numeric engagement_rate literals"),
+    (r"[\"']contact_email[\"']\s*:\s*[\"'][^@\"']+@[^@\"']+[\"']", "hardcoded email literals"),
+]
+HARDCODED_HIT_THRESHOLD = 3  # 3+ occurrences of ANY signal = flag
+
+
+def audit_discovery_modules_for_hardcoded_creators() -> bool:
+    """
+    Inspect discovery adapter source files for hardcoded static creator datasets.
+    Returns True if all files are clean, False if any violation is detected.
+    """
+    print("\n========================================================")
+    print(" DISCOVERY MODULE STATIC-DATASET AUDIT")
+    print("========================================================")
+
+    all_clean = True
+    for src_path in DISCOVERY_ADAPTER_FILES:
+        if not src_path.exists():
+            print(f"[SKIP] Discovery module not found: {src_path.name}")
+            continue
+
+        source_code = src_path.read_text(encoding="utf-8")
+        violations = []
+
+        for pattern, description in HARDCODED_CREATOR_SIGNALS:
+            hits = re.findall(pattern, source_code)
+            if len(hits) >= HARDCODED_HIT_THRESHOLD:
+                violations.append(
+                    f"  '{description}' appears {len(hits)}x (threshold: {HARDCODED_HIT_THRESHOLD})"
+                )
+
+        if violations:
+            print(f"[FAIL] {src_path.name} — hardcoded creator dataset detected:")
+            for v in violations:
+                print(v)
+            all_clean = False
+        else:
+            print(f"[PASS] {src_path.name} — no hardcoded creator dataset found")
+
+    status = (
+        "[PASS] All discovery modules are clean"
+        if all_clean
+        else "[FAIL] Hardcoded creator data detected in discovery module(s)"
+    )
+    print(f"STATIC-DATASET AUDIT STATUS: {status}")
+    print("========================================================\n")
+    return all_clean
+
+
 if __name__ == "__main__":
     files_to_validate = [
         RAW_DATA_DIR / "discovered_creators_raw.json",
@@ -244,6 +310,9 @@ if __name__ == "__main__":
             all_passed = False
 
     if not validate_cross_dataset_consistency():
+        all_passed = False
+
+    if not audit_discovery_modules_for_hardcoded_creators():
         all_passed = False
 
     if all_passed:

@@ -2,11 +2,16 @@
 
 A 100% data-honest, transparent, AI-powered micro-influencer discovery and outreach system built for technology and developer tool campaigns (GitHub & Dev.to Tech Platforms, 5,000–100,000 micro-influencer bounds).
 
-The platform features multi-source real creator discovery (120 real creators fetched live via API, $\ge 50$ hard acceptance gate), 100% data provenance tracking, profile enrichment, technology classification, 3-tier deterministic filtering (`QUALIFIED`, `REVIEW`, `REJECTED`), normalized soft scoring with brand-fit & audience-fit calculations, Gemini LLM message personalization (strictly formatted emails and DMs with auditable signals), message quality control, human review workflow, simulation-first sending layer with duplicate prevention, persistent outreach tracking, dataset validation scripts, engine-first CLI script execution, pytest validation, and an interactive Streamlit web application.
+The platform features multi-source live creator discovery (real HTTP API extraction via `httpx`, $\ge 50$ hard acceptance gate), 100% data provenance tracking, profile enrichment, technology classification, 3-tier deterministic filtering (`QUALIFIED`, `REVIEW`, `REJECTED`), normalized soft scoring with brand-fit & audience-fit calculations, Gemini LLM message personalization (strictly formatted emails and DMs with auditable signals), message quality control, human review workflow, simulation-first sending layer with duplicate prevention, persistent outreach tracking, dataset validation scripts, engine-first CLI script execution, pytest validation, and an interactive Streamlit web application.
 
 > [!IMPORTANT]
-> **100% Data Integrity, Provenance & Cross-Dataset Consistency Confirmed**: 
-> All hardcoded fallback creator records, hash-derived metrics, guessed emails, and fabricated demographic fields have been completely removed. The system queries genuine public creator profiles live via REST APIs (`httpx`) and enforces an explicit failure state if fewer than 50 real records are available. Outreach qualification remains strictly source-backed: GitHub and Dev.to records lacking explicit public emails or observed creator engagement rates are safely routed to the **REVIEW** queue with explainable justifications, while verified tech micro-influencer profiles pass **QUALIFIED** and proceed to Gemini AI Personalization, Human Review, and Outreach Simulation.
+> **Zero Fabricated Data — Strict Source-Backed Authenticity**:
+> All hardcoded fallback creator records, hash-derived metrics, guessed emails, and fabricated demographic fields have been permanently removed from every discovery adapter. The system queries genuine public profiles live via REST APIs (`httpx`) and enforces an explicit failure state if fewer than 50 real records are retrieved.
+>
+> **Known source limitations** (these are intentional, not bugs):
+> - **GitHub API** (unauthenticated): returns real developer profiles but does NOT supply influencer engagement rates. Follower counts may be rate-limited (`HTTP_403`). Missing fields are recorded as `"Not Found"` and the creator is routed to **REVIEW**.
+> - **Dev.to API**: returns real article author profiles with article reaction/comment counts but does NOT supply follower counts or creator engagement rates. Missing fields are `"Not Found"`. Creator routed to **REVIEW**.
+> - **Result**: If no discovered creator has a verified public follower count, engagement rate, AND contact email simultaneously, the `QUALIFIED` bucket will be empty. This is the correct, honest outcome — not a system failure.
 
 ---
 
@@ -15,7 +20,7 @@ The platform features multi-source real creator discovery (120 real creators fet
 - **Multi-Source Live Real Discovery Adapter Chain**:
   - `Source A`: GitHub Public Tech Developer Directory (`directories.py`) - Queries live GitHub User Search & Profile APIs. Obtains genuine follower counts when returned by GitHub User Profile API. Does NOT supply influencer engagement rate metrics (`engagement_rate = "Not Found"`).
   - `Source B`: Dev.to Public Tech Creator Marketplace Index (`marketplaces.py`) - Queries live Dev.to Articles & Author Spotlight APIs. Captures source-backed `article_reactions` and `article_comments`. Does NOT supply follower counts or creator engagement rates (`followers = "Not Found"`, `engagement_rate = "Not Found"`).
-  - `Source C`: Public Tech Community Search Adapter (`search_adapter.py`) - Queries live DevTools, OpenSource, and JavaScript topic feeds.
+  - `Source C`: Dev.to Public Tech Hashtag Feed (`search_adapter.py`) — Queries live Dev.to Articles API by tags (`#ai`, `#python`, `#webdev`, `#programming`). Captures `article_reactions` and `article_comments`. Does NOT supply follower counts or creator engagement rates. Contact email only populated if found literally in bio/website text returned by the Dev.to user detail API.
   - **Acceptance Gate**: Target 50–100 real records; minimum acceptance threshold of $\ge 50$ valid unique creators. If $< 50$ valid records exist, discovery gate fails explicitly.
 - **100% Data Provenance & Field-Level Source Auditing**:
   - Auditable `source`, `source_url`, `extraction_method`, and `discovered_at` ISO timestamp recorded per record.
