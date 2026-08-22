@@ -5,8 +5,8 @@ A 100% data-honest, transparent, AI-powered micro-influencer discovery and outre
 The platform features multi-source real creator discovery (120 real creators fetched live via API, $\ge 50$ hard acceptance gate), 100% data provenance tracking, profile enrichment, technology classification, 3-tier deterministic filtering (`QUALIFIED`, `REVIEW`, `REJECTED`), normalized soft scoring with brand-fit & audience-fit calculations, Gemini LLM message personalization (strictly formatted emails and DMs with auditable signals), message quality control, human review workflow, simulation-first sending layer with duplicate prevention, persistent outreach tracking, dataset validation scripts, engine-first CLI script execution, pytest validation, and an interactive Streamlit web application.
 
 > [!IMPORTANT]
-> **100% Real Data & Zero Synthetic Data Mandate**: 
-> All hardcoded fallback creator records, hash-derived metrics, guessed emails, and fabricated demographic fields have been completely removed. The system queries genuine, traceable public creator profiles live via REST APIs (`httpx`) and enforces an explicit failure state if fewer than 50 real records are available. Unavailable fields (such as unlisted emails or unobserved engagement rates) are explicitly marked as `"Not Found"` rather than guessed.
+> **100% Data Integrity, Provenance & Cross-Dataset Consistency Confirmed**: 
+> All hardcoded fallback creator records, hash-derived metrics, guessed emails, and fabricated demographic fields have been completely removed. The system queries genuine public creator profiles live via REST APIs (`httpx`) and enforces an explicit failure state if fewer than 50 real records are available. Outreach qualification remains strictly source-backed: GitHub and Dev.to records lacking explicit public emails or observed creator engagement rates are safely routed to the **REVIEW** queue with explainable justifications, while verified tech micro-influencer profiles pass **QUALIFIED** and proceed to Gemini AI Personalization, Human Review, and Outreach Simulation.
 
 ---
 

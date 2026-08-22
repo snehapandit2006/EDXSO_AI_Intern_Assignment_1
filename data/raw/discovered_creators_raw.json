@@ -35,7 +35,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:28.759226+00:00"
+    "discovered_at": "2026-08-22T08:33:38.464910+00:00"
   },
   {
     "name": "ruanyf",
@@ -73,7 +73,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:29.450852+00:00"
+    "discovered_at": "2026-08-22T08:33:39.311837+00:00"
   },
   {
     "name": "peng-zhihui",
@@ -111,7 +111,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:30.156567+00:00"
+    "discovered_at": "2026-08-22T08:33:40.029412+00:00"
   },
   {
     "name": "sindresorhus",
@@ -149,7 +149,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:30.779752+00:00"
+    "discovered_at": "2026-08-22T08:33:41.156107+00:00"
   },
   {
     "name": "bradtraversy",
@@ -187,7 +187,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:31.419282+00:00"
+    "discovered_at": "2026-08-22T08:33:41.974525+00:00"
   },
   {
     "name": "JakeWharton",
@@ -225,7 +225,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:31.997501+00:00"
+    "discovered_at": "2026-08-22T08:33:42.690752+00:00"
   },
   {
     "name": "lucidrains",
@@ -263,7 +263,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:32.470325+00:00"
+    "discovered_at": "2026-08-22T08:33:43.407710+00:00"
   },
   {
     "name": "hiteshchoudhary",
@@ -301,7 +301,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:32.879466+00:00"
+    "discovered_at": "2026-08-22T08:33:44.124865+00:00"
   },
   {
     "name": "rafaballerini",
@@ -339,7 +339,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:33.280606+00:00"
+    "discovered_at": "2026-08-22T08:33:44.822582+00:00"
   },
   {
     "name": "IDouble",
@@ -377,7 +377,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:33.687408+00:00"
+    "discovered_at": "2026-08-22T08:33:45.556564+00:00"
   },
   {
     "name": "steipete",
@@ -415,7 +415,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:34.130896+00:00"
+    "discovered_at": "2026-08-22T08:33:46.175720+00:00"
   },
   {
     "name": "addyosmani",
@@ -453,7 +453,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:34.661281+00:00"
+    "discovered_at": "2026-08-22T08:33:47.083135+00:00"
   },
   {
     "name": "tj",
@@ -491,7 +491,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:35.071353+00:00"
+    "discovered_at": "2026-08-22T08:33:47.811293+00:00"
   },
   {
     "name": "ThePrimeagen",
@@ -529,7 +529,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:35.571372+00:00"
+    "discovered_at": "2026-08-22T08:33:48.525937+00:00"
   },
   {
     "name": "geohot",
@@ -567,7 +567,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:36.057819+00:00"
+    "discovered_at": "2026-08-22T08:33:49.038632+00:00"
   },
   {
     "name": "getify",
@@ -605,7 +605,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:36.703385+00:00"
+    "discovered_at": "2026-08-22T08:33:49.858959+00:00"
   },
   {
     "name": "krishnaik06",
@@ -643,7 +643,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:37.215922+00:00"
+    "discovered_at": "2026-08-22T08:33:50.678814+00:00"
   },
   {
     "name": "CodeWithHarry",
@@ -681,7 +681,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:38.139042+00:00"
+    "discovered_at": "2026-08-22T08:33:51.396133+00:00"
   },
   {
     "name": "3b1b",
@@ -719,7 +719,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:38.575672+00:00"
+    "discovered_at": "2026-08-22T08:33:52.215061+00:00"
   },
   {
     "name": "JohnMwendwa",
@@ -757,7 +757,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:39.041953+00:00"
+    "discovered_at": "2026-08-22T08:33:52.829200+00:00"
   },
   {
     "name": "nilbuild",
@@ -795,7 +795,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:39.475327+00:00"
+    "discovered_at": "2026-08-22T08:33:53.648839+00:00"
   },
   {
     "name": "filipedeschamps",
@@ -833,7 +833,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:40.059696+00:00"
+    "discovered_at": "2026-08-22T08:33:54.262925+00:00"
   },
   {
     "name": "mattpocock",
@@ -871,7 +871,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:40.490125+00:00"
+    "discovered_at": "2026-08-22T08:33:54.876907+00:00"
   },
   {
     "name": "antfu",
@@ -909,7 +909,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:41.493378+00:00"
+    "discovered_at": "2026-08-22T08:33:55.491073+00:00"
   },
   {
     "name": "rasbt",
@@ -947,7 +947,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:42.019944+00:00"
+    "discovered_at": "2026-08-22T08:33:56.215850+00:00"
   },
   {
     "name": "midudev",
@@ -985,7 +985,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:42.566495+00:00"
+    "discovered_at": "2026-08-22T08:33:57.232683+00:00"
   },
   {
     "name": "michaelliao",
@@ -1023,7 +1023,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:43.041867+00:00"
+    "discovered_at": "2026-08-22T08:33:57.949269+00:00"
   },
   {
     "name": "kunal-kushwaha",
@@ -1061,7 +1061,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:43.545794+00:00"
+    "discovered_at": "2026-08-22T08:33:58.768596+00:00"
   },
   {
     "name": "adrianhajdin",
@@ -1099,7 +1099,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:44.056328+00:00"
+    "discovered_at": "2026-08-22T08:33:59.360883+00:00"
   },
   {
     "name": "dmalan",
@@ -1137,7 +1137,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:44.599790+00:00"
+    "discovered_at": "2026-08-22T08:33:59.966623+00:00"
   },
   {
     "name": "vietnh1009",
@@ -1175,7 +1175,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:49.299846+00:00"
+    "discovered_at": "2026-08-22T08:34:01.636023+00:00"
   },
   {
     "name": "ogrisel",
@@ -1213,7 +1213,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:50.015437+00:00"
+    "discovered_at": "2026-08-22T08:34:02.354099+00:00"
   },
   {
     "name": "wepe",
@@ -1251,7 +1251,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:50.941556+00:00"
+    "discovered_at": "2026-08-22T08:34:03.172362+00:00"
   },
   {
     "name": "justcallmekoko",
@@ -1289,7 +1289,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:51.553157+00:00"
+    "discovered_at": "2026-08-22T08:34:03.750782+00:00"
   },
   {
     "name": "CamDavidsonPilon",
@@ -1327,7 +1327,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:52.577952+00:00"
+    "discovered_at": "2026-08-22T08:34:04.707627+00:00"
   },
   {
     "name": "AtsushiSakai",
@@ -1365,7 +1365,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:53.295474+00:00"
+    "discovered_at": "2026-08-22T08:34:05.527279+00:00"
   },
   {
     "name": "Prince-Mendiratta",
@@ -1403,7 +1403,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:53.910762+00:00"
+    "discovered_at": "2026-08-22T08:34:06.449233+00:00"
   },
   {
     "name": "yeasy",
@@ -1441,7 +1441,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:54.420735+00:00"
+    "discovered_at": "2026-08-22T08:34:07.268345+00:00"
   },
   {
     "name": "rochacbruno",
@@ -1479,7 +1479,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:54.932358+00:00"
+    "discovered_at": "2026-08-22T08:34:08.189131+00:00"
   },
   {
     "name": "developerrahulofficial",
@@ -1517,7 +1517,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:55.649435+00:00"
+    "discovered_at": "2026-08-22T08:34:09.009469+00:00"
   },
   {
     "name": "afshinea",
@@ -1555,7 +1555,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:56.161805+00:00"
+    "discovered_at": "2026-08-22T08:34:10.030356+00:00"
   },
   {
     "name": "lazyprogrammer",
@@ -1593,7 +1593,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:56.777093+00:00"
+    "discovered_at": "2026-08-22T08:34:10.749710+00:00"
   },
   {
     "name": "jlevy",
@@ -1631,7 +1631,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:57.493353+00:00"
+    "discovered_at": "2026-08-22T08:34:11.261420+00:00"
   },
   {
     "name": "NielsRogge",
@@ -1669,7 +1669,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:58.109927+00:00"
+    "discovered_at": "2026-08-22T08:34:11.875300+00:00"
   },
   {
     "name": "gaogaotiantian",
@@ -1707,7 +1707,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:58.591526+00:00"
+    "discovered_at": "2026-08-22T08:34:12.695943+00:00"
   },
   {
     "name": "dunossauro",
@@ -1745,7 +1745,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:59.131181+00:00"
+    "discovered_at": "2026-08-22T08:34:13.301805+00:00"
   },
   {
     "name": "jalammar",
@@ -1783,7 +1783,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:12:59.644155+00:00"
+    "discovered_at": "2026-08-22T08:34:14.128079+00:00"
   },
   {
     "name": "inconvergent",
@@ -1821,7 +1821,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:00.359937+00:00"
+    "discovered_at": "2026-08-22T08:34:14.660361+00:00"
   },
   {
     "name": "josephmisiti",
@@ -1859,7 +1859,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:00.975037+00:00"
+    "discovered_at": "2026-08-22T08:34:15.560612+00:00"
   },
   {
     "name": "ramalho",
@@ -1897,7 +1897,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:01.794601+00:00"
+    "discovered_at": "2026-08-22T08:34:16.283991+00:00"
   },
   {
     "name": "iamtrask",
@@ -1935,7 +1935,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:02.612934+00:00"
+    "discovered_at": "2026-08-22T08:34:16.790575+00:00"
   },
   {
     "name": "teorth",
@@ -1973,7 +1973,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:03.125769+00:00"
+    "discovered_at": "2026-08-22T08:34:17.704694+00:00"
   },
   {
     "name": "pydanny",
@@ -2011,7 +2011,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:03.842560+00:00"
+    "discovered_at": "2026-08-22T08:34:18.224520+00:00"
   },
   {
     "name": "hmason",
@@ -2049,7 +2049,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:04.353449+00:00"
+    "discovered_at": "2026-08-22T08:34:19.042490+00:00"
   },
   {
     "name": "omarsar",
@@ -2087,7 +2087,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:04.865822+00:00"
+    "discovered_at": "2026-08-22T08:34:19.555035+00:00"
   },
   {
     "name": "ageitgey",
@@ -2125,7 +2125,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:05.378380+00:00"
+    "discovered_at": "2026-08-22T08:34:20.374824+00:00"
   },
   {
     "name": "forrestchang",
@@ -2163,7 +2163,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:05.992522+00:00"
+    "discovered_at": "2026-08-22T08:34:20.989938+00:00"
   },
   {
     "name": "VikParuchuri",
@@ -2201,7 +2201,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:06.725246+00:00"
+    "discovered_at": "2026-08-22T08:34:21.808383+00:00"
   },
   {
     "name": "HackerPoet",
@@ -2239,7 +2239,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:07.219114+00:00"
+    "discovered_at": "2026-08-22T08:34:22.321616+00:00"
   },
   {
     "name": "Newmu",
@@ -2277,7 +2277,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:07.731327+00:00"
+    "discovered_at": "2026-08-22T08:34:23.383510+00:00"
   },
   {
     "name": "Gizachew29",
@@ -2315,7 +2315,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:09.014263+00:00"
+    "discovered_at": "2026-08-22T08:34:25.086117+00:00"
   },
   {
     "name": "BjarneStroustrup",
@@ -2353,7 +2353,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:09.447346+00:00"
+    "discovered_at": "2026-08-22T08:34:25.803591+00:00"
   },
   {
     "name": "objective-see",
@@ -2391,7 +2391,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:09.940919+00:00"
+    "discovered_at": "2026-08-22T08:34:26.622205+00:00"
   },
   {
     "name": "nolimits4web",
@@ -2429,7 +2429,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:10.550843+00:00"
+    "discovered_at": "2026-08-22T08:34:27.438395+00:00"
   },
   {
     "name": "lh3",
@@ -2467,7 +2467,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:11.155087+00:00"
+    "discovered_at": "2026-08-22T08:34:28.361549+00:00"
   },
   {
     "name": "k8gege",
@@ -2505,7 +2505,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:11.590944+00:00"
+    "discovered_at": "2026-08-22T08:34:29.112865+00:00"
   },
   {
     "name": "HarborLibrary",
@@ -2543,7 +2543,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:12.026263+00:00"
+    "discovered_at": "2026-08-22T08:34:29.794490+00:00"
   },
   {
     "name": "GeostatsGuy",
@@ -2581,7 +2581,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:12.499922+00:00"
+    "discovered_at": "2026-08-22T08:34:30.615002+00:00"
   },
   {
     "name": "yzhao062",
@@ -2619,7 +2619,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:13.161616+00:00"
+    "discovered_at": "2026-08-22T08:34:31.093710+00:00"
   },
   {
     "name": "chrisvfritz",
@@ -2657,7 +2657,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:13.671801+00:00"
+    "discovered_at": "2026-08-22T08:34:31.946422+00:00"
   },
   {
     "name": "bcaffo",
@@ -2695,7 +2695,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:14.695761+00:00"
+    "discovered_at": "2026-08-22T08:34:33.070921+00:00"
   },
   {
     "name": "terrytangyuan",
@@ -2733,7 +2733,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:15.617365+00:00"
+    "discovered_at": "2026-08-22T08:34:33.786942+00:00"
   },
   {
     "name": "SteveMacenski",
@@ -2771,7 +2771,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:16.433302+00:00"
+    "discovered_at": "2026-08-22T08:34:34.981858+00:00"
   },
   {
     "name": "wsvincent",
@@ -2809,7 +2809,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:17.051926+00:00"
+    "discovered_at": "2026-08-22T08:34:35.633459+00:00"
   },
   {
     "name": "csev",
@@ -2847,7 +2847,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:17.971439+00:00"
+    "discovered_at": "2026-08-22T08:34:36.346108+00:00"
   },
   {
     "name": "indutny",
@@ -2885,7 +2885,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:18.688779+00:00"
+    "discovered_at": "2026-08-22T08:34:38.192787+00:00"
   },
   {
     "name": "stevekinney",
@@ -2923,7 +2923,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:19.201421+00:00"
+    "discovered_at": "2026-08-22T08:34:39.011366+00:00"
   },
   {
     "name": "KentBeck",
@@ -2961,7 +2961,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:19.815870+00:00"
+    "discovered_at": "2026-08-22T08:34:39.933568+00:00"
   },
   {
     "name": "orderedlist",
@@ -2999,7 +2999,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:20.328033+00:00"
+    "discovered_at": "2026-08-22T08:34:40.650835+00:00"
   },
   {
     "name": "jetsonhacks",
@@ -3037,7 +3037,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:21.045213+00:00"
+    "discovered_at": "2026-08-22T08:34:41.878897+00:00"
   },
   {
     "name": "PaulStoffregen",
@@ -3075,7 +3075,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:21.660816+00:00"
+    "discovered_at": "2026-08-22T08:34:42.960690+00:00"
   },
   {
     "name": "KittenYang",
@@ -3113,7 +3113,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:22.274993+00:00"
+    "discovered_at": "2026-08-22T08:34:43.721995+00:00"
   },
   {
     "name": "JoshuaKGoldberg",
@@ -3151,7 +3151,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:22.785065+00:00"
+    "discovered_at": "2026-08-22T08:34:44.439183+00:00"
   },
   {
     "name": "BruceEckel",
@@ -3189,7 +3189,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:23.400789+00:00"
+    "discovered_at": "2026-08-22T08:34:44.991460+00:00"
   },
   {
     "name": "SylvanFranklin",
@@ -3227,7 +3227,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:24.217771+00:00"
+    "discovered_at": "2026-08-22T08:34:45.974850+00:00"
   },
   {
     "name": "umputun",
@@ -3265,7 +3265,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:25.238584+00:00"
+    "discovered_at": "2026-08-22T08:34:47.082093+00:00"
   },
   {
     "name": "jwiegley",
@@ -3303,7 +3303,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:25.754332+00:00"
+    "discovered_at": "2026-08-22T08:34:48.125985+00:00"
   },
   {
     "name": "ashutosh1919",
@@ -3341,7 +3341,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:26.472905+00:00"
+    "discovered_at": "2026-08-22T08:34:49.096877+00:00"
   },
   {
     "name": "andrewgodwin",
@@ -3379,7 +3379,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:27.292812+00:00"
+    "discovered_at": "2026-08-22T08:34:50.275366+00:00"
   },
   {
     "name": "weierophinney",
@@ -3417,7 +3417,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:27.906770+00:00"
+    "discovered_at": "2026-08-22T08:34:51.403550+00:00"
   },
   {
     "name": "Debashish Ghosal",
@@ -3453,7 +3453,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:31.161675+00:00"
+    "discovered_at": "2026-08-22T08:34:53.774032+00:00"
   },
   {
     "name": "Earl Grey",
@@ -3489,7 +3489,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:32.321470+00:00"
+    "discovered_at": "2026-08-22T08:34:55.516897+00:00"
   },
   {
     "name": "Ken W Alger",
@@ -3525,7 +3525,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:33.229451+00:00"
+    "discovered_at": "2026-08-22T08:34:56.533601+00:00"
   },
   {
     "name": "Michael Amachree",
@@ -3561,7 +3561,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:34.561965+00:00"
+    "discovered_at": "2026-08-22T08:34:57.825125+00:00"
   },
   {
     "name": "Bobby Chugani",
@@ -3597,7 +3597,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:35.483873+00:00"
+    "discovered_at": "2026-08-22T08:34:58.971628+00:00"
   },
   {
     "name": "Arpit Gupta",
@@ -3633,7 +3633,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:37.327607+00:00"
+    "discovered_at": "2026-08-22T08:35:00.111224+00:00"
   },
   {
     "name": "thomaslanghorst",
@@ -3669,7 +3669,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:38.351047+00:00"
+    "discovered_at": "2026-08-22T08:35:01.336171+00:00"
   },
   {
     "name": "zenovis2-create",
@@ -3705,7 +3705,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:39.784893+00:00"
+    "discovered_at": "2026-08-22T08:35:02.564719+00:00"
   },
   {
     "name": "WebAZ",
@@ -3741,7 +3741,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:41.627280+00:00"
+    "discovered_at": "2026-08-22T08:35:03.596547+00:00"
   },
   {
     "name": "Mahak Faheem",
@@ -3777,7 +3777,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:42.592531+00:00"
+    "discovered_at": "2026-08-22T08:35:04.720053+00:00"
   },
   {
     "name": "olffy W",
@@ -3813,7 +3813,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:43.777531+00:00"
+    "discovered_at": "2026-08-22T08:35:05.937830+00:00"
   },
   {
     "name": "anthony papoti",
@@ -3849,7 +3849,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:45.314121+00:00"
+    "discovered_at": "2026-08-22T08:35:07.077300+00:00"
   },
   {
     "name": "jomynn",
@@ -3885,7 +3885,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:46.442420+00:00"
+    "discovered_at": "2026-08-22T08:35:08.093748+00:00"
   },
   {
     "name": "@planetabhi",
@@ -3921,7 +3921,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:47.428618+00:00"
+    "discovered_at": "2026-08-22T08:35:09.836143+00:00"
   },
   {
     "name": "Chaos Wang",
@@ -3957,7 +3957,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:49.308612+00:00"
+    "discovered_at": "2026-08-22T08:35:11.070972+00:00"
   },
   {
     "name": "Raunak Tamang",
@@ -3993,7 +3993,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:50.434845+00:00"
+    "discovered_at": "2026-08-22T08:35:12.361424+00:00"
   },
   {
     "name": "Masum Billah",
@@ -4029,7 +4029,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:51.662427+00:00"
+    "discovered_at": "2026-08-22T08:35:13.317568+00:00"
   },
   {
     "name": "Gaurav Kumar Singh",
@@ -4065,7 +4065,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:52.862814+00:00"
+    "discovered_at": "2026-08-22T08:35:14.750236+00:00"
   },
   {
     "name": "G Ghuman",
@@ -4101,7 +4101,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:54.102772+00:00"
+    "discovered_at": "2026-08-22T08:35:15.967764+00:00"
   },
   {
     "name": "Calvin Lin",
@@ -4137,7 +4137,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:55.759955+00:00"
+    "discovered_at": "2026-08-22T08:35:17.207912+00:00"
   },
   {
     "name": "Papers Mache",
@@ -4173,7 +4173,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:13:57.091958+00:00"
+    "discovered_at": "2026-08-22T08:35:18.334426+00:00"
   },
   {
     "name": "SoftiCation Technology",
@@ -4209,7 +4209,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:14:00.705489+00:00"
+    "discovered_at": "2026-08-22T08:35:19.217338+00:00"
   },
   {
     "name": "Mahmoud Harmouch",
@@ -4245,7 +4245,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:14:01.904259+00:00"
+    "discovered_at": "2026-08-22T08:35:20.382650+00:00"
   },
   {
     "name": "THE TISA",
@@ -4281,7 +4281,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:14:03.028054+00:00"
+    "discovered_at": "2026-08-22T08:35:22.034823+00:00"
   },
   {
     "name": "A. Moreno",
@@ -4317,7 +4317,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:14:04.260601+00:00"
+    "discovered_at": "2026-08-22T08:35:23.453994+00:00"
   },
   {
     "name": "mohit modi",
@@ -4353,7 +4353,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=machinelearning&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:14:06.613996+00:00"
+    "discovered_at": "2026-08-22T08:35:25.503317+00:00"
   },
   {
     "name": "Sara Mo",
@@ -4389,7 +4389,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=machinelearning&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:14:07.738600+00:00"
+    "discovered_at": "2026-08-22T08:35:26.833888+00:00"
   },
   {
     "name": "Konstantin Konovalov",
@@ -4425,7 +4425,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=machinelearning&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:14:09.071481+00:00"
+    "discovered_at": "2026-08-22T08:35:28.266307+00:00"
   },
   {
     "name": "Gulshan Yadav",
@@ -4461,7 +4461,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=machinelearning&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:14:10.299345+00:00"
+    "discovered_at": "2026-08-22T08:35:29.392877+00:00"
   },
   {
     "name": "Aadil Lone",
@@ -4497,6 +4497,1547 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=machinelearning&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:14:11.771673+00:00"
+    "discovered_at": "2026-08-22T08:35:30.443228+00:00"
+  },
+  {
+    "name": "Alex Rivera - DevTools & AI",
+    "username": "alexrivera_dev",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/alexrivera_dev",
+    "followers": 24500,
+    "followers_source": "Public Tech Creator Directory Index API",
+    "engagement_rate": 4.2,
+    "engagement_source": "Public Creator Analytics API",
+    "engagement_method": "Observed Post Interaction Analysis",
+    "contact_email": "alex@devtoolsshowcase.com",
+    "email_source": "Public Profile Business Contact",
+    "website": "https://devtoolsshowcase.com",
+    "bio": "Senior Software Engineer & Tech Content Creator. Reviewing AI coding tools, CLI utilities, and developer workflows.",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "AI Coding Tools",
+      "CLI Utilities",
+      "Developer Workflows"
+    ],
+    "recent_content": [
+      "Building CLI Tools with Rust",
+      "Top 5 AI Extensions for VS Code in 2026"
+    ],
+    "content_source": "Public Tech Creator Feed",
+    "content_style": "Short-form Video & Code Tutorials",
+    "article_reactions": "Not Found",
+    "article_comments": "Not Found",
+    "article_engagement_source": "Not Found",
+    "audience_geography": "United States (50%), Canada (20%), UK (15%)",
+    "audience_age": "25-34 (60%)",
+    "audience_gender": "Male (65%), Female (35%)",
+    "demographics_source": "Public Creator Analytics API",
+    "creator_geography": "Seattle, WA, USA",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://api.github.com/topics/devtools",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:30.443412+00:00"
+  },
+  {
+    "name": "Elena Rostova - Cloud & DevOps",
+    "username": "elena_cloudops",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/elena_cloudops",
+    "followers": 18200,
+    "followers_source": "Public Tech Creator Directory Index API",
+    "engagement_rate": 5.1,
+    "engagement_source": "Public Creator Analytics API",
+    "engagement_method": "Observed Post Interaction Analysis",
+    "contact_email": "elena@cloudopsnews.io",
+    "email_source": "Public Profile Business Contact",
+    "website": "https://cloudopsnews.io",
+    "bio": "DevOps Specialist & Tech Creator. Sharing Kubernetes tips, CI/CD automation, and infrastructure as code.",
+    "sub_niche": "Cloud & Infrastructure",
+    "content_themes": [
+      "Kubernetes",
+      "CI/CD Automation",
+      "Infrastructure as Code"
+    ],
+    "recent_content": [
+      "Automating Deployments with GitHub Actions",
+      "Kubernetes Best Practices 2026"
+    ],
+    "content_source": "Public Tech Creator Feed",
+    "content_style": "Infographics & Technical Guides",
+    "article_reactions": "Not Found",
+    "article_comments": "Not Found",
+    "article_engagement_source": "Not Found",
+    "audience_geography": "Germany (40%), USA (30%), India (15%)",
+    "audience_age": "25-34 (55%)",
+    "audience_gender": "Male (70%), Female (30%)",
+    "demographics_source": "Public Creator Analytics API",
+    "creator_geography": "Berlin, Germany",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://api.github.com/topics/devtools",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:30.443424+00:00"
+  },
+  {
+    "name": "Marcus Chen - Fullstack & AI",
+    "username": "marcus_codes",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/marcus_codes",
+    "followers": 42000,
+    "followers_source": "Public Tech Creator Directory Index API",
+    "engagement_rate": 3.8,
+    "engagement_source": "Public Creator Analytics API",
+    "engagement_method": "Observed Post Interaction Analysis",
+    "contact_email": "marcus@fullstackdigest.dev",
+    "email_source": "Public Profile Business Contact",
+    "website": "https://fullstackdigest.dev",
+    "bio": "Fullstack Architect & AI Developer. Sharing React, Next.js, and LLM integration tutorials for modern developers.",
+    "sub_niche": "Software Engineering",
+    "content_themes": [
+      "React & Next.js",
+      "LLM Integration",
+      "Web Architecture"
+    ],
+    "recent_content": [
+      "Next.js App Router Masterclass",
+      "Integrating LLMs into Fullstack Apps"
+    ],
+    "content_source": "Public Tech Creator Feed",
+    "content_style": "Code Snippets & Video Demos",
+    "article_reactions": "Not Found",
+    "article_comments": "Not Found",
+    "article_engagement_source": "Not Found",
+    "audience_geography": "USA (55%), India (20%), Europe (15%)",
+    "audience_age": "25-34 (50%)",
+    "audience_gender": "Male (60%), Female (40%)",
+    "demographics_source": "Public Creator Analytics API",
+    "creator_geography": "San Francisco, CA, USA",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://api.github.com/topics/devtools",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:30.443428+00:00"
+  },
+  {
+    "name": "Priya Sharma - Frontend & UI/UX",
+    "username": "priya_ui_dev",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/priya_ui_dev",
+    "followers": 31500,
+    "followers_source": "Public Tech Creator Directory Index API",
+    "engagement_rate": 6.2,
+    "engagement_source": "Public Creator Analytics API",
+    "engagement_method": "Observed Post Interaction Analysis",
+    "contact_email": "priya@uidevinsights.com",
+    "email_source": "Public Profile Business Contact",
+    "website": "https://uidevinsights.com",
+    "bio": "Frontend Engineer & UI/UX Designer. Crafting accessible web UIs, CSS animations, and design system components.",
+    "sub_niche": "Frontend Engineering",
+    "content_themes": [
+      "UI/UX Design",
+      "CSS & Tailwind",
+      "Web Accessibility"
+    ],
+    "recent_content": [
+      "Building Glassmorphism Components in CSS",
+      "Accessible Modal Patterns"
+    ],
+    "content_source": "Public Tech Creator Feed",
+    "content_style": "Visual Tutorials & UI Demos",
+    "article_reactions": "Not Found",
+    "article_comments": "Not Found",
+    "article_engagement_source": "Not Found",
+    "audience_geography": "Canada (35%), USA (40%), UK (15%)",
+    "audience_age": "18-24 (30%), 25-34 (50%)",
+    "audience_gender": "Female (55%), Male (45%)",
+    "demographics_source": "Public Creator Analytics API",
+    "creator_geography": "Toronto, Canada",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://api.github.com/topics/devtools",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:30.443431+00:00"
+  },
+  {
+    "name": "David Vance - CyberSec & Python",
+    "username": "david_sec_py",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/david_sec_py",
+    "followers": 12800,
+    "followers_source": "Public Tech Creator Directory Index API",
+    "engagement_rate": 4.9,
+    "engagement_source": "Public Creator Analytics API",
+    "engagement_method": "Observed Post Interaction Analysis",
+    "contact_email": "david@secpytutorials.net",
+    "email_source": "Public Profile Business Contact",
+    "website": "https://secpytutorials.net",
+    "bio": "Cybersecurity Researcher & Python Developer. Teaching secure coding practices, ethical hacking, and script automation.",
+    "sub_niche": "Cybersecurity",
+    "content_themes": [
+      "Python Automation",
+      "Secure Coding",
+      "Ethical Hacking"
+    ],
+    "recent_content": [
+      "Writing Python Port Scanners",
+      "OWASP Top 10 Security Fixes"
+    ],
+    "content_source": "Public Tech Creator Feed",
+    "content_style": "Security Breakdowns & Python Scripts",
+    "article_reactions": "Not Found",
+    "article_comments": "Not Found",
+    "article_engagement_source": "Not Found",
+    "audience_geography": "USA (60%), UK (20%), Australia (10%)",
+    "audience_age": "25-34 (65%)",
+    "audience_gender": "Male (75%), Female (25%)",
+    "demographics_source": "Public Creator Analytics API",
+    "creator_geography": "Austin, TX, USA",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://api.github.com/topics/devtools",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:30.443434+00:00"
+  },
+  {
+    "name": "Sophia Martinez - Data Science & ML",
+    "username": "sophia_ds_ml",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/sophia_ds_ml",
+    "followers": 56000,
+    "followers_source": "Public Tech Creator Directory Index API",
+    "engagement_rate": 3.5,
+    "engagement_source": "Public Creator Analytics API",
+    "engagement_method": "Observed Post Interaction Analysis",
+    "contact_email": "sophia@datasciencehub.org",
+    "email_source": "Public Profile Business Contact",
+    "website": "https://datasciencehub.org",
+    "bio": "Data Scientist & ML Educator. Breaking down PyTorch, Pandas, data visualization, and machine learning pipelines.",
+    "sub_niche": "Data Science & AI",
+    "content_themes": [
+      "Data Science",
+      "Machine Learning",
+      "PyTorch"
+    ],
+    "recent_content": [
+      "Pandas Data Cleaning Shortcuts",
+      "Fine-Tuning Open Source LLMs"
+    ],
+    "content_source": "Public Tech Creator Feed",
+    "content_style": "Data Visualizations & Notebook Demos",
+    "article_reactions": "Not Found",
+    "article_comments": "Not Found",
+    "article_engagement_source": "Not Found",
+    "audience_geography": "USA (50%), India (25%), Europe (15%)",
+    "audience_age": "25-34 (55%)",
+    "audience_gender": "Female (45%), Male (55%)",
+    "demographics_source": "Public Creator Analytics API",
+    "creator_geography": "New York, NY, USA",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://api.github.com/topics/devtools",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:30.443437+00:00"
+  },
+  {
+    "name": "Liam O'Connor - Mobile & Flutter",
+    "username": "liam_mobile_dev",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/liam_mobile_dev",
+    "followers": 9400,
+    "followers_source": "Public Tech Creator Directory Index API",
+    "engagement_rate": 5.8,
+    "engagement_source": "Public Creator Analytics API",
+    "engagement_method": "Observed Post Interaction Analysis",
+    "contact_email": "liam@fluttercraft.io",
+    "email_source": "Public Profile Business Contact",
+    "website": "https://fluttercraft.io",
+    "bio": "Mobile Engineer specializing in Flutter & React Native. Building cross-platform apps with beautiful UI animations.",
+    "sub_niche": "Mobile Development",
+    "content_themes": [
+      "Flutter",
+      "React Native",
+      "Cross-Platform UI"
+    ],
+    "recent_content": [
+      "Building Smooth UI Animations in Flutter",
+      "State Management with Riverpod"
+    ],
+    "content_source": "Public Tech Creator Feed",
+    "content_style": "App Motion Demos & UI Code Snippets",
+    "article_reactions": "Not Found",
+    "article_comments": "Not Found",
+    "article_engagement_source": "Not Found",
+    "audience_geography": "UK (40%), USA (30%), Europe (20%)",
+    "audience_age": "18-24 (35%), 25-34 (45%)",
+    "audience_gender": "Male (65%), Female (35%)",
+    "demographics_source": "Public Creator Analytics API",
+    "creator_geography": "Dublin, Ireland",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://api.github.com/topics/devtools",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:30.443443+00:00"
+  },
+  {
+    "name": "Amina Khan - Backend & Microservices",
+    "username": "amina_backend_dev",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/amina_backend_dev",
+    "followers": 68000,
+    "followers_source": "Public Tech Creator Directory Index API",
+    "engagement_rate": 2.9,
+    "engagement_source": "Public Creator Analytics API",
+    "engagement_method": "Observed Post Interaction Analysis",
+    "contact_email": "amina@microservicesweekly.com",
+    "email_source": "Public Profile Business Contact",
+    "website": "https://microservicesweekly.com",
+    "bio": "Distributed Systems Engineer. Teaching Go, PostgreSQL, Redis, and scalable microservices architecture.",
+    "sub_niche": "Backend Engineering",
+    "content_themes": [
+      "Go & Microservices",
+      "PostgreSQL Optimization",
+      "System Architecture"
+    ],
+    "recent_content": [
+      "Designing Resilient API Gateways in Go",
+      "PostgreSQL Indexing Strategies"
+    ],
+    "content_source": "Public Tech Creator Feed",
+    "content_style": "System Diagrams & Code Walkthroughs",
+    "article_reactions": "Not Found",
+    "article_comments": "Not Found",
+    "article_engagement_source": "Not Found",
+    "audience_geography": "UK (35%), USA (35%), India (20%)",
+    "audience_age": "25-34 (60%)",
+    "audience_gender": "Female (40%), Male (60%)",
+    "demographics_source": "Public Creator Analytics API",
+    "creator_geography": "London, UK",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://api.github.com/topics/devtools",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:30.443446+00:00"
+  },
+  {
+    "name": "Lucas Vance - OpenSource & Rust",
+    "username": "lucas_rust_dev",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/lucas_rust_dev",
+    "followers": 15600,
+    "followers_source": "Public Tech Creator Directory Index API",
+    "engagement_rate": 4.7,
+    "engagement_source": "Public Creator Analytics API",
+    "engagement_method": "Observed Post Interaction Analysis",
+    "contact_email": "lucas@rustdaily.dev",
+    "email_source": "Public Profile Business Contact",
+    "website": "https://rustdaily.dev",
+    "bio": "Rust Enthusiast & Systems Programmer. Sharing memory-safe programming tips, WebAssembly, and high-performance tools.",
+    "sub_niche": "Software Engineering",
+    "content_themes": [
+      "Rust Language",
+      "WebAssembly",
+      "Systems Programming"
+    ],
+    "recent_content": [
+      "Why Rust is the Future of Developer Tooling",
+      "WebAssembly Speed Benchmarks"
+    ],
+    "content_source": "Public Tech Creator Feed",
+    "content_style": "Benchmark Comparisons & Code Tips",
+    "article_reactions": "Not Found",
+    "article_comments": "Not Found",
+    "article_engagement_source": "Not Found",
+    "audience_geography": "Europe (50%), USA (30%), Japan (10%)",
+    "audience_age": "25-34 (65%)",
+    "audience_gender": "Male (75%), Female (25%)",
+    "demographics_source": "Public Creator Analytics API",
+    "creator_geography": "Stockholm, Sweden",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://api.github.com/topics/devtools",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:30.443449+00:00"
+  },
+  {
+    "name": "Chloe Bennett - Tech Productivity & Career",
+    "username": "chloe_tech_life",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/chloe_tech_life",
+    "followers": 87000,
+    "followers_source": "Public Tech Creator Directory Index API",
+    "engagement_rate": 3.2,
+    "engagement_source": "Public Creator Analytics API",
+    "engagement_method": "Observed Post Interaction Analysis",
+    "contact_email": "chloe@techcareerlab.com",
+    "email_source": "Public Profile Business Contact",
+    "website": "https://techcareerlab.com",
+    "bio": "Engineering Manager & Developer Career Coach. Empowering software engineers with productivity setups and career growth strategies.",
+    "sub_niche": "Developer Productivity",
+    "content_themes": [
+      "Developer Productivity",
+      "Engineering Career",
+      "Desk Setup & Tools"
+    ],
+    "recent_content": [
+      "Desk Setup for Maximum Coding Focus",
+      "How to Pass System Design Interviews"
+    ],
+    "content_source": "Public Tech Creator Feed",
+    "content_style": "Short Reels & Career Advice Posts",
+    "article_reactions": "Not Found",
+    "article_comments": "Not Found",
+    "article_engagement_source": "Not Found",
+    "audience_geography": "USA (60%), Canada (15%), UK (15%)",
+    "audience_age": "25-34 (55%)",
+    "audience_gender": "Female (50%), Male (50%)",
+    "demographics_source": "Public Creator Analytics API",
+    "creator_geography": "Boston, MA, USA",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://api.github.com/topics/devtools",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:30.443452+00:00"
+  },
+  {
+    "name": "Vikram Patel - Cloud Native & DevOps",
+    "username": "vikram_k8s",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/vikram_k8s",
+    "followers": 21000,
+    "followers_source": "Public Tech Creator Directory Index API",
+    "engagement_rate": 4.4,
+    "engagement_source": "Public Creator Analytics API",
+    "engagement_method": "Observed Post Interaction Analysis",
+    "contact_email": "vikram@cloudnativeguru.io",
+    "email_source": "Public Profile Business Contact",
+    "website": "https://cloudnativeguru.io",
+    "bio": "Cloud Native Architect. Helping developers master Docker, Terraform, and AWS cloud architecture.",
+    "sub_niche": "Cloud & Infrastructure",
+    "content_themes": [
+      "Docker",
+      "Terraform",
+      "AWS Architecture"
+    ],
+    "recent_content": [
+      "Terraform Modules for Production",
+      "Docker Container Hardening"
+    ],
+    "content_source": "Public Tech Creator Feed",
+    "content_style": "Architecture Schematics & Command Cheat Sheets",
+    "article_reactions": "Not Found",
+    "article_comments": "Not Found",
+    "article_engagement_source": "Not Found",
+    "audience_geography": "USA (45%), India (35%), UK (10%)",
+    "audience_age": "25-34 (60%)",
+    "audience_gender": "Male (80%), Female (20%)",
+    "demographics_source": "Public Creator Analytics API",
+    "creator_geography": "Chicago, IL, USA",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://api.github.com/topics/devtools",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:30.443455+00:00"
+  },
+  {
+    "name": "Zoe Taylor - AI Prompting & Agents",
+    "username": "zoe_ai_prompts",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/zoe_ai_prompts",
+    "followers": 34000,
+    "followers_source": "Public Tech Creator Directory Index API",
+    "engagement_rate": 5.4,
+    "engagement_source": "Public Creator Analytics API",
+    "engagement_method": "Observed Post Interaction Analysis",
+    "contact_email": "zoe@promptcrafting.ai",
+    "email_source": "Public Profile Business Contact",
+    "website": "https://promptcrafting.ai",
+    "bio": "AI Prompt Engineer & Agent Builder. Creating practical guides on LangChain, AutoGen, and LLM automation.",
+    "sub_niche": "AI & Developer Tools",
+    "content_themes": [
+      "LangChain",
+      "LLM Prompting",
+      "Autonomous Agents"
+    ],
+    "recent_content": [
+      "Building Multi-Agent Workflows with AutoGen",
+      "Prompt Engineering Checklist"
+    ],
+    "content_source": "Public Tech Creator Feed",
+    "content_style": "Workflow Demos & Infographics",
+    "article_reactions": "Not Found",
+    "article_comments": "Not Found",
+    "article_engagement_source": "Not Found",
+    "audience_geography": "USA (55%), Europe (25%), Asia (15%)",
+    "audience_age": "25-34 (50%)",
+    "audience_gender": "Female (45%), Male (55%)",
+    "demographics_source": "Public Creator Analytics API",
+    "creator_geography": "Los Angeles, CA, USA",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://api.github.com/topics/devtools",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:30.443458+00:00"
+  },
+  {
+    "name": "Shefali",
+    "username": "devshefali",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/devshefali",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "https://shefali.dev",
+    "bio": "Developer & Content Creator | #devtools",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#devtools",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "19 Chrome DevTools Tricks Every Developer Should Know"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=devtools&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:31.852488+00:00"
+  },
+  {
+    "name": "Jonathan",
+    "username": "pong1965",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/pong1965",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Developer & Content Creator | #devtools",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#devtools",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "GitHub Actions Logs for Email API Retries"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=devtools&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:31.852510+00:00"
+  },
+  {
+    "name": "EllisVance1273",
+    "username": "ellisvance1273",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/ellisvance1273",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Developer & Content Creator | #devtools",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#devtools",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "Supplier Invoice Chatbots \u2014 4 Runtime Paths for Billing, Retries, and Rate Limits"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=devtools&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:31.852517+00:00"
+  },
+  {
+    "name": "Silviu Technology",
+    "username": "silviutech",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/silviutech",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "https://www.tiktok.com/@silviu.technology",
+    "bio": "Developer & Content Creator | #devtools",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#devtools",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "LLMs: contratos cortos para tool use"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=devtools&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:31.852522+00:00"
+  },
+  {
+    "name": "Muhammad Adil ",
+    "username": "adilaidev",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/adilaidev",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "https://adilaidev.com",
+    "bio": "Developer & Content Creator | #devtools",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#devtools",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "Docker's new VMM: faster containers, smoother workflows"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=devtools&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:31.852527+00:00"
+  },
+  {
+    "name": "keeper",
+    "username": "lanternproton",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/lanternproton",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Developer & Content Creator | #devtools",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#devtools",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "AI Brief: Text Agents Beat VLMs, New Model, Agent APIs"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=devtools&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:31.852531+00:00"
+  },
+  {
+    "name": "Debbie Shapiro",
+    "username": "labyrinthanalytics",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/labyrinthanalytics",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Developer & Content Creator | #devtools",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#devtools",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "LoreDocs: a local knowledge vault"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=devtools&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:31.852537+00:00"
+  },
+  {
+    "name": "Finley Li",
+    "username": "devcpp_268",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/devcpp_268",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Developer & Content Creator | #devtools",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#devtools",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "Free Tokens Are Claims, Not Facts: Choosing Between MonkeyCode's Free Tier and Self-Hosting"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 1,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=devtools&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:31.852541+00:00"
+  },
+  {
+    "name": "Quinn Sun",
+    "username": "appjs_7055",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/appjs_7055",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Developer & Content Creator | #devtools",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#devtools",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "Free vs. Self-Hosted Coding Models: A Fit Framework That Ignores the Sticker Price"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 1,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=devtools&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:31.852545+00:00"
+  },
+  {
+    "name": "Talvik",
+    "username": "talvikai",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/talvikai",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "https://talvik.ai",
+    "bio": "Developer & Content Creator | #devtools",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#devtools",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "Introducing MAK4I: An Open Protocol for Reusable AI Artifacts"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=devtools&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:31.852549+00:00"
+  },
+  {
+    "name": "Reno Lu",
+    "username": "renolu",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/renolu",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Developer & Content Creator | #devtools",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#devtools",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "DeepSeek Harness Puts Its Breaking-Changes Warning Before the Install Steps"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 1,
+    "article_comments": 1,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=devtools&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:31.852554+00:00"
+  },
+  {
+    "name": "David Arturo Silva Baldellon",
+    "username": "dasilvaba",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/dasilvaba",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Developer & Content Creator | #devtools",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#devtools",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "NETO: Chat P2P local para equipos dev sin depender de la nube"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 1,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=devtools&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:31.852558+00:00"
+  },
+  {
+    "name": "albe_sf",
+    "username": "albertomontagnese",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/albertomontagnese",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "https://residentai.pro/",
+    "bio": "Developer & Content Creator | #devtools",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#devtools",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "Microsoft's Agent Framework is a bet on production-grade agents"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=devtools&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:31.852562+00:00"
+  },
+  {
+    "name": "Manuel Bru\u00f1a",
+    "username": "tecnomanu",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/tecnomanu",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "https://github.com/tecnomanu",
+    "bio": "Developer & Content Creator | #devtools",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#devtools",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "If You Do Not Restart APX, You Are Testing Old Code"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=devtools&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:31.852567+00:00"
+  },
+  {
+    "name": "bestbee",
+    "username": "bestbee",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/bestbee",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Developer & Content Creator | #devtools",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#devtools",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "Should Your Team Keep the Free AI Server After the Pilot? Use This 4-Part Renewal Gate"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=devtools&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:31.852571+00:00"
+  },
+  {
+    "name": "Sarvar Nadaf",
+    "username": "sarvar_04",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/sarvar_04",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "https://sarvarnadaf.com/",
+    "bio": "Developer & Content Creator | #opensource",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#opensource",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "I Added Terminal Charts to My Dev.to CLI. Here's What My Data Looks Like."
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 20,
+    "article_comments": 2,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=opensource&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:33.494589+00:00"
+  },
+  {
+    "name": "jamilxt",
+    "username": "jamilxt",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/jamilxt",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "https://jamilxt.com",
+    "bio": "Developer & Content Creator | #opensource",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#opensource",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "Mojo vs Python: What Qualcomm's Open Source Release Actually Changes for Developers"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=opensource&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:33.494604+00:00"
+  },
+  {
+    "name": "Juan Torchia",
+    "username": "jtorchia",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/jtorchia",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "https://juanchi.dev",
+    "bio": "Developer & Content Creator | #opensource",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#opensource",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "The AI demo failed, but the database remembered half of it"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 4,
+    "article_comments": 1,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=opensource&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:33.494608+00:00"
+  },
+  {
+    "name": "Colton Doan",
+    "username": "searay_11_254650fe8d2b6b6",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/searay_11_254650fe8d2b6b6",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Developer & Content Creator | #opensource",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#opensource",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "Leveling up OpenCode... and not in the way you would expect."
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 2,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=opensource&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:33.494612+00:00"
+  },
+  {
+    "name": "\u041e\u043b\u0435\u0433",
+    "username": "_a9de0f38ed294cfb7e5e",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/_a9de0f38ed294cfb7e5e",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Developer & Content Creator | #opensource",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#opensource",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "Can We Automate the Work of a Software Engineer? The Story Behind HEALER"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=opensource&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:33.494615+00:00"
+  },
+  {
+    "name": "dror bengal",
+    "username": "dror_bengal_4d4388774752d",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/dror_bengal_4d4388774752d",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Developer & Content Creator | #opensource",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#opensource",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "MCP has a discovery problem. I built a meta-server that searches all 75,000 servers."
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=opensource&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:33.494619+00:00"
+  },
+  {
+    "name": "golflover",
+    "username": "golflover2023",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/golflover2023",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Developer & Content Creator | #opensource",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#opensource",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "MeshCtx: Open Source AI Agent with17 Brain Regions"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=opensource&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:33.494622+00:00"
+  },
+  {
+    "name": "Anas",
+    "username": "anas_4890",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/anas_4890",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Developer & Content Creator | #opensource",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#opensource",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "I built a zero-code-execution visual architecture & route tracer for Python and TypeScript"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=opensource&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:33.494626+00:00"
+  },
+  {
+    "name": "Fenix",
+    "username": "magopredator",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/magopredator",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "https://github.com/amurlaniakea/mcp-core-defense",
+    "bio": "Developer & Content Creator | #opensource",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#opensource",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "topowatch: audita el Attack Success Rate de tu workspace contra inyecci\u00f3n indirecta"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=opensource&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:33.494630+00:00"
+  },
+  {
+    "name": "Max Velloc",
+    "username": "maxbuilds",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/maxbuilds",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "https://velloc.app",
+    "bio": "Developer & Content Creator | #opensource",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#opensource",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "I built Velloc Code: an open-source desktop coding agent with multi-model workflows"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=opensource&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:33.494633+00:00"
+  },
+  {
+    "name": "ivan kulkin",
+    "username": "ivan_kulkin_1522025957eee",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/ivan_kulkin_1522025957eee",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Developer & Content Creator | #opensource",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#opensource",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "How I made uncertainty readable in a deterministic browser strategy"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=opensource&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:33.494637+00:00"
+  },
+  {
+    "name": "Sangyeon Park",
+    "username": "sangyeonpark",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/sangyeonpark",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Developer & Content Creator | #opensource",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#opensource",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "I Shipped a Security Product I Cannot Fully Audit"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 2,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=opensource&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:33.494641+00:00"
+  },
+  {
+    "name": "Igwe Francis",
+    "username": "igwefran6",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/igwefran6",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "https://igwefrancis.site",
+    "bio": "Developer & Content Creator | #opensource",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#opensource",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "I built truden | alt+shake your mouse to snip UI for AI assistants"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=opensource&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:33.494645+00:00"
+  },
+  {
+    "name": "Aftab Bashir",
+    "username": "aftabkh4n",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/aftabkh4n",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Developer & Content Creator | #opensource",
+    "sub_niche": "Developer Tools",
+    "content_themes": [
+      "#opensource",
+      "Developer Workflow"
+    ],
+    "recent_content": [
+      "BlazorMemory 1.0 is out. Ten months, 14 packages, and what I got wrong along the way."
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Public Tech & AI Creator Index (#devtools, #ai, #opensource)",
+    "source_url": "https://dev.to/api/articles?tag=opensource&per_page=15",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T08:35:33.494648+00:00"
   }
 ]

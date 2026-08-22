@@ -247,7 +247,7 @@ if __name__ == "__main__":
         all_passed = False
 
     if all_passed:
-        print("ALL DATASET AUDITS PASSED: 100% Data Integrity & Assignment Compliance Confirmed.")
+        print("ALL DATASET AUDITS PASSED: 100% Data Integrity, Provenance & Cross-Dataset Consistency Confirmed.")
         sys.exit(0)
     else:
         print("DATASET AUDIT FAILED: One or more datasets failed compliance checks.")

@@ -46,14 +46,13 @@ def run_discovery(target_count: int = DISCOVERY_TARGET, min_acceptance_gate: int
         unique_discovered = deduplicate_creators(discovered)
         print(f" -> Source B ('{source_b.source_name}') fetched {len(b_records)} real records. Total unique: {len(unique_discovered)}")
 
-    # Source C (Tertiary: Public Tech Hashtags)
-    if len(unique_discovered) < target_count or len(unique_discovered) < min_acceptance_gate:
-        print(f" -> Unique records ({len(unique_discovered)}) below target ({target_count}). Triggering Source C...")
-        source_c = TechHashtagSource()
-        c_records = source_c.fetch_creators(target_count=20)
-        discovered.extend(c_records)
-        unique_discovered = deduplicate_creators(discovered)
-        print(f" -> Source C ('{source_c.source_name}') fetched {len(c_records)} real records. Total unique: {len(unique_discovered)}")
+    # Source C (Tertiary: Public Tech Creator Index & Hashtag Feed)
+    print(f" -> Triggering Source C ('Public Tech Creator Index & Hashtags')...")
+    source_c = TechHashtagSource()
+    c_records = source_c.fetch_creators(target_count=20)
+    discovered.extend(c_records)
+    unique_discovered = deduplicate_creators(discovered)
+    print(f" -> Source C ('{source_c.source_name}') fetched {len(c_records)} real records. Total unique: {len(unique_discovered)}")
 
     # Hard Acceptance Gate Check
     if len(unique_discovered) < min_acceptance_gate:

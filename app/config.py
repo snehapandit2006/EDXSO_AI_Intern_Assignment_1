@@ -56,7 +56,7 @@ EMAIL_MAX_WORDS = _cfg.get("personalization", {}).get("email_word_count_max", 90
 DM_MIN_WORDS = _cfg.get("personalization", {}).get("dm_word_count_min", 15)
 DM_MAX_WORDS = _cfg.get("personalization", {}).get("dm_word_count_max", 30)
 MAX_RETRIES = _cfg.get("personalization", {}).get("max_retries", 3)
-MODEL_NAME = _cfg.get("personalization", {}).get("model_name", "gemini-2.0-flash")
+MODEL_NAME = _cfg.get("personalization", {}).get("model_name", "gemini-2.5-flash")
 
 # Environment Keys
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
