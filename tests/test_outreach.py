@@ -11,8 +11,9 @@ def test_sending_simulation():
     assert "Simulated outreach sent" in notes
 
 
-def test_duplicate_outreach_prevention():
+def test_duplicate_outreach_prevention(monkeypatch, tmp_path):
     """Verify database unique constraint prevents duplicate outreach to same creator in campaign."""
+    monkeypatch.setattr("app.outreach.tracker.EXPORTS_DATA_DIR", tmp_path)
     init_db()
     db = SessionLocal()
 

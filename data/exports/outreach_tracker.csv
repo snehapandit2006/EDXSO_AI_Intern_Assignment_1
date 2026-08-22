@@ -1,2 +1,0 @@
-creator_id,username,email,status,sent,sent_at,error
-126,test_dup,dup@domain.com,DUPLICATE,True,2026-08-22T08:58:57.958956,Duplicate outreach attempt prevented by database constraint.

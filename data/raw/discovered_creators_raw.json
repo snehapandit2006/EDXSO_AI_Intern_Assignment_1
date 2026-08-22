@@ -1,17 +1,17 @@
 [
   {
-    "name": "gaearon",
+    "name": "dan",
     "username": "gaearon",
     "platform": "GitHub",
     "profile_url": "https://github.com/gaearon",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 91444,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
+    "website": "https://danabra.mov",
     "bio": "GitHub Developer (@gaearon)",
     "sub_niche": "Software Engineering",
     "content_themes": [
@@ -19,14 +19,14 @@
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 299"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
@@ -35,21 +35,21 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:55:59.857973+00:00"
+    "discovered_at": "2026-08-22T09:33:13.086802+00:00"
   },
   {
-    "name": "ruanyf",
+    "name": "Ruan YiFeng",
     "username": "ruanyf",
     "platform": "GitHub",
     "profile_url": "https://github.com/ruanyf",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 87388,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
+    "website": "https://twitter.com/ruanyf",
     "bio": "GitHub Developer (@ruanyf)",
     "sub_niche": "Software Engineering",
     "content_themes": [
@@ -57,90 +57,90 @@
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 76"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Shanghai, China",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:00.772500+00:00"
+    "discovered_at": "2026-08-22T09:33:14.520391+00:00"
   },
   {
-    "name": "peng-zhihui",
+    "name": "\u7a1a\u6656",
     "username": "peng-zhihui",
     "platform": "GitHub",
     "profile_url": "https://github.com/peng-zhihui",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 87259,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
     "website": "Not Found",
-    "bio": "GitHub Developer (@peng-zhihui)",
+    "bio": "\u91ce\u751f\u94a2\u94c1\u4fa0\u672c\u4fa0\u3002",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 61"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Shanghai",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:01.986749+00:00"
+    "discovered_at": "2026-08-22T09:33:16.038501+00:00"
   },
   {
-    "name": "sindresorhus",
+    "name": "Sindre Sorhus",
     "username": "sindresorhus",
     "platform": "GitHub",
     "profile_url": "https://github.com/sindresorhus",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 81390,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@sindresorhus)",
+    "website": "https://sindresorhus.com/apps",
+    "bio": "Full-Time Open-Sourcerer. Focused on Swift & JavaScript. Makes macOS apps, CLI tools, npm packages.",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 1140"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
@@ -149,59 +149,59 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:02.725808+00:00"
+    "discovered_at": "2026-08-22T09:33:17.404316+00:00"
   },
   {
-    "name": "bradtraversy",
+    "name": "Brad Traversy",
     "username": "bradtraversy",
     "platform": "GitHub",
     "profile_url": "https://github.com/bradtraversy",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 76433,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@bradtraversy)",
+    "website": "https://traversymedia.com",
+    "bio": "Full stack web developer and online instructor at https://traversymedia.com and https://start.dev",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 328"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Massachusetts",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:03.337392+00:00"
+    "discovered_at": "2026-08-22T09:33:18.585536+00:00"
   },
   {
-    "name": "JakeWharton",
+    "name": "Jake Wharton",
     "username": "jakewharton",
     "platform": "GitHub",
     "profile_url": "https://github.com/JakeWharton",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 68522,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
+    "website": "https://jakewharton.com",
     "bio": "GitHub Developer (@JakeWharton)",
     "sub_niche": "Software Engineering",
     "content_themes": [
@@ -209,259 +209,259 @@
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 153"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Pittsburgh, PA, USA",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:03.950703+00:00"
+    "discovered_at": "2026-08-22T09:33:19.903792+00:00"
   },
   {
-    "name": "lucidrains",
+    "name": "Phil Wang",
     "username": "lucidrains",
     "platform": "GitHub",
     "profile_url": "https://github.com/lucidrains",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 61401,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@lucidrains)",
+    "website": "https://lucidrains.github.io",
+    "bio": "Working with Attention. It's all we need",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 405"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "San Francisco",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:04.762606+00:00"
+    "discovered_at": "2026-08-22T09:33:21.341524+00:00"
   },
   {
-    "name": "hiteshchoudhary",
+    "name": "Hitesh Choudhary",
     "username": "hiteshchoudhary",
     "platform": "GitHub",
     "profile_url": "https://github.com/hiteshchoudhary",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 60151,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@hiteshchoudhary)",
+    "website": "https://hitesh.ai",
+    "bio": "I make coding videos on youtube and for courses. My youtube channel explains my work more. Check that out",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 124"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "India",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:05.783617+00:00"
+    "discovered_at": "2026-08-22T09:33:22.809163+00:00"
   },
   {
-    "name": "rafaballerini",
+    "name": "Rafaella Ballerini",
     "username": "rafaballerini",
     "platform": "GitHub",
     "profile_url": "https://github.com/rafaballerini",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 59855,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@rafaballerini)",
+    "website": "https://beacons.ai/rafaballerini",
+    "bio": "Desenvolvedora de software e criadora de conte\u00fado de programa\u00e7\u00e3o e tecnologia!",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 59"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Santa Catarina, Brasil",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:06.683673+00:00"
+    "discovered_at": "2026-08-22T09:33:24.007516+00:00"
   },
   {
-    "name": "IDouble",
+    "name": "Alp \u20bf\ud83d\udcc8\ud83d\ude80\ud83c\udf15",
     "username": "idouble",
     "platform": "GitHub",
     "profile_url": "https://github.com/IDouble",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 57653,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
     "website": "Not Found",
-    "bio": "GitHub Developer (@IDouble)",
+    "bio": "\ud83d\udd4a\ufe0fJA zur Neutralit\u00e4tsinitiative! Als starkes und neutrales Land k\u00f6nnen Wir Konflikte entsch\u00e4rfen und eine unabh\u00e4ngige Plattform f\u00fcr Friedensgespr\u00e4che bieten.\ud83d\udd4a",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 61"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Alpen, Schweiz",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:07.631249+00:00"
+    "discovered_at": "2026-08-22T09:33:25.340048+00:00"
   },
   {
-    "name": "steipete",
+    "name": "Peter Steinberger",
     "username": "steipete",
     "platform": "GitHub",
     "profile_url": "https://github.com/steipete",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 52710,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@steipete)",
+    "website": "http://steipete.me",
+    "bio": "Came back from retirement to mess with AI. Clawdfather @OpenClaw\r\n\r\nPreviously: Founder of @PSPDFKit.",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 194"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "London / San Francisco",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:08.458069+00:00"
+    "discovered_at": "2026-08-22T09:33:26.705780+00:00"
   },
   {
-    "name": "addyosmani",
+    "name": "Addy Osmani",
     "username": "addyosmani",
     "platform": "GitHub",
     "profile_url": "https://github.com/addyosmani",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 52613,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@addyosmani)",
+    "website": "https://www.addyosmani.com",
+    "bio": "Former Director at Google working on Gemini and  Google Cloud",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 363"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Sunnyvale, California",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:09.166607+00:00"
+    "discovered_at": "2026-08-22T09:33:28.138767+00:00"
   },
   {
-    "name": "tj",
+    "name": "TJ",
     "username": "tj",
     "platform": "GitHub",
     "profile_url": "https://github.com/tj",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 52261,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
@@ -475,14 +475,14 @@
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 296"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
@@ -491,21 +491,21 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:09.983922+00:00"
+    "discovered_at": "2026-08-22T09:33:29.501313+00:00"
   },
   {
     "name": "ThePrimeagen",
     "username": "theprimeagen",
     "platform": "GitHub",
     "profile_url": "https://github.com/ThePrimeagen",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 49847,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
+    "website": "http://twitch.tv/ThePrimeagen",
     "bio": "GitHub Developer (@ThePrimeagen)",
     "sub_niche": "Software Engineering",
     "content_themes": [
@@ -513,145 +513,145 @@
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 238"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "9th Ring, Vim",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:10.582054+00:00"
+    "discovered_at": "2026-08-22T09:33:31.004629+00:00"
   },
   {
-    "name": "geohot",
+    "name": "George Hotz",
     "username": "geohot",
     "platform": "GitHub",
     "profile_url": "https://github.com/geohot",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 47289,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@geohot)",
+    "website": "https://geohot.com",
+    "bio": "We will commoditize the petaflop.",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 102"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "San Diego, CA",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:11.198549+00:00"
+    "discovered_at": "2026-08-22T09:33:32.541389+00:00"
   },
   {
-    "name": "getify",
+    "name": "Kyle Simpson",
     "username": "getify",
     "platform": "GitHub",
     "profile_url": "https://github.com/getify",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 45372,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@getify)",
+    "website": "http://getify.me",
+    "bio": "Kyle Simpson is a Human-Centric Technologist. He's fighting for the people behind the pixels.",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 74"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Austin, TX",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:11.827615+00:00"
+    "discovered_at": "2026-08-22T09:33:33.975511+00:00"
   },
   {
-    "name": "krishnaik06",
+    "name": "Krish C Naik",
     "username": "krishnaik06",
     "platform": "GitHub",
     "profile_url": "https://github.com/krishnaik06",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 42781,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@krishnaik06)",
+    "website": "https://www.youtube.com/user/krishnaik06",
+    "bio": "Data Scientist with ML and Deep  Learning experience",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 347"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Bangalore",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:12.545221+00:00"
+    "discovered_at": "2026-08-22T09:33:35.614750+00:00"
   },
   {
     "name": "CodeWithHarry",
     "username": "codewithharry",
     "platform": "GitHub",
     "profile_url": "https://github.com/CodeWithHarry",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 42375,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
@@ -665,14 +665,14 @@
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 41"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
@@ -681,36 +681,36 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:13.260868+00:00"
+    "discovered_at": "2026-08-22T09:33:37.355857+00:00"
   },
   {
-    "name": "3b1b",
+    "name": "Grant Sanderson",
     "username": "3b1b",
     "platform": "GitHub",
     "profile_url": "https://github.com/3b1b",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 41399,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@3b1b)",
+    "website": "https://www.3blue1brown.com",
+    "bio": "I make videos about math.",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 9"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
@@ -719,226 +719,226 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:13.978606+00:00"
+    "discovered_at": "2026-08-22T09:33:38.789068+00:00"
   },
   {
-    "name": "JohnMwendwa",
+    "name": "John Mwendwa",
     "username": "johnmwendwa",
     "platform": "GitHub",
     "profile_url": "https://github.com/JohnMwendwa",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 40940,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@JohnMwendwa)",
+    "website": "https://johnmwendwa.com",
+    "bio": "Developer, mentor and problem-solver. I love turning complex challenges into simple, usable products. My drive: writing code that makes a difference.",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 112"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Nairobi, Kenya",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:15.104434+00:00"
+    "discovered_at": "2026-08-22T09:33:40.286302+00:00"
   },
   {
-    "name": "nilbuild",
+    "name": "Kamran Ahmed",
     "username": "nilbuild",
     "platform": "GitHub",
     "profile_url": "https://github.com/nilbuild",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 40785,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@nilbuild)",
+    "website": "https://kamran.fyi",
+    "bio": "I love building things \ud83e\uddd1\u200d\ud83d\udcbb",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 115"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "United Kingdom",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:15.792918+00:00"
+    "discovered_at": "2026-08-22T09:33:41.963185+00:00"
   },
   {
-    "name": "filipedeschamps",
+    "name": "Filipe Deschamps",
     "username": "filipedeschamps",
     "platform": "GitHub",
     "profile_url": "https://github.com/filipedeschamps",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 40377,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@filipedeschamps)",
+    "website": "https://curso.dev",
+    "bio": "Quer se sentir competente em programa\u00e7\u00e3o? Confere isso: https://curso.dev",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 22"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Brasil",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:16.509472+00:00"
+    "discovered_at": "2026-08-22T09:33:43.496738+00:00"
   },
   {
-    "name": "mattpocock",
+    "name": "Matt Pocock",
     "username": "mattpocock",
     "platform": "GitHub",
     "profile_url": "https://github.com/mattpocock",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 40243,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@mattpocock)",
+    "website": "https://totaltypescript.com",
+    "bio": "TypeScript wizard. Building Total TypeScript - a comprehensive, production-grade TypeScript course.\r\n\r\nEx-Vercel, Stately.",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 223"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Oxfordshire",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:17.255045+00:00"
+    "discovered_at": "2026-08-22T09:33:45.271805+00:00"
   },
   {
-    "name": "antfu",
+    "name": "Anthony Fu",
     "username": "antfu",
     "platform": "GitHub",
     "profile_url": "https://github.com/antfu",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 39914,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@antfu)",
+    "website": "https://antfu.me",
+    "bio": "A ship in harbor is safe, but that is not what ships are built for.",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 397"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "undefined",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:17.980722+00:00"
+    "discovered_at": "2026-08-22T09:33:46.779028+00:00"
   },
   {
-    "name": "rasbt",
+    "name": "Sebastian Raschka",
     "username": "rasbt",
     "platform": "GitHub",
     "profile_url": "https://github.com/rasbt",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 39845,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@rasbt)",
+    "website": "https://sebastianraschka.com",
+    "bio": "AI Research Engineer working on LLMs.",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 151"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
@@ -947,340 +947,340 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:18.994675+00:00"
+    "discovered_at": "2026-08-22T09:33:48.209477+00:00"
   },
   {
-    "name": "midudev",
+    "name": "Miguel \u00c1ngel Dur\u00e1n",
     "username": "midudev",
     "platform": "GitHub",
     "profile_url": "https://github.com/midudev",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 39189,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@midudev)",
+    "website": "https://twitch.tv/midudev",
+    "bio": "Te ense\u00f1o Programaci\u00f3n, IA y Desarrollo Web. Creador de contenido en Twitch y YouTube.",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 238"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Barcelona",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:19.702845+00:00"
+    "discovered_at": "2026-08-22T09:33:49.544561+00:00"
   },
   {
-    "name": "michaelliao",
+    "name": "Crypto Michael",
     "username": "michaelliao",
     "platform": "GitHub",
     "profile_url": "https://github.com/michaelliao",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 38636,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@michaelliao)",
+    "website": "https://liaoxuefeng.com",
+    "bio": "Crypto developer.",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 120"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Beijing, China",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:20.440516+00:00"
+    "discovered_at": "2026-08-22T09:33:50.971925+00:00"
   },
   {
-    "name": "kunal-kushwaha",
+    "name": "Kunal Kushwaha",
     "username": "kunal-kushwaha",
     "platform": "GitHub",
     "profile_url": "https://github.com/kunal-kushwaha",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 37949,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@kunal-kushwaha)",
+    "website": "https://www.wemakedevs.org",
+    "bio": "Running the world's most engaging tech hackathons at scale @WeMakeDevs.",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 48"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "London, UK",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:21.147119+00:00"
+    "discovered_at": "2026-08-22T09:33:52.404946+00:00"
   },
   {
-    "name": "adrianhajdin",
+    "name": "Adrian Hajdin - JS Mastery",
     "username": "adrianhajdin",
     "platform": "GitHub",
     "profile_url": "https://github.com/adrianhajdin",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 37329,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@adrianhajdin)",
+    "website": "https://jsmastery.pro",
+    "bio": "Next.js Enthusiast & Educator",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 167"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Croatia",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:22.067350+00:00"
+    "discovered_at": "2026-08-22T09:33:54.025400+00:00"
   },
   {
-    "name": "dmalan",
+    "name": "David J. Malan",
     "username": "dmalan",
     "platform": "GitHub",
     "profile_url": "https://github.com/dmalan",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 36894,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@dmalan)",
+    "website": "https://cs.harvard.edu/malan",
+    "bio": "I teach @cs50.",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 21"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Cambridge, MA, USA",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:22.780955+00:00"
+    "discovered_at": "2026-08-22T09:33:55.556235+00:00"
   },
   {
-    "name": "vietnh1009",
+    "name": "Viet Nguyen",
     "username": "vietnh1009",
     "platform": "GitHub",
     "profile_url": "https://github.com/vietnh1009",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4999,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
     "website": "Not Found",
-    "bio": "GitHub Developer (@vietnh1009)",
+    "bio": "Senior AI engineer at Sporttotal",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 37"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Berlin, Germany",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:24.926353+00:00"
+    "discovered_at": "2026-08-22T09:33:58.785777+00:00"
   },
   {
-    "name": "ogrisel",
+    "name": "Olivier Grisel",
     "username": "ogrisel",
     "platform": "GitHub",
     "profile_url": "https://github.com/ogrisel",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4998,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@ogrisel)",
+    "website": "https://ogrisel.com",
+    "bio": "Machine Learning Engineer at :probabl. and core contributor to scikit-learn.",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 225"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Paris, France",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:25.965200+00:00"
+    "discovered_at": "2026-08-22T09:34:00.290575+00:00"
   },
   {
-    "name": "wepe",
+    "name": "wepon",
     "username": "wepe",
     "platform": "GitHub",
     "profile_url": "https://github.com/wepe",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4932,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@wepe)",
+    "website": "https://scholar.google.com/citations?user=xRKTHmwAAAAJ&hl=zh-CN",
+    "bio": "http://wepe.github.io/",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 28"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "China Hangzhou",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:26.779240+00:00"
+    "discovered_at": "2026-08-22T09:34:02.032120+00:00"
   },
   {
-    "name": "justcallmekoko",
+    "name": "Just Call Me Koko",
     "username": "justcallmekoko",
     "platform": "GitHub",
     "profile_url": "https://github.com/justcallmekoko",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4919,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@justcallmekoko)",
+    "website": "https://www.justcallmekokollc.com",
+    "bio": "I make things. I also make stuff",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 52"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
@@ -1289,264 +1289,264 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:27.524127+00:00"
+    "discovered_at": "2026-08-22T09:34:03.978590+00:00"
   },
   {
-    "name": "CamDavidsonPilon",
+    "name": "Cameron Davidson-Pilon",
     "username": "camdavidsonpilon",
     "platform": "GitHub",
     "profile_url": "https://github.com/CamDavidsonPilon",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4874,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@CamDavidsonPilon)",
+    "website": "https://dataorigami.net",
+    "bio": "CEO of Pioreactor. Former Director of Data Science @Shopify.\r\nAuthor of Bayesian Methods for Hackers and DataOrigami.",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 92"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Waterloo, Canada",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:28.218790+00:00"
+    "discovered_at": "2026-08-22T09:34:05.484365+00:00"
   },
   {
-    "name": "AtsushiSakai",
+    "name": "Atsushi Sakai",
     "username": "atsushisakai",
     "platform": "GitHub",
     "profile_url": "https://github.com/AtsushiSakai",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4844,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@AtsushiSakai)",
+    "website": "https://atsushisakai.github.io/",
+    "bio": "An autonomous navigation system engineer, and an OSS developer of #PythonRobotics and #SciPy etc. Japanese web page maintainer of #NumPy",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 209"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Kanagawa, Japan",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:29.215292+00:00"
+    "discovered_at": "2026-08-22T09:34:06.868818+00:00"
   },
   {
-    "name": "Prince-Mendiratta",
+    "name": "Prince Mendiratta",
     "username": "prince-mendiratta",
     "platform": "GitHub",
     "profile_url": "https://github.com/Prince-Mendiratta",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4768,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@Prince-Mendiratta)",
+    "website": "https://getcreatr.xyz",
+    "bio": "Github AIR#6 | DTU, COE'24 | Building Creatr | Coding Fanatic. Fame is temporary, learning is forever.",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 137"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "New Delhi",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:30.361256+00:00"
+    "discovered_at": "2026-08-22T09:34:08.484597+00:00"
   },
   {
-    "name": "yeasy",
+    "name": "Baohua Yang",
     "username": "yeasy",
     "platform": "GitHub",
     "profile_url": "https://github.com/yeasy",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4753,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@yeasy)",
+    "website": "https://yeasy.github.io",
+    "bio": "Research | Tech | Product",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 90"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Bay Area, CA",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:31.283252+00:00"
+    "discovered_at": "2026-08-22T09:34:09.815218+00:00"
   },
   {
-    "name": "rochacbruno",
+    "name": "Bruno Rocha",
     "username": "rochacbruno",
     "platform": "GitHub",
     "profile_url": "https://github.com/rochacbruno",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4689,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@rochacbruno)",
+    "website": "https://bruno.rocha.social",
+    "bio": "Bruno Cesar Rocha - Principal Software Engineer at @RedHatOfficial. \r\n#Python #Rust\r\n\r\n. Working on: \r\n@openshift  @python @dynaconf  Marmite",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 370"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Viana do Castelo, Portugal",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:31.999361+00:00"
+    "discovered_at": "2026-08-22T09:34:11.349916+00:00"
   },
   {
-    "name": "developerrahulofficial",
+    "name": "Developer Rahul",
     "username": "developerrahulofficial",
     "platform": "GitHub",
     "profile_url": "https://github.com/developerrahulofficial",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4652,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
     "website": "Not Found",
-    "bio": "GitHub Developer (@developerrahulofficial)",
+    "bio": "Full Stack Developer\ud83d\udc68\ud83c\udffb\u200d\ud83d\udcbb\r\nI dream bug \ud83e\udeb2 and live big \ud83d\udd25\ud83d\ude0e",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 97"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "New Delhi, India",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:33.442125+00:00"
+    "discovered_at": "2026-08-22T09:34:13.047117+00:00"
   },
   {
-    "name": "afshinea",
+    "name": "Afshine Amidi",
     "username": "afshinea",
     "platform": "GitHub",
     "profile_url": "https://github.com/afshinea",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4642,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@afshinea)",
+    "website": "https://www.mit.edu/~amidi",
+    "bio": "Ecole Centrale Paris, MIT",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 6"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
@@ -1555,36 +1555,36 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:34.166587+00:00"
+    "discovered_at": "2026-08-22T09:34:14.597244+00:00"
   },
   {
-    "name": "lazyprogrammer",
+    "name": "LazyProgrammer.me",
     "username": "lazyprogrammer",
     "platform": "GitHub",
     "profile_url": "https://github.com/lazyprogrammer",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4622,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@lazyprogrammer)",
+    "website": "https://lazyprogrammer.me",
+    "bio": "https://deeplearningcourses.com",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 20"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
@@ -1593,15 +1593,15 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:34.867976+00:00"
+    "discovered_at": "2026-08-22T09:34:16.060650+00:00"
   },
   {
-    "name": "jlevy",
+    "name": "Joshua Levy",
     "username": "jlevy",
     "platform": "GitHub",
     "profile_url": "https://github.com/jlevy",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4618,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
@@ -1615,166 +1615,166 @@
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 100"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "San Francisco",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:35.584465+00:00"
+    "discovered_at": "2026-08-22T09:34:17.493814+00:00"
   },
   {
     "name": "NielsRogge",
     "username": "nielsrogge",
     "platform": "GitHub",
     "profile_url": "https://github.com/NielsRogge",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4605,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@NielsRogge)",
+    "website": "https://nielsrogge.github.io",
+    "bio": "ML @HuggingFace. Interested in deep learning, NLP. \r\n\r\nContributed 40+ models to HuggingFace Transformers",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 274"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Belgium",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:36.377763+00:00"
+    "discovered_at": "2026-08-22T09:34:18.927442+00:00"
   },
   {
-    "name": "gaogaotiantian",
+    "name": "Tian Gao",
     "username": "gaogaotiantian",
     "platform": "GitHub",
     "profile_url": "https://github.com/gaogaotiantian",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4596,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
     "website": "Not Found",
-    "bio": "GitHub Developer (@gaogaotiantian)",
+    "bio": "@python core dev, @apache spark committer. Author of VizTracer, coredumpy, dowhen, watchpoints and objprint",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 66"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Mountain View",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:36.998306+00:00"
+    "discovered_at": "2026-08-22T09:34:20.361236+00:00"
   },
   {
-    "name": "dunossauro",
+    "name": "Eduardo Mendes",
     "username": "dunossauro",
     "platform": "GitHub",
     "profile_url": "https://github.com/dunossauro",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4568,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@dunossauro)",
+    "website": "https://dunossauro.com",
+    "bio": "Lambda maker, python lover, free software enthusiast. Migrating to Codeberg.",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 196"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "S\u00e3o Paulo, Brazil",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:37.531033+00:00"
+    "discovered_at": "2026-08-22T09:34:21.692153+00:00"
   },
   {
-    "name": "jalammar",
+    "name": "Jay Alammar",
     "username": "jalammar",
     "platform": "GitHub",
     "profile_url": "https://github.com/jalammar",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4545,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@jalammar)",
+    "website": "https://jalammar.github.io",
+    "bio": "O'Reilly Author. ML Research Engineer.",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 30"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
@@ -1783,167 +1783,167 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:38.145741+00:00"
+    "discovered_at": "2026-08-22T09:34:23.556773+00:00"
   },
   {
-    "name": "inconvergent",
+    "name": "ncnvrgnt",
     "username": "inconvergent",
     "platform": "GitHub",
     "profile_url": "https://github.com/inconvergent",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4526,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@inconvergent)",
+    "website": "https://inconvergent.net",
+    "bio": "play my new browser game for free at: https://boxtype.app",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 61"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "norway",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:38.737454+00:00"
+    "discovered_at": "2026-08-22T09:34:25.070444+00:00"
   },
   {
-    "name": "josephmisiti",
+    "name": "Joseph Misiti",
     "username": "josephmisiti",
     "platform": "GitHub",
     "profile_url": "https://github.com/josephmisiti",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4522,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@josephmisiti)",
+    "website": "http://blog.josephmisiti.com/",
+    "bio": "Co-founder PingIntel\r\nSour Dough Bread Baker. Natural wine consumer.",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 297"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Miami, FL",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:39.592267+00:00"
+    "discovered_at": "2026-08-22T09:34:26.404031+00:00"
   },
   {
-    "name": "ramalho",
+    "name": "Luciano Ramalho",
     "username": "ramalho",
     "platform": "GitHub",
     "profile_url": "https://github.com/ramalho",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4495,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@ramalho)",
+    "website": "https://ramalho.org",
+    "bio": "Author of Fluent Python",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 248"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "S\u00e3o Paulo",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:40.259383+00:00"
+    "discovered_at": "2026-08-22T09:34:27.810702+00:00"
   },
   {
-    "name": "iamtrask",
+    "name": "Andrew Trask",
     "username": "iamtrask",
     "platform": "GitHub",
     "profile_url": "https://github.com/iamtrask",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4487,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@iamtrask)",
+    "website": "http://iamtrask.github.io/",
+    "bio": "Leader of @OpenMined, Senior Research Scientist at DeepMind, PhD Student at Oxford, Author of Grokking Deep Learning, Instructor at Udacity",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 95"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Oxford, England",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:41.192571+00:00"
+    "discovered_at": "2026-08-22T09:34:29.168692+00:00"
   },
   {
     "name": "teorth",
     "username": "teorth",
     "platform": "GitHub",
     "profile_url": "https://github.com/teorth",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4458,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
@@ -1957,14 +1957,14 @@
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 25"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
@@ -1973,36 +1973,36 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:41.848180+00:00"
+    "discovered_at": "2026-08-22T09:34:30.527804+00:00"
   },
   {
-    "name": "pydanny",
+    "name": "Daniel Roy Greenfeld",
     "username": "pydanny",
     "platform": "GitHub",
     "profile_url": "https://github.com/pydanny",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4432,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@pydanny)",
+    "website": "https://daniel.feldroy.com",
+    "bio": "Husband of @audreyfeldroy \ud83d\udc98, father of Uma \ud83d\udef4, Co-Author of Two Scoops of Django, formerly @nasa and @kraken-tech",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 181"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
@@ -2011,21 +2011,21 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:42.855064+00:00"
+    "discovered_at": "2026-08-22T09:34:31.932547+00:00"
   },
   {
-    "name": "hmason",
+    "name": "Hilary Mason",
     "username": "hmason",
     "platform": "GitHub",
     "profile_url": "https://github.com/hmason",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4432,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
+    "website": "http://hiddendoor.co",
     "bio": "GitHub Developer (@hmason)",
     "sub_niche": "Software Engineering",
     "content_themes": [
@@ -2033,52 +2033,52 @@
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 24"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "New York, NY",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:43.572309+00:00"
+    "discovered_at": "2026-08-22T09:34:33.367081+00:00"
   },
   {
-    "name": "omarsar",
+    "name": "Elvis Saravia",
     "username": "omarsar",
     "platform": "GitHub",
     "profile_url": "https://github.com/omarsar",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4362,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@omarsar)",
+    "website": "https://linktr.ee/elvissaravia",
+    "bio": "Machine Learning & NLP Research \u2022 PhD \u2022 Building @dair-ai \u2022 Previously: Meta AI, Elastic",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 149"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
@@ -2087,15 +2087,15 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:44.543205+00:00"
+    "discovered_at": "2026-08-22T09:34:34.904875+00:00"
   },
   {
-    "name": "ageitgey",
+    "name": "Adam Geitgey",
     "username": "ageitgey",
     "platform": "GitHub",
     "profile_url": "https://github.com/ageitgey",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4355,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
@@ -2109,52 +2109,52 @@
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 50"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Various places",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:45.631275+00:00"
+    "discovered_at": "2026-08-22T09:34:36.336069+00:00"
   },
   {
-    "name": "forrestchang",
+    "name": "Jiayuan Zhang",
     "username": "forrestchang",
     "platform": "GitHub",
     "profile_url": "https://github.com/forrestchang",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4333,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@forrestchang)",
+    "website": "http://blog.jiayuanzhang.com/",
+    "bio": "Building @multica-ai",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 106"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
@@ -2163,21 +2163,21 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:46.539656+00:00"
+    "discovered_at": "2026-08-22T09:34:37.771128+00:00"
   },
   {
-    "name": "VikParuchuri",
+    "name": "Vik Paruchuri",
     "username": "vikparuchuri",
     "platform": "GitHub",
     "profile_url": "https://github.com/VikParuchuri",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4325,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
+    "website": "https://www.vikas.sh",
     "bio": "GitHub Developer (@VikParuchuri)",
     "sub_niche": "Software Engineering",
     "content_themes": [
@@ -2185,75 +2185,75 @@
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 89"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "Brooklyn, NY",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:47.462039+00:00"
+    "discovered_at": "2026-08-22T09:34:39.204798+00:00"
   },
   {
     "name": "HackerPoet",
     "username": "hackerpoet",
     "platform": "GitHub",
     "profile_url": "https://github.com/HackerPoet",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4301,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "GitHub Developer (@HackerPoet)",
+    "website": "https://www.youtube.com/channel/UCrv269YwJzuZL3dH5PCgxUw",
+    "bio": "Also known as CodeParade, I run a YouTube channel.",
     "sub_niche": "Software Engineering",
     "content_themes": [
       "Open Source Code",
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 29"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "United States",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:48.077678+00:00"
+    "discovered_at": "2026-08-22T09:34:40.636982+00:00"
   },
   {
-    "name": "Newmu",
+    "name": "Alec Radford",
     "username": "newmu",
     "platform": "GitHub",
     "profile_url": "https://github.com/Newmu",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
+    "followers": 4282,
+    "followers_source": "GitHub User Profile API",
     "engagement_rate": "Not Found",
     "engagement_source": "Not Found",
     "engagement_method": "Not Found",
     "contact_email": "Not Found",
     "email_source": "Not Found",
-    "website": "Not Found",
+    "website": "http://newmu.github.io/",
     "bio": "GitHub Developer (@Newmu)",
     "sub_niche": "Software Engineering",
     "content_themes": [
@@ -2261,23 +2261,23 @@
       "Software Development"
     ],
     "recent_content": [
-      "Not Found"
+      "Public Repositories: 22"
     ],
-    "content_source": "Not Found",
+    "content_source": "GitHub Public Profile API",
     "content_style": "Open Source Code & Tech Repositories",
     "article_reactions": "Not Found",
     "article_comments": "Not Found",
     "article_engagement_source": "Not Found",
-    "profile_fetch_status": "HTTP_403_RATE_LIMITED",
+    "profile_fetch_status": "SUCCESS",
     "audience_geography": "Not Found",
     "audience_age": "Not Found",
     "audience_gender": "Not Found",
     "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
+    "creator_geography": "San Francisco, CA",
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:48.897342+00:00"
+    "discovered_at": "2026-08-22T09:34:42.172549+00:00"
   },
   {
     "name": "Gizachew29",
@@ -2315,7 +2315,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:50.331591+00:00"
+    "discovered_at": "2026-08-22T09:34:44.936878+00:00"
   },
   {
     "name": "BjarneStroustrup",
@@ -2353,7 +2353,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:51.135564+00:00"
+    "discovered_at": "2026-08-22T09:34:46.065477+00:00"
   },
   {
     "name": "objective-see",
@@ -2391,7 +2391,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:52.174132+00:00"
+    "discovered_at": "2026-08-22T09:34:47.190269+00:00"
   },
   {
     "name": "nolimits4web",
@@ -2429,7 +2429,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:52.994714+00:00"
+    "discovered_at": "2026-08-22T09:34:48.420237+00:00"
   },
   {
     "name": "lh3",
@@ -2467,7 +2467,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:53.828543+00:00"
+    "discovered_at": "2026-08-22T09:34:49.647581+00:00"
   },
   {
     "name": "k8gege",
@@ -2505,7 +2505,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:54.426905+00:00"
+    "discovered_at": "2026-08-22T09:34:50.876688+00:00"
   },
   {
     "name": "HarborLibrary",
@@ -2543,7 +2543,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:55.143910+00:00"
+    "discovered_at": "2026-08-22T09:34:51.901505+00:00"
   },
   {
     "name": "GeostatsGuy",
@@ -2581,7 +2581,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:55.884364+00:00"
+    "discovered_at": "2026-08-22T09:34:53.038061+00:00"
   },
   {
     "name": "yzhao062",
@@ -2619,7 +2619,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:56.578431+00:00"
+    "discovered_at": "2026-08-22T09:34:54.258897+00:00"
   },
   {
     "name": "chrisvfritz",
@@ -2657,7 +2657,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:57.704084+00:00"
+    "discovered_at": "2026-08-22T09:34:55.383832+00:00"
   },
   {
     "name": "bcaffo",
@@ -2695,7 +2695,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:58.522530+00:00"
+    "discovered_at": "2026-08-22T09:34:56.508248+00:00"
   },
   {
     "name": "terrytangyuan",
@@ -2733,7 +2733,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:56:59.648839+00:00"
+    "discovered_at": "2026-08-22T09:34:57.709129+00:00"
   },
   {
     "name": "SteveMacenski",
@@ -2771,7 +2771,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:00.365744+00:00"
+    "discovered_at": "2026-08-22T09:34:58.875828+00:00"
   },
   {
     "name": "wsvincent",
@@ -2809,7 +2809,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:01.294988+00:00"
+    "discovered_at": "2026-08-22T09:34:59.990215+00:00"
   },
   {
     "name": "csev",
@@ -2847,7 +2847,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:02.111095+00:00"
+    "discovered_at": "2026-08-22T09:35:01.321358+00:00"
   },
   {
     "name": "indutny",
@@ -2885,7 +2885,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:02.931111+00:00"
+    "discovered_at": "2026-08-22T09:35:02.653233+00:00"
   },
   {
     "name": "stevekinney",
@@ -2923,7 +2923,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:03.542842+00:00"
+    "discovered_at": "2026-08-22T09:35:03.881625+00:00"
   },
   {
     "name": "KentBeck",
@@ -2961,7 +2961,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:04.359540+00:00"
+    "discovered_at": "2026-08-22T09:35:05.111180+00:00"
   },
   {
     "name": "orderedlist",
@@ -2999,7 +2999,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:04.947754+00:00"
+    "discovered_at": "2026-08-22T09:35:06.274381+00:00"
   },
   {
     "name": "jetsonhacks",
@@ -3037,7 +3037,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:05.406963+00:00"
+    "discovered_at": "2026-08-22T09:35:07.471201+00:00"
   },
   {
     "name": "PaulStoffregen",
@@ -3075,7 +3075,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:06.294520+00:00"
+    "discovered_at": "2026-08-22T09:35:08.493066+00:00"
   },
   {
     "name": "KittenYang",
@@ -3113,7 +3113,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:07.339494+00:00"
+    "discovered_at": "2026-08-22T09:35:09.720039+00:00"
   },
   {
     "name": "JoshuaKGoldberg",
@@ -3151,7 +3151,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:08.286355+00:00"
+    "discovered_at": "2026-08-22T09:35:10.947139+00:00"
   },
   {
     "name": "BruceEckel",
@@ -3189,7 +3189,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:09.377603+00:00"
+    "discovered_at": "2026-08-22T09:35:11.997379+00:00"
   },
   {
     "name": "SylvanFranklin",
@@ -3227,7 +3227,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:10.397862+00:00"
+    "discovered_at": "2026-08-22T09:35:13.201738+00:00"
   },
   {
     "name": "umputun",
@@ -3265,7 +3265,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:11.014115+00:00"
+    "discovered_at": "2026-08-22T09:35:14.428711+00:00"
   },
   {
     "name": "jwiegley",
@@ -3303,7 +3303,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:11.625268+00:00"
+    "discovered_at": "2026-08-22T09:35:15.539886+00:00"
   },
   {
     "name": "ashutosh1919",
@@ -3341,7 +3341,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:12.372048+00:00"
+    "discovered_at": "2026-08-22T09:35:16.785902+00:00"
   },
   {
     "name": "andrewgodwin",
@@ -3379,7 +3379,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:13.098175+00:00"
+    "discovered_at": "2026-08-22T09:35:18.012324+00:00"
   },
   {
     "name": "weierophinney",
@@ -3417,43 +3417,7 @@
     "source": "GitHub Public Tech Developer Directory",
     "source_url": "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:13.883104+00:00"
-  },
-  {
-    "name": "Debashish Ghosal",
-    "username": "debashish_ghosal",
-    "platform": "Dev.to",
-    "profile_url": "https://dev.to/debashish_ghosal",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
-    "engagement_rate": "Not Found",
-    "engagement_source": "Not Found",
-    "engagement_method": "Not Found",
-    "contact_email": "Not Found",
-    "email_source": "Not Found",
-    "website": "https://github.com/deghosal-2026/",
-    "bio": "Getting back into coding after 15 years as a people manager\nRest here - https://www.linkedin.com/in/deghosal/",
-    "sub_niche": "Artificial Intelligence",
-    "content_themes": [
-      "Dev.to AI Articles"
-    ],
-    "recent_content": [
-      "I Told My LLM Critic to Be Adversarial. It Started Blocking Plans for Being 'Not Thorough Enough.'"
-    ],
-    "content_source": "Dev.to Articles REST API",
-    "content_style": "Technical Articles & Written Guides",
-    "article_reactions": 8,
-    "article_comments": 10,
-    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
-    "audience_geography": "Not Found",
-    "audience_age": "Not Found",
-    "audience_gender": "Not Found",
-    "demographics_source": "Not Found",
-    "creator_geography": "Seattle, WA",
-    "source": "Dev.to Public Tech Creator Marketplace Index",
-    "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
-    "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:16.763714+00:00"
+    "discovered_at": "2026-08-22T09:35:19.288898+00:00"
   },
   {
     "name": "Ken W Alger",
@@ -3478,7 +3442,7 @@
     ],
     "content_source": "Dev.to Articles REST API",
     "content_style": "Technical Articles & Written Guides",
-    "article_reactions": 2,
+    "article_reactions": 4,
     "article_comments": 1,
     "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
     "audience_geography": "Not Found",
@@ -3489,7 +3453,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:18.488447+00:00"
+    "discovered_at": "2026-08-22T09:35:22.828937+00:00"
   },
   {
     "name": "Earl Grey",
@@ -3525,7 +3489,43 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:20.511999+00:00"
+    "discovered_at": "2026-08-22T09:35:24.268721+00:00"
+  },
+  {
+    "name": "Rhein",
+    "username": "rhein",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/rhein",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Author on Dev.to (AI)",
+    "sub_niche": "Artificial Intelligence",
+    "content_themes": [
+      "Dev.to AI Articles"
+    ],
+    "recent_content": [
+      "I turned my calculator site into an MCP server so AI assistants stop guessing at math"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Dev.to Public Tech Creator Marketplace Index",
+    "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T09:35:26.306978+00:00"
   },
   {
     "name": "Michael Amachree",
@@ -3561,7 +3561,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:22.484610+00:00"
+    "discovered_at": "2026-08-22T09:35:27.809307+00:00"
   },
   {
     "name": "Ankit Khandelwal",
@@ -3597,7 +3597,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:24.122928+00:00"
+    "discovered_at": "2026-08-22T09:35:29.174905+00:00"
   },
   {
     "name": "Bobby Chugani",
@@ -3633,7 +3633,79 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:25.556711+00:00"
+    "discovered_at": "2026-08-22T09:35:30.609069+00:00"
+  },
+  {
+    "name": "JaviMaligno",
+    "username": "javieraguilarai",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/javieraguilarai",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "https://www.javieraguilar.ai",
+    "bio": "AI Agent Architect building multi-agent systems and MCP servers.\n\nI write about:\n\u2022 Multi-agent orchestration patterns\n\u2022 Model Context Protocol (MCP) development\n\u2022 AI compliance automation\n\u2022 Real-world",
+    "sub_niche": "Artificial Intelligence",
+    "content_themes": [
+      "Dev.to AI Articles"
+    ],
+    "recent_content": [
+      "What Coding Agents Say When They Talk to Each Other"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 1,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "London",
+    "source": "Dev.to Public Tech Creator Marketplace Index",
+    "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T09:35:32.508154+00:00"
+  },
+  {
+    "name": "Ganesh Bora",
+    "username": "ganesh_bora_12e6afdf2c7f0",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/ganesh_bora_12e6afdf2c7f0",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Author on Dev.to (AI)",
+    "sub_niche": "Artificial Intelligence",
+    "content_themes": [
+      "Dev.to AI Articles"
+    ],
+    "recent_content": [
+      "grow-hack: An AI Pipeline That Turns Any GitHub Repo Into Professional Docs in Under a Minute"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Dev.to Public Tech Creator Marketplace Index",
+    "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T09:35:34.551127+00:00"
   },
   {
     "name": "Arpit Gupta",
@@ -3669,43 +3741,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:27.584063+00:00"
-  },
-  {
-    "name": "JaviMaligno",
-    "username": "javieraguilarai",
-    "platform": "Dev.to",
-    "profile_url": "https://dev.to/javieraguilarai",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
-    "engagement_rate": "Not Found",
-    "engagement_source": "Not Found",
-    "engagement_method": "Not Found",
-    "contact_email": "Not Found",
-    "email_source": "Not Found",
-    "website": "https://www.javieraguilar.ai",
-    "bio": "AI Agent Architect building multi-agent systems and MCP servers.\n\nI write about:\n\u2022 Multi-agent orchestration patterns\n\u2022 Model Context Protocol (MCP) development\n\u2022 AI compliance automation\n\u2022 Real-world",
-    "sub_niche": "Artificial Intelligence",
-    "content_themes": [
-      "Dev.to AI Articles"
-    ],
-    "recent_content": [
-      "What Coding Agents Say When They Talk to Each Other"
-    ],
-    "content_source": "Dev.to Articles REST API",
-    "content_style": "Technical Articles & Written Guides",
-    "article_reactions": 0,
-    "article_comments": 0,
-    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
-    "audience_geography": "Not Found",
-    "audience_age": "Not Found",
-    "audience_gender": "Not Found",
-    "demographics_source": "Not Found",
-    "creator_geography": "London",
-    "source": "Dev.to Public Tech Creator Marketplace Index",
-    "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
-    "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:28.526311+00:00"
+    "discovered_at": "2026-08-22T09:35:36.752886+00:00"
   },
   {
     "name": "Maruchin Tech",
@@ -3741,115 +3777,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:30.276881+00:00"
-  },
-  {
-    "name": "thomaslanghorst",
-    "username": "thomaslanghorst",
-    "platform": "Dev.to",
-    "profile_url": "https://dev.to/thomaslanghorst",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
-    "engagement_rate": "Not Found",
-    "engagement_source": "Not Found",
-    "engagement_method": "Not Found",
-    "contact_email": "Not Found",
-    "email_source": "Not Found",
-    "website": "https://thomaslanghorst.com/",
-    "bio": "Software Engineer by day. Blogger by night.",
-    "sub_niche": "Artificial Intelligence",
-    "content_themes": [
-      "Dev.to AI Articles"
-    ],
-    "recent_content": [
-      "The Best Engineering Teams Use AI and Junior Developers Differently"
-    ],
-    "content_source": "Dev.to Articles REST API",
-    "content_style": "Technical Articles & Written Guides",
-    "article_reactions": 0,
-    "article_comments": 0,
-    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
-    "audience_geography": "Not Found",
-    "audience_age": "Not Found",
-    "audience_gender": "Not Found",
-    "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
-    "source": "Dev.to Public Tech Creator Marketplace Index",
-    "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
-    "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:31.497014+00:00"
-  },
-  {
-    "name": "zenovis2-create",
-    "username": "zenovis2create",
-    "platform": "Dev.to",
-    "profile_url": "https://dev.to/zenovis2create",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
-    "engagement_rate": "Not Found",
-    "engagement_source": "Not Found",
-    "engagement_method": "Not Found",
-    "contact_email": "Not Found",
-    "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "Author on Dev.to (AI)",
-    "sub_niche": "Artificial Intelligence",
-    "content_themes": [
-      "Dev.to AI Articles"
-    ],
-    "recent_content": [
-      "skillvet: scan AI agent skills before you run them"
-    ],
-    "content_source": "Dev.to Articles REST API",
-    "content_style": "Technical Articles & Written Guides",
-    "article_reactions": 0,
-    "article_comments": 0,
-    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
-    "audience_geography": "Not Found",
-    "audience_age": "Not Found",
-    "audience_gender": "Not Found",
-    "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
-    "source": "Dev.to Public Tech Creator Marketplace Index",
-    "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
-    "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:32.930629+00:00"
-  },
-  {
-    "name": "Maria jose Gonzalez Antelo",
-    "username": "maria_josegonzalezantel_80",
-    "platform": "Dev.to",
-    "profile_url": "https://dev.to/maria_josegonzalezantel_80",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
-    "engagement_rate": "Not Found",
-    "engagement_source": "Not Found",
-    "engagement_method": "Not Found",
-    "contact_email": "Not Found",
-    "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "Senior IT Drector and ai expert",
-    "sub_niche": "Artificial Intelligence",
-    "content_themes": [
-      "Dev.to AI Articles"
-    ],
-    "recent_content": [
-      "rag_pipeline.py"
-    ],
-    "content_source": "Dev.to Articles REST API",
-    "content_style": "Technical Articles & Written Guides",
-    "article_reactions": 0,
-    "article_comments": 0,
-    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
-    "audience_geography": "Not Found",
-    "audience_age": "Not Found",
-    "audience_gender": "Not Found",
-    "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
-    "source": "Dev.to Public Tech Creator Marketplace Index",
-    "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
-    "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:34.055932+00:00"
+    "discovered_at": "2026-08-22T09:35:38.493082+00:00"
   },
   {
     "name": "Anushka",
@@ -3885,7 +3813,115 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:35.099801+00:00"
+    "discovered_at": "2026-08-22T09:35:40.036191+00:00"
+  },
+  {
+    "name": "Maria jose Gonzalez Antelo",
+    "username": "maria_josegonzalezantel_80",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/maria_josegonzalezantel_80",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Senior IT Drector and ai expert",
+    "sub_niche": "Artificial Intelligence",
+    "content_themes": [
+      "Dev.to AI Articles"
+    ],
+    "recent_content": [
+      "rag_pipeline.py"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Dev.to Public Tech Creator Marketplace Index",
+    "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T09:35:41.976454+00:00"
+  },
+  {
+    "name": "zenovis2-create",
+    "username": "zenovis2create",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/zenovis2create",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Author on Dev.to (AI)",
+    "sub_niche": "Artificial Intelligence",
+    "content_themes": [
+      "Dev.to AI Articles"
+    ],
+    "recent_content": [
+      "skillvet: scan AI agent skills before you run them"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Dev.to Public Tech Creator Marketplace Index",
+    "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T09:35:44.027997+00:00"
+  },
+  {
+    "name": "thomaslanghorst",
+    "username": "thomaslanghorst",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/thomaslanghorst",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "https://thomaslanghorst.com/",
+    "bio": "Software Engineer by day. Blogger by night.",
+    "sub_niche": "Artificial Intelligence",
+    "content_themes": [
+      "Dev.to AI Articles"
+    ],
+    "recent_content": [
+      "The Best Engineering Teams Use AI and Junior Developers Differently"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Dev.to Public Tech Creator Marketplace Index",
+    "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T09:35:45.802434+00:00"
   },
   {
     "name": "Mahak Faheem",
@@ -3921,7 +3957,43 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:36.423393+00:00"
+    "discovered_at": "2026-08-22T09:35:48.221526+00:00"
+  },
+  {
+    "name": "Divyakush Punjabi",
+    "username": "divyakush",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/divyakush",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "https://www.divyakush.com",
+    "bio": "Author on Dev.to (AI)",
+    "sub_niche": "Artificial Intelligence",
+    "content_themes": [
+      "Dev.to AI Articles"
+    ],
+    "recent_content": [
+      "Similarity isn't relevance: the hard part of semantic search"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 1,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Dev.to Public Tech Creator Marketplace Index",
+    "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T09:35:50.679670+00:00"
   },
   {
     "name": "anthony papoti",
@@ -3957,7 +4029,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:37.434809+00:00"
+    "discovered_at": "2026-08-22T09:35:52.727801+00:00"
   },
   {
     "name": "olffy W",
@@ -3993,7 +4065,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:38.673914+00:00"
+    "discovered_at": "2026-08-22T09:35:54.756508+00:00"
   },
   {
     "name": "jomynn",
@@ -4029,7 +4101,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:40.099595+00:00"
+    "discovered_at": "2026-08-22T09:35:57.336220+00:00"
   },
   {
     "name": "@planetabhi",
@@ -4065,7 +4137,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:41.633450+00:00"
+    "discovered_at": "2026-08-22T09:35:58.973730+00:00"
   },
   {
     "name": "Chaos Wang",
@@ -4101,43 +4173,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:43.272112+00:00"
-  },
-  {
-    "name": "Raunak Tamang",
-    "username": "cyberhoax",
-    "platform": "Dev.to",
-    "profile_url": "https://dev.to/cyberhoax",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
-    "engagement_rate": "Not Found",
-    "engagement_source": "Not Found",
-    "engagement_method": "Not Found",
-    "contact_email": "Not Found",
-    "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "datagasm",
-    "sub_niche": "Artificial Intelligence",
-    "content_themes": [
-      "Dev.to AI Articles"
-    ],
-    "recent_content": [
-      "note taking app with auto sync leetcode and local llm model integration"
-    ],
-    "content_source": "Dev.to Articles REST API",
-    "content_style": "Technical Articles & Written Guides",
-    "article_reactions": 0,
-    "article_comments": 0,
-    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
-    "audience_geography": "Not Found",
-    "audience_age": "Not Found",
-    "audience_gender": "Not Found",
-    "demographics_source": "Not Found",
-    "creator_geography": "bengaluru",
-    "source": "Dev.to Public Tech Creator Marketplace Index",
-    "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
-    "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:44.912444+00:00"
+    "discovered_at": "2026-08-22T09:36:01.226719+00:00"
   },
   {
     "name": "Masum Billah",
@@ -4173,7 +4209,43 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:46.553062+00:00"
+    "discovered_at": "2026-08-22T09:36:02.967911+00:00"
+  },
+  {
+    "name": "Raunak Tamang",
+    "username": "cyberhoax",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/cyberhoax",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "datagasm",
+    "sub_niche": "Artificial Intelligence",
+    "content_themes": [
+      "Dev.to AI Articles"
+    ],
+    "recent_content": [
+      "note taking app with auto sync leetcode and local llm model integration"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "bengaluru",
+    "source": "Dev.to Public Tech Creator Marketplace Index",
+    "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T09:36:04.708276+00:00"
   },
   {
     "name": "Gaurav Kumar Singh",
@@ -4209,7 +4281,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:47.973741+00:00"
+    "discovered_at": "2026-08-22T09:36:06.451840+00:00"
   },
   {
     "name": "G Ghuman",
@@ -4245,79 +4317,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:49.473022+00:00"
-  },
-  {
-    "name": "Calvin Lin",
-    "username": "calvin_lin_816fc5a7ce26a1",
-    "platform": "Dev.to",
-    "profile_url": "https://dev.to/calvin_lin_816fc5a7ce26a1",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
-    "engagement_rate": "Not Found",
-    "engagement_source": "Not Found",
-    "engagement_method": "Not Found",
-    "contact_email": "Not Found",
-    "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "Author on Dev.to (AI)",
-    "sub_niche": "Artificial Intelligence",
-    "content_themes": [
-      "Dev.to AI Articles"
-    ],
-    "recent_content": [
-      "Why We Built an Independent, Goal-Driven AI Workspace"
-    ],
-    "content_source": "Dev.to Articles REST API",
-    "content_style": "Technical Articles & Written Guides",
-    "article_reactions": 0,
-    "article_comments": 0,
-    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
-    "audience_geography": "Not Found",
-    "audience_age": "Not Found",
-    "audience_gender": "Not Found",
-    "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
-    "source": "Dev.to Public Tech Creator Marketplace Index",
-    "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
-    "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:51.362530+00:00"
-  },
-  {
-    "name": "Papers Mache",
-    "username": "olaughter",
-    "platform": "Dev.to",
-    "profile_url": "https://dev.to/olaughter",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
-    "engagement_rate": "Not Found",
-    "engagement_source": "Not Found",
-    "engagement_method": "Not Found",
-    "contact_email": "Not Found",
-    "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "Author on Dev.to (AI)",
-    "sub_niche": "Artificial Intelligence",
-    "content_themes": [
-      "Dev.to AI Articles"
-    ],
-    "recent_content": [
-      "VideoChat3 and RoboTTT Use Separate Transformer Backbones for Video Chat and Robot Policies"
-    ],
-    "content_source": "Dev.to Articles REST API",
-    "content_style": "Technical Articles & Written Guides",
-    "article_reactions": 0,
-    "article_comments": 0,
-    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
-    "audience_geography": "Not Found",
-    "audience_age": "Not Found",
-    "audience_gender": "Not Found",
-    "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
-    "source": "Dev.to Public Tech Creator Marketplace Index",
-    "source_url": "https://dev.to/api/articles?tag=ai&per_page=30",
-    "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:52.624064+00:00"
+    "discovered_at": "2026-08-22T09:36:08.087118+00:00"
   },
   {
     "name": "mohit modi",
@@ -4353,7 +4353,43 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=machinelearning&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:54.740992+00:00"
+    "discovered_at": "2026-08-22T09:36:12.133962+00:00"
+  },
+  {
+    "name": "Papers Mache",
+    "username": "olaughter",
+    "platform": "Dev.to",
+    "profile_url": "https://dev.to/olaughter",
+    "followers": "Not Found",
+    "followers_source": "Not Found",
+    "engagement_rate": "Not Found",
+    "engagement_source": "Not Found",
+    "engagement_method": "Not Found",
+    "contact_email": "Not Found",
+    "email_source": "Not Found",
+    "website": "Not Found",
+    "bio": "Author on Dev.to (MACHINELEARNING)",
+    "sub_niche": "Artificial Intelligence",
+    "content_themes": [
+      "Dev.to MACHINELEARNING Articles"
+    ],
+    "recent_content": [
+      "VideoChat3 and RoboTTT Use Separate Transformer Backbones for Video Chat and Robot Policies"
+    ],
+    "content_source": "Dev.to Articles REST API",
+    "content_style": "Technical Articles & Written Guides",
+    "article_reactions": 0,
+    "article_comments": 0,
+    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
+    "audience_geography": "Not Found",
+    "audience_age": "Not Found",
+    "audience_gender": "Not Found",
+    "demographics_source": "Not Found",
+    "creator_geography": "Not Found",
+    "source": "Dev.to Public Tech Creator Marketplace Index",
+    "source_url": "https://dev.to/api/articles?tag=machinelearning&per_page=30",
+    "extraction_method": "HTTP GET REST API Extraction (httpx)",
+    "discovered_at": "2026-08-22T09:36:14.128788+00:00"
   },
   {
     "name": "Sara Mo",
@@ -4389,7 +4425,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=machinelearning&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:56.080473+00:00"
+    "discovered_at": "2026-08-22T09:36:15.768248+00:00"
   },
   {
     "name": "Konstantin Konovalov",
@@ -4425,7 +4461,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=machinelearning&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:57.724173+00:00"
+    "discovered_at": "2026-08-22T09:36:17.652113+00:00"
   },
   {
     "name": "Gulshan Yadav",
@@ -4461,43 +4497,7 @@
     "source": "Dev.to Public Tech Creator Marketplace Index",
     "source_url": "https://dev.to/api/articles?tag=machinelearning&per_page=30",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:57:58.848380+00:00"
-  },
-  {
-    "name": "Aadil Lone",
-    "username": "aadilmajeedlone",
-    "platform": "Dev.to",
-    "profile_url": "https://dev.to/aadilmajeedlone",
-    "followers": "Not Found",
-    "followers_source": "Not Found",
-    "engagement_rate": "Not Found",
-    "engagement_source": "Not Found",
-    "engagement_method": "Not Found",
-    "contact_email": "Not Found",
-    "email_source": "Not Found",
-    "website": "Not Found",
-    "bio": "Author on Dev.to (MACHINELEARNING)",
-    "sub_niche": "Artificial Intelligence",
-    "content_themes": [
-      "Dev.to MACHINELEARNING Articles"
-    ],
-    "recent_content": [
-      "Building an Escalation Root-Cause Agent with Gemini and ADK"
-    ],
-    "content_source": "Dev.to Articles REST API",
-    "content_style": "Technical Articles & Written Guides",
-    "article_reactions": 0,
-    "article_comments": 0,
-    "article_engagement_source": "Dev.to Articles REST API (Public Reactions & Comments)",
-    "audience_geography": "Not Found",
-    "audience_age": "Not Found",
-    "audience_gender": "Not Found",
-    "demographics_source": "Not Found",
-    "creator_geography": "Not Found",
-    "source": "Dev.to Public Tech Creator Marketplace Index",
-    "source_url": "https://dev.to/api/articles?tag=machinelearning&per_page=30",
-    "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:58:00.090579+00:00"
+    "discovered_at": "2026-08-22T09:36:20.374976+00:00"
   },
   {
     "name": "Muhammad Hammad",
@@ -4534,7 +4534,7 @@
     "source": "Dev.to Public Tech Hashtag Feed (#devtools, #ai, #opensource)",
     "source_url": "https://dev.to/api/articles?tag=python&per_page=20",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:58:25.565056+00:00"
+    "discovered_at": "2026-08-22T09:36:55.294599+00:00"
   },
   {
     "name": "\u041e\u043b\u0435\u0433",
@@ -4571,7 +4571,7 @@
     "source": "Dev.to Public Tech Hashtag Feed (#devtools, #ai, #opensource)",
     "source_url": "https://dev.to/api/articles?tag=python&per_page=20",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:58:26.605827+00:00"
+    "discovered_at": "2026-08-22T09:36:57.546660+00:00"
   },
   {
     "name": "golflover",
@@ -4608,7 +4608,7 @@
     "source": "Dev.to Public Tech Hashtag Feed (#devtools, #ai, #opensource)",
     "source_url": "https://dev.to/api/articles?tag=python&per_page=20",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:58:27.725411+00:00"
+    "discovered_at": "2026-08-22T09:36:59.251387+00:00"
   },
   {
     "name": "Anas",
@@ -4645,7 +4645,7 @@
     "source": "Dev.to Public Tech Hashtag Feed (#devtools, #ai, #opensource)",
     "source_url": "https://dev.to/api/articles?tag=python&per_page=20",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:58:28.848607+00:00"
+    "discovered_at": "2026-08-22T09:37:01.644182+00:00"
   },
   {
     "name": "Gabriel Victor",
@@ -4682,6 +4682,6 @@
     "source": "Dev.to Public Tech Hashtag Feed (#devtools, #ai, #opensource)",
     "source_url": "https://dev.to/api/articles?tag=python&per_page=20",
     "extraction_method": "HTTP GET REST API Extraction (httpx)",
-    "discovered_at": "2026-08-22T08:58:30.198683+00:00"
+    "discovered_at": "2026-08-22T09:37:03.895839+00:00"
   }
 ]
