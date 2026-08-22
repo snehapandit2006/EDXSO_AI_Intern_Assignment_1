@@ -71,7 +71,6 @@ class MarketplaceListingsSource(DiscoverySource):
                         platform = "Dev.to"
                         profile_url = f"https://dev.to/{uname}"
 
-                        # Check if website or bio contains a verified Instagram handle
                         if website and "instagram.com/" in website.lower():
                             ig_match = re.search(r"instagram\.com/([a-zA-Z0-9_.-]+)", website, re.IGNORECASE)
                             if ig_match:

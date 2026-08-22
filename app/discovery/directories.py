@@ -1,5 +1,6 @@
-import httpx
+import os
 import re
+import httpx
 from datetime import datetime, timezone
 from typing import List, Dict, Any
 from app.discovery.base import DiscoverySource
@@ -24,6 +25,10 @@ class PublicDirectoriesSource(DiscoverySource):
         creators = []
         headers = {"User-Agent": "EDXSO-Influencer-Outreach/1.0 (Public Research Bot)"}
         
+        token = os.getenv("GITHUB_TOKEN") or os.getenv("GH_TOKEN")
+        if token:
+            headers["Authorization"] = f"token {token}"
+
         search_urls = [
             "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
             "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
@@ -49,8 +54,6 @@ class PublicDirectoriesSource(DiscoverySource):
 
                         profile_url = item.get("html_url") or f"https://github.com/{username}"
                         
-                        # Attempt to query GitHub user profile endpoint for real followers, bio, blog, email
-                        u_detail_url = f"https://api.github.com/users/{username}"
                         name = username
                         followers = "Not Found"
                         followers_source = "Not Found"
@@ -62,6 +65,8 @@ class PublicDirectoriesSource(DiscoverySource):
                         recent_content = ["Not Found"]
                         content_source = "Not Found"
 
+                        # Query GitHub user profile endpoint for real profile metadata
+                        u_detail_url = f"https://api.github.com/users/{username}"
                         try:
                             u_resp = httpx.get(u_detail_url, headers=headers, timeout=3.0)
                             if u_resp.status_code == 200:
@@ -94,9 +99,7 @@ class PublicDirectoriesSource(DiscoverySource):
                         except Exception:
                             pass
 
-                        # Determine platform based on verified profile URL
                         platform = "GitHub"
-                        # If bio or website contains an explicit Instagram handle, check for verified IG link
                         if website and "instagram.com/" in website.lower():
                             ig_match = re.search(r"instagram\.com/([a-zA-Z0-9_.-]+)", website, re.IGNORECASE)
                             if ig_match:
@@ -121,7 +124,7 @@ class PublicDirectoriesSource(DiscoverySource):
                             "content_themes": ["Open Source Code", "Software Development"],
                             "recent_content": recent_content,
                             "content_source": content_source,
-                            "content_style": "Open Source Repositories",
+                            "content_style": "Open Source Code & Tech Repositories",
                             "audience_geography": "Not Found",
                             "audience_age": "Not Found",
                             "audience_gender": "Not Found",

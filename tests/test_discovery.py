@@ -11,7 +11,7 @@ def test_discovery_min_acceptance_gate(monkeypatch):
                 if "search/users" in url:
                     return {
                         "items": [
-                            {"login": f"user_gh_{i}", "html_url": f"https://github.com/user_gh_{i}"}
+                            {"login": f"devuser_{i}", "html_url": f"https://github.com/devuser_{i}"}
                             for i in range(35)
                         ]
                     }
@@ -30,7 +30,7 @@ def test_discovery_min_acceptance_gate(monkeypatch):
                     return [
                         {
                             "title": f"Article {i} on Tech",
-                            "user": {"username": f"user_devto_{i}", "name": f"DevTo User {i}", "website_url": f"https://user_devto_{i}.dev"}
+                            "user": {"username": f"devto_writer_{i}", "name": f"DevTo User {i}", "website_url": f"https://devto_writer_{i}.dev"}
                         }
                         for i in range(25)
                     ]
@@ -39,7 +39,8 @@ def test_discovery_min_acceptance_gate(monkeypatch):
 
     monkeypatch.setattr(httpx, "get", mock_get)
 
-    records = run_discovery(target_count=50, min_acceptance_gate=50)
+    # save_raw=False prevents polluting data/raw/ with mock data
+    records = run_discovery(target_count=50, min_acceptance_gate=50, save_raw=False)
     assert len(records) >= 50, f"Expected at least 50 creators, got {len(records)}"
 
 
@@ -61,15 +62,22 @@ def test_provenance_metadata(monkeypatch):
             status_code = 200
             def json(self):
                 if "search/users" in url:
-                    return {"items": [{"login": f"user_gh_{i}", "html_url": f"https://github.com/user_gh_{i}"} for i in range(50)]}
+                    return {"items": [{"login": f"devuser_{i}", "html_url": f"https://github.com/devuser_{i}"} for i in range(50)]}
                 elif "users/" in url:
-                    return {"name": "Dev", "followers": 8000, "email": "dev@test.org", "public_repos": 10}
+                    uname = url.split("/")[-1]
+                    return {
+                        "name": f"Developer {uname}",
+                        "followers": 8000,
+                        "email": f"{uname}@devpublic.org",
+                        "public_repos": 10
+                    }
                 return []
         return MockResponse()
 
     monkeypatch.setattr(httpx, "get", mock_get)
 
-    records = run_discovery(target_count=50, min_acceptance_gate=50)
+    # save_raw=False prevents polluting data/raw/ with mock data
+    records = run_discovery(target_count=50, min_acceptance_gate=50, save_raw=False)
     first = records[0]
     assert "source" in first and first["source"]
     assert "source_url" in first and first["source_url"]

@@ -29,11 +29,16 @@ CREATOR PROFILE SIGNALS:
 - Content Style: {style}
 - Recent Posts / Topics: {recent_str}
 
+STRICT FACTUAL GROUNDING MANDATE:
+- Use ONLY supplied factual signals from the creator's profile above.
+- NEVER invent recent posts, audience demographics, achievements, metrics, or non-existent content.
+- If a signal is unavailable or marked 'Not Found', omit it gracefully and focus on confirmed sub-niche/theme signals.
+
 STRICT WORD COUNT & FORMATTING CONSTRAINTS:
 1. EMAIL SUBJECT LINE: High-converting, non-spammy subject line.
 2. EMAIL BODY: Exactly between {EMAIL_MIN_WORDS} and {EMAIL_MAX_WORDS} words.
    - Must address {first_name} by name.
-   - Must reference a specific post topic or theme from their profile ({recent_str}).
+   - Must reference a specific confirmed topic or theme from their profile ({recent_str}).
    - Clearly state the value proposition of collaborating on our AI developer tools.
    - End with a low-friction CTA (e.g. 15-minute quick chat).
 3. INSTAGRAM DM: Exactly between {DM_MIN_WORDS} and {DM_MAX_WORDS} words.

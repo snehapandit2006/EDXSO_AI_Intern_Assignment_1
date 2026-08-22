@@ -25,12 +25,21 @@ SYNTHETIC_PATTERNS = [
     r"tech_creator_\d+",
     r"marketplace_dev_\d+",
     r"hashtag_coder_\d+",
+    # Exact placeholder username forms — require word-boundary so 'dev_user_0' doesn't false-positive
+    r"\buser_gh_\d+\b",
+    r"(?<![a-z_])user_\d+\b",
+    r"\bcreator \d+\b",
+    r"\bcreator_\d+\b",
+    r"dev@test\.org",
+    r"@test\.org",
     r"techoutreach\.dev",
     r"creatoragency\.io",
     r"devmail\.org",
+    r"devs\.io",
+    r"@devs\.io",
     r"example\.com",
-    r"fake",
-    r"placeholder"
+    r"\bfake\b",
+    r"\bplaceholder\b"
 ]
 
 
@@ -141,6 +150,68 @@ def validate_dataset(filepath: Path) -> bool:
     return overall_pass
 
 
+def validate_cross_dataset_consistency() -> bool:
+    """Verify that all processed and exported datasets strictly match raw discovery records."""
+    print(f"\n========================================================")
+    print(f" CROSS-DATASET CONSISTENCY & PROVENANCE AUDIT")
+    print(f"========================================================")
+
+    raw_path = RAW_DATA_DIR / "discovered_creators_raw.json"
+    if not raw_path.exists():
+        print("[SKIP] Raw discovery file does not exist yet.")
+        return True
+
+    with open(raw_path, "r", encoding="utf-8") as f:
+        raw_creators = json.load(f)
+
+    raw_lookup = {
+        (c.get("platform", "").lower(), c.get("username", "").lower().strip()): c
+        for c in raw_creators
+    }
+
+    downstream_files = [
+        PROCESSED_DATA_DIR / "creators_normalized.csv",
+        EXPORTS_DATA_DIR / "qualified_creators.csv",
+        EXPORTS_DATA_DIR / "review_creators.csv",
+        EXPORTS_DATA_DIR / "rejected_creators.csv"
+    ]
+
+    all_consistent = True
+
+    for filepath in downstream_files:
+        if not filepath.exists():
+            continue
+
+        with open(filepath, "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            records = list(reader)
+
+        print(f"Auditing cross-dataset consistency for: {filepath.name} ({len(records)} records)")
+
+        for idx, rec in enumerate(records):
+            key = (rec.get("platform", "").lower(), rec.get("username", "").lower().strip())
+            if key not in raw_lookup:
+                print(f" -> [FAIL] Record #{idx+1} ('{rec.get('name')}', {key}) in {filepath.name} was NOT found in raw discovery data!")
+                all_consistent = False
+                continue
+
+            raw_rec = raw_lookup[key]
+
+            # Verify no metric fabrication between raw and downstream
+            for field in ["contact_email", "followers", "engagement_rate"]:
+                raw_val = str(raw_rec.get(field, "Not Found"))
+                rec_val = str(rec.get(field, "Not Found"))
+
+                if raw_val == "Not Found" and rec_val != "Not Found":
+                    print(f" -> [FAIL] Record #{idx+1} ('{rec.get('name')}') fabricated '{field}' ({rec_val}) when raw data was 'Not Found'!")
+                    all_consistent = False
+
+    print(f"CROSS-DATASET STATUS: {'[PASS] 100% CONSISTENT WITH RAW DATA' if all_consistent else '[FAIL] DATA DRIFT DETECTED'}")
+    print(f"========================================================\n")
+
+    return all_consistent
+
+
 if __name__ == "__main__":
     files_to_validate = [
         RAW_DATA_DIR / "discovered_creators_raw.json",
@@ -154,6 +225,9 @@ if __name__ == "__main__":
     for fpath in files_to_validate:
         if not validate_dataset(fpath):
             all_passed = False
+
+    if not validate_cross_dataset_consistency():
+        all_passed = False
 
     if all_passed:
         print("ALL DATASET AUDITS PASSED: 100% Data Integrity & Assignment Compliance Confirmed.")

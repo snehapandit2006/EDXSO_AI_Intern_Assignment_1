@@ -9,7 +9,7 @@ class TechHashtagSource(DiscoverySource):
     """
     Source C: Public Tech Hashtag & Community Search Adapter.
     Performs real live HTTP GET REST API requests to query tech community hashtag feeds
-    (#devtools, #opensource, #javascript) and GitHub search endpoints via httpx.
+    (#devtools, #opensource, #javascript) and community endpoints via httpx.
     Populates only genuinely retrieved fields and uses 'Not Found' for unavailable data.
     """
 
@@ -71,7 +71,6 @@ class TechHashtagSource(DiscoverySource):
                         platform = "Dev.to"
                         profile_url = f"https://dev.to/{uname}"
 
-                        # Check if website or bio contains a verified Instagram handle
                         if website and "instagram.com/" in website.lower():
                             ig_match = re.search(r"instagram\.com/([a-zA-Z0-9_.-]+)", website, re.IGNORECASE)
                             if ig_match:
@@ -96,7 +95,7 @@ class TechHashtagSource(DiscoverySource):
                             "content_themes": [f"#{tag}", "Developer Workflow"],
                             "recent_content": recent_content,
                             "content_source": content_source,
-                            "content_style": "Short-Form Video Demos & Code Snippets",
+                            "content_style": "Technical Articles & Written Guides",
                             "audience_geography": "Not Found",
                             "audience_age": "Not Found",
                             "audience_gender": "Not Found",

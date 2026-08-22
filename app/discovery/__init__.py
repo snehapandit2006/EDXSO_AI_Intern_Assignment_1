@@ -18,11 +18,12 @@ def deduplicate_creators(creators: List[Dict[str, Any]]) -> List[Dict[str, Any]]
     return unique_records
 
 
-def run_discovery(target_count: int = DISCOVERY_TARGET, min_acceptance_gate: int = MIN_ACCEPTANCE_GATE) -> List[Dict[str, Any]]:
+def run_discovery(target_count: int = DISCOVERY_TARGET, min_acceptance_gate: int = MIN_ACCEPTANCE_GATE, save_raw: bool = True) -> List[Dict[str, Any]]:
     """
     Execute discovery fallback pipeline across multi-source adapters.
     Strictly queries real public sources and enforces >= min_acceptance_gate real unique records.
     Fails explicitly if fewer than min_acceptance_gate real records exist.
+    If save_raw=False, skips saving the raw JSON (useful in mock-based unit tests).
     """
     print(f"[Discovery Engine] Starting multi-source discovery pipeline (Target: {target_count}, Min Acceptance Gate: {min_acceptance_gate})...")
 
@@ -61,12 +62,14 @@ def run_discovery(target_count: int = DISCOVERY_TARGET, min_acceptance_gate: int
             f"is below the minimum acceptance gate ({min_acceptance_gate}). System will NOT fabricate synthetic records."
         )
 
-    # Save raw discovery dataset
-    raw_path = RAW_DATA_DIR / "discovered_creators_raw.json"
-    with open(raw_path, "w", encoding="utf-8") as f:
-        json.dump(unique_discovered, f, indent=2)
-
-    print(f"[Discovery Engine] Successfully collected and deduplicated {len(unique_discovered)} real, traceable creator records.")
-    print(f" -> Raw dataset saved to: {raw_path}")
+    # Save raw discovery dataset (skip in unit tests using save_raw=False)
+    if save_raw:
+        raw_path = RAW_DATA_DIR / "discovered_creators_raw.json"
+        with open(raw_path, "w", encoding="utf-8") as f:
+            json.dump(unique_discovered, f, indent=2)
+        print(f"[Discovery Engine] Successfully collected and deduplicated {len(unique_discovered)} real, traceable creator records.")
+        print(f" -> Raw dataset saved to: {raw_path}")
+    else:
+        print(f"[Discovery Engine] Successfully collected and deduplicated {len(unique_discovered)} real, traceable creator records (dry-run, not saved).")
 
     return unique_discovered
