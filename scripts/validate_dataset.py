@@ -42,6 +42,16 @@ SYNTHETIC_PATTERNS = [
     r"\bplaceholder\b"
 ]
 
+FORBIDDEN_PROVENANCE_PATTERNS = [
+    r"reach & engagement index",
+    r"repository to follower ratio",
+    r"repository count to follower ratio",
+    r"website domain handle",
+    r"search api query bounds",
+    r"public profile website domain handle",
+    r"public article reach & engagement index"
+]
+
 
 def audit_record(record: Dict[str, Any], index: int) -> List[str]:
     """Audit an individual creator record for synthetic patterns and data compliance."""
@@ -53,13 +63,20 @@ def audit_record(record: Dict[str, Any], index: int) -> List[str]:
         if re.search(pattern, record_str):
             issues.append(f"Record #{index+1} ('{record.get('name')}') contains synthetic pattern matching '{pattern}'")
 
-    # 2. Provenance checks
+    # 2. Forbidden derived provenance checks
+    for prov_field in ["followers_source", "engagement_source", "engagement_method", "email_source"]:
+        val = str(record.get(prov_field) or "").lower()
+        for f_pattern in FORBIDDEN_PROVENANCE_PATTERNS:
+            if re.search(f_pattern, val):
+                issues.append(f"Record #{index+1} ('{record.get('name')}') uses forbidden derived provenance method '{f_pattern}' in '{prov_field}'")
+
+    # 3. Provenance completeness checks
     for req_field in ["source", "source_url", "extraction_method", "discovered_at", "profile_url"]:
         val = record.get(req_field)
         if not val or val == "Not Found":
             issues.append(f"Record #{index+1} ('{record.get('name')}') is missing mandatory provenance field '{req_field}'")
 
-    # 3. Missing data representation checks
+    # 4. Missing data representation checks
     for field in ["contact_email", "website", "engagement_rate", "engagement_method"]:
         val = record.get(field)
         if val is None or val == "":
@@ -111,9 +128,9 @@ def validate_dataset(filepath: Path) -> bool:
                 seen_urls.add(url)
 
         rec_issues = audit_record(record, i)
-        if any("synthetic" in issue for issue in rec_issues):
+        if any("synthetic" in issue or "forbidden" in issue for issue in rec_issues):
             synthetic_count += 1
-        if any("provenance" in issue for issue in rec_issues):
+        if any("missing mandatory" in issue for issue in rec_issues):
             provenance_missing += 1
 
         all_issues.extend(rec_issues)
@@ -128,9 +145,9 @@ def validate_dataset(filepath: Path) -> bool:
     gate_passed = (total_records >= 50) if is_raw else (total_records >= 0)
     print(f"1. Record Count Threshold: {'[PASS]' if gate_passed else '[FAIL]'} ({total_records} records)")
 
-    # Check 2: Synthetic Data Prohibition
+    # Check 2: Zero Synthetic or Derived Metrics
     synthetic_passed = synthetic_count == 0
-    print(f"2. Zero Synthetic Records: {'[PASS]' if synthetic_passed else '[FAIL]'} ({synthetic_count} synthetic patterns found)")
+    print(f"2. Zero Synthetic/Derived Records: {'[PASS]' if synthetic_passed else '[FAIL]'} ({synthetic_count} violations found)")
 
     # Check 3: Data Provenance Tracking
     provenance_passed = provenance_missing == 0

@@ -9,18 +9,34 @@ from app.enrichment.demographics import parse_demographics
 def enrich_creator(raw_record: dict) -> dict:
     """Enrich and normalize single creator profile record with 100% data provenance."""
     raw_followers = raw_record.get("followers")
-    followers = parse_follower_count(raw_followers) if raw_followers not in [None, "Not Found"] else "Not Found"
-    followers_source = str(raw_record.get("followers_source") or ("GitHub Profile API" if followers != "Not Found" else "Not Found"))
-    
-    eng_rate, eng_method, sample_size = calculate_engagement_rate(
-        raw_record.get("engagement_rate"),
-        followers=followers if isinstance(followers, int) else 0
-    )
-    engagement_source = str(raw_record.get("engagement_source") or ("Observed Public Sample" if eng_rate is not None else "Not Found"))
+    if raw_followers in [None, "Not Found", ""]:
+        followers = "Not Found"
+        followers_source = "Not Found"
+    else:
+        followers = parse_follower_count(raw_followers)
+        followers_source = str(raw_record.get("followers_source") or "GitHub User Profile API")
+
+    raw_eng = raw_record.get("engagement_rate")
+    if raw_eng in [None, "Not Found", ""]:
+        eng_rate = "Not Found"
+        eng_source = "Not Found"
+        eng_method = "Not Found"
+        sample_size = 0
+    else:
+        eng_rate, eng_method, sample_size = calculate_engagement_rate(
+            raw_eng,
+            followers=followers if isinstance(followers, int) else 0
+        )
+        eng_source = str(raw_record.get("engagement_source") or "Not Found")
+        if eng_rate is None:
+            eng_rate = "Not Found"
     
     bio = str(raw_record.get("bio") or "Not Found").strip()
     contact_email = extract_contact_email(raw_record.get("contact_email"), bio=bio if bio != "Not Found" else "")
     email_source = str(raw_record.get("email_source") or ("Public Profile Bio" if contact_email != "Not Found" else "Not Found"))
+    if contact_email == "Not Found":
+        email_source = "Not Found"
+
     demographics = parse_demographics(raw_record)
     demographics_source = str(raw_record.get("demographics_source") or "Not Found")
 
@@ -32,6 +48,10 @@ def enrich_creator(raw_record: dict) -> dict:
     platform = str(raw_record.get("platform") or "GitHub").strip()
     profile_url = str(raw_record.get("profile_url") or f"https://github.com/{username}").strip()
 
+    article_reactions = raw_record.get("article_reactions", "Not Found")
+    article_comments = raw_record.get("article_comments", "Not Found")
+    article_engagement_source = str(raw_record.get("article_engagement_source") or "Not Found")
+
     return {
         "name": str(raw_record.get("name") or username or "Unknown Creator").strip(),
         "platform": platform,
@@ -39,10 +59,13 @@ def enrich_creator(raw_record: dict) -> dict:
         "profile_url": profile_url,
         "followers": followers,
         "followers_source": followers_source,
-        "engagement_rate": eng_rate if eng_rate is not None else "Not Found",
-        "engagement_source": engagement_source,
+        "engagement_rate": eng_rate,
+        "engagement_source": eng_source,
         "engagement_method": eng_method,
         "engagement_sample_size": sample_size,
+        "article_reactions": article_reactions,
+        "article_comments": article_comments,
+        "article_engagement_source": article_engagement_source,
         "category": str(raw_record.get("category") or "Technology").strip(),
         "sub_niche": str(raw_record.get("sub_niche") or "Software Engineering").strip(),
         "content_themes": content_themes if isinstance(content_themes, list) else [str(content_themes)],

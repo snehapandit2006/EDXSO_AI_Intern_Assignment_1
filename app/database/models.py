@@ -42,6 +42,9 @@ class Creator(Base):
     engagement_source = Column(String(100), default="Not Found")
     engagement_method = Column(String(255), default="Sample post analysis")
     engagement_sample_size = Column(Integer, default=10)
+    article_reactions = Column(String(50), default="Not Found")
+    article_comments = Column(String(50), default="Not Found")
+    article_engagement_source = Column(String(100), default="Not Found")
     category = Column(String(100), default="Technology")
     sub_niche = Column(String(100), default="Software Engineering")
     content_themes = Column(Text, default="[]")  # JSON List

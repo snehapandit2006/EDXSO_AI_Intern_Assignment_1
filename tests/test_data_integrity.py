@@ -36,6 +36,8 @@ def _setup_mock_httpx(monkeypatch):
                     return [
                         {
                             "title": f"Building AI Apps #{i}",
+                            "public_reactions_count": 42,
+                            "comments_count": 10,
                             "user": {"username": f"writer_{i}", "name": f"Writer {i}", "website_url": f"https://writer_{i}.dev"}
                         }
                         for i in range(25)
@@ -72,7 +74,6 @@ def test_raw_records_are_not_placeholder_users(monkeypatch):
     """Verify usernames and names are not generic placeholders like 'user_gh_0' or 'Dev'."""
     _setup_mock_httpx(monkeypatch)
     creators = run_discovery(target_count=50, min_acceptance_gate=50, save_raw=False)
-    # Patterns must match the full username — 'dev_user_0' should NOT match r"(?<![a-z_])user_\d+$"
     placeholder_regexes = [r"^user_gh_\d+$", r"^(?![a-z_])user_\d+$", r"^creator_\d+$"]
     for c in creators:
         uname = c.get("username", "")
@@ -88,6 +89,61 @@ def test_no_identical_creator_records(monkeypatch):
     creators = run_discovery(target_count=50, min_acceptance_gate=50, save_raw=False)
     usernames = [c.get("username") for c in creators]
     assert len(usernames) == len(set(usernames)), "Duplicate usernames found in discovery dataset"
+
+
+def test_devto_reactions_cannot_populate_followers(monkeypatch):
+    """Prove Dev.to article reactions cannot populate follower count."""
+    _setup_mock_httpx(monkeypatch)
+    from app.discovery.marketplaces import MarketplaceListingsSource
+    source = MarketplaceListingsSource()
+    creators = source.fetch_creators(target_count=5)
+    assert len(creators) > 0
+    for c in creators:
+        assert c["followers"] == "Not Found"
+        assert c["followers_source"] == "Not Found"
+        assert c["article_reactions"] != "Not Found"
+
+
+def test_github_repos_cannot_populate_engagement_rate(monkeypatch):
+    """Prove GitHub repository count cannot populate engagement rate."""
+    _setup_mock_httpx(monkeypatch)
+    from app.discovery.directories import PublicDirectoriesSource
+    source = PublicDirectoriesSource()
+    creators = source.fetch_creators(target_count=5)
+    assert len(creators) > 0
+    for c in creators:
+        assert c["engagement_rate"] == "Not Found"
+        assert c["engagement_source"] == "Not Found"
+        assert c["engagement_method"] == "Not Found"
+
+
+def test_website_domain_cannot_generate_contact_email(monkeypatch):
+    """Prove website domain cannot generate email addresses like contact@domain."""
+    _setup_mock_httpx(monkeypatch)
+    from app.discovery.marketplaces import MarketplaceListingsSource
+    source = MarketplaceListingsSource()
+    creators = source.fetch_creators(target_count=5)
+    for c in creators:
+        email = c.get("contact_email")
+        if email != "Not Found":
+            assert "@writer_" not in email and "contact@" not in email, f"Generated domain email detected: {email}"
+        assert c.get("email_source") != "Public Profile Website Domain Handle"
+
+
+def test_qualified_cannot_contain_derived_values():
+    """Prove QUALIFIED classification cannot contain missing or derived values."""
+    creator_derived = {
+        "name": "Dev",
+        "username": "dev1",
+        "platform": "GitHub",
+        "profile_url": "https://github.com/dev1",
+        "followers": "Not Found",
+        "engagement_rate": "Not Found",
+        "contact_email": "Not Found",
+        "website": "https://dev1.io"
+    }
+    res = classify_creator(creator_derived)
+    assert res["classification"] != "QUALIFIED"
 
 
 def test_discovery_gate_failure_state(monkeypatch):
@@ -154,28 +210,20 @@ def test_missing_mandatory_metrics_yields_zero_qualified(tmp_path):
         for i in range(10)
     ]
 
-    # Use tmp_path so exports don't contaminate data/exports/ and break cross-dataset checks
     filter_res = run_filtering(incomplete_creators, export_dir=tmp_path)
     assert len(filter_res["QUALIFIED"]) == 0
     assert len(filter_res["REVIEW"]) == 10
 
 
 def test_downstream_records_exist_in_raw():
-    """Verify cross-dataset consistency when raw and downstream files are from the same pipeline run.
-
-    This test is skipped when files are from different pipeline runs (e.g. mock test
-    overwrote raw JSON while CSVs are from a separate real run).
-    """
+    """Verify cross-dataset consistency when raw and downstream files are from the same pipeline run."""
     import os
-    from pathlib import Path
-
     raw_path = RAW_DATA_DIR / "discovered_creators_raw.json"
     normalized_path = PROCESSED_DATA_DIR / "creators_normalized.csv"
 
     if not raw_path.exists() or not normalized_path.exists():
         pytest.skip("Dataset files not yet generated — skipping cross-dataset consistency check")
 
-    # Only assert consistency when files are from the same run (within 5 minutes of each other)
     raw_mtime = os.path.getmtime(raw_path)
     norm_mtime = os.path.getmtime(normalized_path)
     if abs(raw_mtime - norm_mtime) > 300:

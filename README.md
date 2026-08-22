@@ -13,19 +13,19 @@ The platform features multi-source real creator discovery (120 real creators fet
 ## 🌟 Key Platform Features
 
 - **Multi-Source Live Real Discovery Adapter Chain**:
-  - `Source A`: GitHub Public Tech Developer Directory (`directories.py`) - Queries live GitHub User Search & Profile APIs.
-  - `Source B`: Dev.to Public Tech Creator Marketplace Index (`marketplaces.py`) - Queries live Dev.to Articles & Author Spotlight APIs.
+  - `Source A`: GitHub Public Tech Developer Directory (`directories.py`) - Queries live GitHub User Search & Profile APIs. Obtains genuine follower counts when returned by GitHub User Profile API. Does NOT supply influencer engagement rate metrics (`engagement_rate = "Not Found"`).
+  - `Source B`: Dev.to Public Tech Creator Marketplace Index (`marketplaces.py`) - Queries live Dev.to Articles & Author Spotlight APIs. Captures source-backed `article_reactions` and `article_comments`. Does NOT supply follower counts or creator engagement rates (`followers = "Not Found"`, `engagement_rate = "Not Found"`).
   - `Source C`: Public Tech Community Search Adapter (`search_adapter.py`) - Queries live DevTools, OpenSource, and JavaScript topic feeds.
   - **Acceptance Gate**: Target 50–100 real records; minimum acceptance threshold of $\ge 50$ valid unique creators. If $< 50$ valid records exist, discovery gate fails explicitly.
 - **100% Data Provenance & Field-Level Source Auditing**:
   - Auditable `source`, `source_url`, `extraction_method`, and `discovered_at` ISO timestamp recorded per record.
-  - Field-level provenance sources tracked for `followers_source`, `engagement_source`, `email_source`, `content_source`, and `demographics_source`.
+  - Field-level provenance sources tracked for `followers_source`, `engagement_source`, `email_source`, `content_source`, `article_engagement_source`, and `demographics_source`.
 - **Strict Qualification Gates & Explainable Classification**:
   - Valid Creator Platforms: `GitHub`, `Dev.to`, `Instagram`, `YouTube`, `Hashnode`
   - Micro-Influencer Bound: `5,000 <= follower_count <= 100,000`
   - Contact Email Gate: `contact_email != "Not Found"` (Email is **mandatory** for outreach eligibility)
   - Engagement Rate Gate: `engagement_rate != "Not Found"` (Engagement metric is **mandatory** for qualification)
-  - *Missing email or engagement rate automatically routes creators to **`REVIEW`** status with explicit justifications.*
+  - *Missing email, follower count, or engagement rate automatically routes creators to **`REVIEW`** status with explicit justifications.*
 - **Soft Scoring & Dynamic Reweighting**:
   - Technology Relevance (30%), Content Quality (25%), Engagement (20%), Brand Fit (15%), Audience/Geography Fit (10%).
   - If demographic metrics are `"Not Found"`, remaining criteria are dynamically reweighted over 100% so creators are not penalized.
@@ -39,11 +39,11 @@ The platform features multi-source real creator discovery (120 real creators fet
   - Database unique constraint `(campaign_id, creator_id)` prevents duplicate outreach attempts.
   - Includes copyable manual Instagram DM workflow cards.
 - **Full Dataset Retention & Automated Dataset Validation Script**:
-  - `scripts/validate_dataset.py`: Audits raw, processed, and exported datasets for record counts, synthetic patterns, provenance, and uniqueness.
+  - `scripts/validate_dataset.py`: Audits raw, processed, and exported datasets for record counts, synthetic patterns, provenance, and uniqueness. Rejects forbidden derived provenance methods (e.g. `reach & engagement index`, `repository to follower ratio`, `website domain handle`).
   - `data/raw/discovered_creators_raw.json`
   - `data/processed/creators_normalized.csv`
   - `data/exports/qualified_creators.csv`, `review_creators.csv`, `rejected_creators.csv`, `outreach_tracker.csv`
-- **Engine-First CLI & Pytest Suite**: Full CLI execution scripts and 100% passing pytest test suite (20 tests passing in 1s).
+- **Engine-First CLI & Pytest Suite**: Full CLI execution scripts and 100% passing pytest test suite (24 tests passing in 1.3s).
 - **Interactive Multi-Tab Streamlit App**: 7-tab GUI dashboard (`streamlit_app.py`).
 
 ---

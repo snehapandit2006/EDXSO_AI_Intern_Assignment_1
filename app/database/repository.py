@@ -91,6 +91,10 @@ def upsert_creator(db: Session, campaign_id: int, creator_data: dict) -> Creator
         existing.engagement_rate = _safe_engagement_rate(creator_data.get("engagement_rate", existing.engagement_rate))
         existing.engagement_source = creator_data.get("engagement_source", existing.engagement_source)
         existing.engagement_method = creator_data.get("engagement_method", existing.engagement_method)
+        existing.engagement_sample_size = creator_data.get("engagement_sample_size", existing.engagement_sample_size)
+        existing.article_reactions = str(creator_data.get("article_reactions", existing.article_reactions))
+        existing.article_comments = str(creator_data.get("article_comments", existing.article_comments))
+        existing.article_engagement_source = str(creator_data.get("article_engagement_source", existing.article_engagement_source))
         existing.category = creator_data.get("category", existing.category)
         existing.sub_niche = creator_data.get("sub_niche", existing.sub_niche)
         existing.content_themes = content_themes_str
@@ -126,6 +130,9 @@ def upsert_creator(db: Session, campaign_id: int, creator_data: dict) -> Creator
             engagement_source=creator_data.get("engagement_source", "Not Found"),
             engagement_method=creator_data.get("engagement_method", "Not Found"),
             engagement_sample_size=creator_data.get("engagement_sample_size", 0),
+            article_reactions=str(creator_data.get("article_reactions", "Not Found")),
+            article_comments=str(creator_data.get("article_comments", "Not Found")),
+            article_engagement_source=str(creator_data.get("article_engagement_source", "Not Found")),
             category=creator_data.get("category", "Technology"),
             sub_niche=creator_data.get("sub_niche", "Software Engineering"),
             content_themes=content_themes_str,

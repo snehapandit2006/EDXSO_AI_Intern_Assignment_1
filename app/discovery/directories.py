@@ -30,21 +30,21 @@ class PublicDirectoriesSource(DiscoverySource):
             headers["Authorization"] = f"token {token}"
 
         search_urls = [
-            ("https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30", 5000, 100000),
-            ("https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30", 1000, 5000),
-            ("https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30", 1000, 5000)
+            "https://api.github.com/search/users?q=type:user+followers:5000..100000&per_page=30",
+            "https://api.github.com/search/users?q=type:user+followers:1000..5000+language:python&per_page=30",
+            "https://api.github.com/search/users?q=type:user+followers:1000..5000+location:USA&per_page=30"
         ]
 
         seen_usernames = set()
 
-        for s_url, min_f, max_f in search_urls:
+        for s_url in search_urls:
             if len(creators) >= target_count:
                 break
             try:
                 resp = httpx.get(s_url, headers=headers, timeout=5.0)
                 if resp.status_code == 200:
                     items = resp.json().get("items", [])
-                    for idx, item in enumerate(items):
+                    for item in items:
                         if len(creators) >= target_count:
                             break
                         username = item.get("login")
@@ -55,9 +55,8 @@ class PublicDirectoriesSource(DiscoverySource):
                         profile_url = item.get("html_url") or f"https://github.com/{username}"
                         
                         name = username
-                        # Default followers within verified query range (e.g. 5,000 - 100,000)
-                        followers = min_f + max(100, (30 - idx) * 150)
-                        followers_source = f"GitHub Search API Query Bounds ({min_f:,}-{max_f:,})"
+                        followers = "Not Found"
+                        followers_source = "Not Found"
                         email = "Not Found"
                         email_source = "Not Found"
                         website = "Not Found"
@@ -66,11 +65,10 @@ class PublicDirectoriesSource(DiscoverySource):
                         recent_content = ["Not Found"]
                         content_source = "Not Found"
                         
-                        # Default engagement rate calculated from verified search query parameters
-                        public_repos = 25
-                        engagement_rate = round(min(8.5, max(2.1, (public_repos / max(followers, 100)) * 100.0)), 2)
-                        engagement_source = "GitHub API Public Profile Index"
-                        engagement_method = "Public repository to follower ratio"
+                        # GitHub API does not provide an influencer engagement rate metric
+                        engagement_rate = "Not Found"
+                        engagement_source = "Not Found"
+                        engagement_method = "Not Found"
 
                         # Query GitHub user profile endpoint for real profile metadata when available
                         u_detail_url = f"https://api.github.com/users/{username}"
@@ -80,15 +78,16 @@ class PublicDirectoriesSource(DiscoverySource):
                                 u_data = u_resp.json()
                                 name = u_data.get("name") or username
                                 real_followers = u_data.get("followers")
-                                if real_followers is not None and real_followers > 0:
+                                if real_followers is not None:
                                     followers = int(real_followers)
                                     followers_source = "GitHub User Profile API"
                                 
                                 if u_data.get("email"):
                                     email_candidate = str(u_data.get("email")).strip()
                                     if email_candidate and "@" in email_candidate:
-                                        email = email_candidate
-                                        email_source = "GitHub Public Profile API"
+                                        if not any(bad in email_candidate.lower() for bad in ["test.org", "devs.io", "example.com", "fake", "placeholder"]):
+                                            email = email_candidate
+                                            email_source = "GitHub Public Profile API"
                                 
                                 if u_data.get("blog"):
                                     blog_val = str(u_data.get("blog")).strip()
@@ -103,36 +102,21 @@ class PublicDirectoriesSource(DiscoverySource):
                                 
                                 public_repos_real = u_data.get("public_repos")
                                 if public_repos_real is not None:
-                                    public_repos = public_repos_real
-                                    recent_content = [f"Public Repositories: {public_repos}"]
+                                    recent_content = [f"Public Repositories: {public_repos_real}"]
                                     content_source = "GitHub Public Profile API"
-
-                                # Re-calculate engagement rate from real profile values
-                                engagement_rate = round(min(8.5, max(1.8, (public_repos / max(followers, 100)) * 100.0)), 2)
-                                engagement_source = "GitHub User Profile API (Public Repos & Followers)"
-                                engagement_method = f"Public repository count ({public_repos}) to follower ratio"
 
                         except Exception:
                             pass
 
-                        # Extract email from bio/website if profile email field is empty
+                        # Extract email from bio/website if profile email field is empty and explicit email pattern exists
                         if email == "Not Found":
                             search_text = f"{bio} {website}"
                             email_match = re.search(r"([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+)", search_text)
                             if email_match:
                                 found_email = email_match.group(1).strip()
-                                if not any(bad in found_email.lower() for bad in ["test.org", "devs.io", "example.com", "fake", "placeholder"]):
+                                if not any(bad in found_email.lower() for bad in ["test.org", "devs.io", "example.com", "fake", "placeholder", "github.com"]):
                                     email = found_email
                                     email_source = "Public Profile Bio/Website"
-                        
-                        # Extract email handle from public website domain if website is present and email still Not Found
-                        if email == "Not Found" and website != "Not Found" and "." in website:
-                            domain_match = re.search(r"https?://(?:www\.)?([a-zA-Z0-9-]+\.[a-zA-Z]{2,})", website)
-                            if domain_match:
-                                domain = domain_match.group(1).lower()
-                                if not any(b in domain for b in ["github.com", "twitter.com", "x.com", "linkedin.com", "instagram.com", "youtube.com"]):
-                                    email = f"contact@{domain}"
-                                    email_source = "Public Profile Website Domain Handle"
 
                         platform = "GitHub"
                         if website and "instagram.com/" in website.lower():
@@ -160,6 +144,9 @@ class PublicDirectoriesSource(DiscoverySource):
                             "recent_content": recent_content,
                             "content_source": content_source,
                             "content_style": "Open Source Code & Tech Repositories",
+                            "article_reactions": "Not Found",
+                            "article_comments": "Not Found",
+                            "article_engagement_source": "Not Found",
                             "audience_geography": "Not Found",
                             "audience_age": "Not Found",
                             "audience_gender": "Not Found",

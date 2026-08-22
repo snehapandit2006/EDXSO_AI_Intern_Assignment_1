@@ -35,7 +35,7 @@ class MarketplaceListingsSource(DiscoverySource):
                 resp = httpx.get(api_url, headers=headers, timeout=5.0)
                 if resp.status_code == 200:
                     articles = resp.json()
-                    for idx, article in enumerate(articles):
+                    for article in articles:
                         if len(creators) >= target_count:
                             break
                         user_info = article.get("user", {})
@@ -49,19 +49,20 @@ class MarketplaceListingsSource(DiscoverySource):
                         recent_content = [title] if title else ["Not Found"]
                         content_source = "Dev.to Articles REST API" if title else "Not Found"
 
-                        # Extract public reaction and comment engagement metrics directly from article object
+                        # Extract public reaction and comment metrics as separate source-backed fields
                         reactions = article.get("public_reactions_count") or article.get("positive_reactions_count") or 0
                         comments = article.get("comments_count") or 0
 
-                        # Calculate public engagement metric and audience reach from Dev.to API article response
-                        eng_val = round(min(12.0, max(2.5, (reactions + comments * 2) * 0.15 + 2.0)), 2)
-                        engagement_rate = eng_val
-                        engagement_source = "Dev.to Articles REST API (Public Reactions & Comments)"
-                        engagement_method = f"Public article reactions ({reactions}) + comments ({comments}) ratio"
+                        article_reactions = int(reactions)
+                        article_comments = int(comments)
+                        article_engagement_source = "Dev.to Articles REST API (Public Reactions & Comments)"
 
-                        # Derive source-backed audience reach from Dev.to article reactions and creator activity
-                        followers = 5000 + min(90000, reactions * 120 + (30 - idx) * 350)
-                        followers_source = "Dev.to Public Article Reach & Engagement Index"
+                        # Dev.to API does not expose follower count or creator-level influencer engagement rate
+                        followers = "Not Found"
+                        followers_source = "Not Found"
+                        engagement_rate = "Not Found"
+                        engagement_source = "Not Found"
+                        engagement_method = "Not Found"
 
                         # Query Dev.to author detail endpoint for bio, website, location
                         u_detail_url = f"https://dev.to/api/users/by_username?url={uname}"
@@ -82,26 +83,17 @@ class MarketplaceListingsSource(DiscoverySource):
                                 if u_data.get("location"):
                                     location = str(u_data.get("location")).strip()
                                 
-                                # Search for public email in bio or website
+                                # Search strictly for explicitly listed public email in bio or website summary
                                 search_text = f"{bio} {website}"
                                 email_match = re.search(r"([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+)", search_text)
                                 if email_match:
                                     found_email = email_match.group(1).strip()
-                                    if not any(bad in found_email.lower() for bad in ["test.org", "devs.io", "example.com", "fake", "placeholder"]):
+                                    if not any(bad in found_email.lower() for bad in ["test.org", "devs.io", "example.com", "fake", "placeholder", "github.com"]):
                                         email = found_email
                                         email_source = "Public Dev.to Bio/Website"
 
                         except Exception:
                             pass
-
-                        # Extract email handle from public website domain if website is present and email still Not Found
-                        if email == "Not Found" and website != "Not Found" and "." in website:
-                            domain_match = re.search(r"https?://(?:www\.)?([a-zA-Z0-9-]+\.[a-zA-Z]{2,})", website)
-                            if domain_match:
-                                domain = domain_match.group(1).lower()
-                                if not any(b in domain for b in ["github.com", "twitter.com", "x.com", "linkedin.com", "instagram.com", "youtube.com"]):
-                                    email = f"contact@{domain}"
-                                    email_source = "Public Profile Website Domain Handle"
 
                         platform = "Dev.to"
                         profile_url = f"https://dev.to/{uname}"
@@ -131,6 +123,9 @@ class MarketplaceListingsSource(DiscoverySource):
                             "recent_content": recent_content,
                             "content_source": content_source,
                             "content_style": "Technical Articles & Written Guides",
+                            "article_reactions": article_reactions,
+                            "article_comments": article_comments,
+                            "article_engagement_source": article_engagement_source,
                             "audience_geography": "Not Found",
                             "audience_age": "Not Found",
                             "audience_gender": "Not Found",
