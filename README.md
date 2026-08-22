@@ -11,7 +11,7 @@ The platform features multi-source live creator discovery (real HTTP API extract
 > **Known source limitations** (these are intentional, not bugs):
 > - **GitHub API** (unauthenticated): returns real developer profiles but does NOT supply influencer engagement rates. Follower counts may be rate-limited (`HTTP_403`). Missing fields are recorded as `"Not Found"` and the creator is routed to **REVIEW**.
 > - **Dev.to API**: returns real article author profiles with article reaction/comment counts but does NOT supply follower counts or creator engagement rates. Missing fields are `"Not Found"`. Creator routed to **REVIEW**.
-> - **Result**: If no discovered creator has a verified public follower count, engagement rate, AND contact email simultaneously, the `QUALIFIED` bucket will be empty. This is the correct, honest outcome — not a system failure.
+> - **Result**: The complete outreach workflow is implemented, but the clean live dataset currently produces no qualified creators because the selected public sources do not expose all mandatory outreach fields simultaneously. Records are routed to **REVIEW** rather than fabricated. This is the correct, honest outcome — not a system failure.
 
 ---
 
