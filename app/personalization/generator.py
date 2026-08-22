@@ -2,7 +2,7 @@ import json
 import re
 from typing import Dict, Any
 from app.config import (
-    GEMINI_API_KEY, EMAIL_MIN_WORDS, EMAIL_MAX_WORDS, DM_MIN_WORDS, DM_MAX_WORDS, MAX_RETRIES
+    GEMINI_API_KEY, EMAIL_MIN_WORDS, EMAIL_MAX_WORDS, DM_MIN_WORDS, DM_MAX_WORDS, MAX_RETRIES, MODEL_NAME
 )
 from app.personalization.prompts import build_personalization_prompt
 from app.personalization.validators import validate_outreach_message, count_words
@@ -92,7 +92,7 @@ def generate_personalized_message(
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             response = client.models.generate_content(
-                model="gemini-2.5-flash",
+                model=MODEL_NAME,
                 contents=prompt,
             )
             raw_text = response.text or ""
@@ -109,7 +109,7 @@ def generate_personalized_message(
                 "email_body": parsed.get("email_body", ""),
                 "dm_body": parsed.get("dm_body", ""),
                 "personalization_signals": parsed.get("personalization_signals_used", []),
-                "generation_model": "gemini-2.5-flash"
+                "generation_model": MODEL_NAME
             }
 
             is_valid, errors, counts = validate_outreach_message(msg_data, creator)

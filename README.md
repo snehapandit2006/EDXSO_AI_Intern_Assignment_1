@@ -1,6 +1,6 @@
 # EDXSO Automated Micro-Influencer Discovery & Outreach System
 
-A 100% data-honest, transparent, AI-powered micro-influencer discovery and outreach system built for technology and developer tool campaigns (GitHub, Dev.to, Instagram, 5,000–100,000 micro-influencer bounds).
+A 100% data-honest, transparent, AI-powered micro-influencer discovery and outreach system built for technology and developer tool campaigns (GitHub & Dev.to Tech Platforms, 5,000–100,000 micro-influencer bounds).
 
 The platform features multi-source real creator discovery (120 real creators fetched live via API, $\ge 50$ hard acceptance gate), 100% data provenance tracking, profile enrichment, technology classification, 3-tier deterministic filtering (`QUALIFIED`, `REVIEW`, `REJECTED`), normalized soft scoring with brand-fit & audience-fit calculations, Gemini LLM message personalization (strictly formatted emails and DMs with auditable signals), message quality control, human review workflow, simulation-first sending layer with duplicate prevention, persistent outreach tracking, dataset validation scripts, engine-first CLI script execution, pytest validation, and an interactive Streamlit web application.
 
@@ -43,7 +43,7 @@ The platform features multi-source real creator discovery (120 real creators fet
   - `data/raw/discovered_creators_raw.json`
   - `data/processed/creators_normalized.csv`
   - `data/exports/qualified_creators.csv`, `review_creators.csv`, `rejected_creators.csv`, `outreach_tracker.csv`
-- **Engine-First CLI & Pytest Suite**: Full CLI execution scripts and 100% passing pytest test suite (15 tests passing in 2s).
+- **Engine-First CLI & Pytest Suite**: Full CLI execution scripts and 100% passing pytest test suite (20 tests passing in 1s).
 - **Interactive Multi-Tab Streamlit App**: 7-tab GUI dashboard (`streamlit_app.py`).
 
 ---

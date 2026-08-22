@@ -9,7 +9,7 @@ campaign:
     - "Software Engineering"
     - "SaaS"
     - "Tech Education"
-  platform: "Instagram"
+  platform: "GitHub & Dev.to Tech Platforms"
   min_followers: 5000
   max_followers: 100000
   collaboration_type: "UGC + Sponsored Content"
@@ -19,8 +19,8 @@ discovery:
   min_acceptance_gate: 50
 
 filtering:
-  qualified_threshold: 75
-  review_threshold: 50
+  qualified_threshold: 65
+  review_threshold: 45
   scoring_weights:
     tech_relevance: 0.30
     content_relevance: 0.25
@@ -34,7 +34,7 @@ personalization:
   dm_word_count_min: 15
   dm_word_count_max: 30
   max_retries: 3
-  model_name: "gemini-2.5-flash"
+  model_name: "gemini-2.0-flash"
 
 outreach:
   send_mode: "simulation"

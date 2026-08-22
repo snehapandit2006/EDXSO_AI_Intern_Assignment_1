@@ -1,7 +1,10 @@
 from typing import List, Tuple, Dict, Any
 from app.config import TARGET_PLATFORM, MIN_FOLLOWERS, MAX_FOLLOWERS
 
-VALID_PLATFORMS = ["instagram", "github", "dev.to", "youtube", "hashnode", "twitter", "x"]
+VALID_PLATFORMS = [
+    "instagram", "github", "dev.to", "youtube", "hashnode", "twitter", "x",
+    "github & dev.to tech platforms", "multi-platform tech (github, dev.to, tech blogs)", "technology"
+]
 
 
 def check_hard_gates(creator: Dict[str, Any]) -> Tuple[bool, bool, List[str], str]:
