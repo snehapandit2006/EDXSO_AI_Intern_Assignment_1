@@ -1,0 +1,43 @@
+campaign:
+  title: "AI Developer Productivity Tool Campaign"
+  niche: "Technology"
+  sub_niches:
+    - "Artificial Intelligence"
+    - "Generative AI"
+    - "Developer Tools"
+    - "Programming"
+    - "Software Engineering"
+    - "SaaS"
+    - "Tech Education"
+  platform: "Instagram"
+  min_followers: 5000
+  max_followers: 100000
+  collaboration_type: "UGC + Sponsored Content"
+
+discovery:
+  discovery_target: 100
+  min_acceptance_gate: 50
+
+filtering:
+  qualified_threshold: 75
+  review_threshold: 50
+  scoring_weights:
+    tech_relevance: 0.30
+    content_relevance: 0.25
+    engagement: 0.20
+    brand_fit: 0.15
+    audience_fit: 0.10
+
+personalization:
+  email_word_count_min: 60
+  email_word_count_max: 90
+  dm_word_count_min: 15
+  dm_word_count_max: 30
+  max_retries: 3
+  model_name: "gemini-2.5-flash"
+
+outreach:
+  send_mode: "simulation"
+
+storage:
+  db_path: "data/app.db"
