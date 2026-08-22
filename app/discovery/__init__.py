@@ -20,7 +20,7 @@ def deduplicate_creators(creators: List[Dict[str, Any]]) -> List[Dict[str, Any]]
 
 def run_discovery(target_count: int = DISCOVERY_TARGET, min_acceptance_gate: int = MIN_ACCEPTANCE_GATE, save_raw: bool = True) -> List[Dict[str, Any]]:
     """
-    Execute discovery fallback pipeline across multi-source adapters.
+    Execute multi-source live discovery pipeline across real public API adapters.
     Strictly queries real public sources and enforces >= min_acceptance_gate real unique records.
     Fails explicitly if fewer than min_acceptance_gate real records exist.
     If save_raw=False, skips saving the raw JSON (useful in mock-based unit tests).

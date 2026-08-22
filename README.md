@@ -48,7 +48,7 @@ The platform features multi-source live creator discovery (real HTTP API extract
   - `data/raw/discovered_creators_raw.json`
   - `data/processed/creators_normalized.csv`
   - `data/exports/qualified_creators.csv`, `review_creators.csv`, `rejected_creators.csv`, `outreach_tracker.csv`
-- **Engine-First CLI & Pytest Suite**: Full CLI execution scripts and 100% passing pytest test suite (24 tests passing in 1.3s).
+- **Engine-First CLI & Pytest Suite**: Full CLI execution scripts and 100% passing pytest test suite (26 tests passing in ~1.3s).
 - **Interactive Multi-Tab Streamlit App**: 7-tab GUI dashboard (`streamlit_app.py`).
 
 ---
@@ -140,7 +140,7 @@ python -m scripts.validate_dataset
 ```
 
 ### 4. Run Pytest Test Suite
-Execute the complete test suite (15 tests passing in ~2s):
+Execute the complete test suite (26 tests):
 ```bash
 python -m pytest
 ```
@@ -158,7 +158,7 @@ streamlit run streamlit_app.py
 | EDXSO Assignment Requirement | Implementation Component | Evidence Location |
 | :--- | :--- | :--- |
 | **Discover Real Influencers** | `app/discovery/` (Live HTTP REST API adapters) | `data/raw/discovered_creators_raw.json` |
-| **At Least 50 Fetched** | Multi-source discovery pipeline (120 real records fetched) | `scripts/validate_dataset.py` & raw JSON |
+| **At Least 50 Fetched** | Multi-source live discovery pipeline — **121 source-backed technology creator profiles discovered** (GitHub + Dev.to; followers/engagement/email set to `"Not Found"` where not available from the API) | `scripts/validate_dataset.py` & raw JSON |
 | **No Synthetic / Fabricated Data** | Pure live API extraction, 0 hardcoded fallbacks | `scripts/validate_dataset.py` (0 synthetic patterns) |
 | **Explicit "Not Found" Labels** | `contact.py`, `demographics.py`, `metrics.py` | `creators_normalized.csv` & database |
 | **Micro-Influencer 5K–100K** | Hard filter in `app/filtering/rules.py` | Pytest `test_filtering.py` & Streamlit UI |
