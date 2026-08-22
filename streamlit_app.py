@@ -209,12 +209,12 @@ def main():
 
     # Tab 2: Creator Discovery
     with tabs[1]:
-        st.subheader("🔍 Discovery Engine & Provenance Pipeline")
-        st.markdown("**Fallback Discovery Strategy:** Source A (Directories) -> Source B (Marketplaces) -> Source C (Hashtags)")
+        st.subheader("🔍 Live Multi-Source Discovery Engine & Provenance Pipeline")
+        st.markdown("**Live Discovery Sources:** Source A (GitHub Public Directories) → Source B (Dev.to Spotlight Index) → Source C (Tech Hashtag Feed) → Source D (Open Tech Creator Index)")
         st.caption("Target: 100 raw records | Minimum Acceptance Gate: 50 valid unique records")
 
         if st.button("🔍 Run Discovery Adapter Chain"):
-            with st.spinner("Fetching creators across fallback adapters..."):
+            with st.spinner("Fetching creators across live API adapters..."):
                 raw_list = run_discovery()
                 enriched_list = run_enrichment(raw_list)
                 for c in enriched_list:
@@ -308,7 +308,10 @@ def main():
                         st.write(f"**Website:** {c.website}")
                         st.write(f"**Creator Geography:** {c.creator_geography}")
                         st.write(f"**Audience Geography:** {c.audience_geography}")
-                        st.write(f"**Source Provenance:** {c.source} (`{c.source_url}`)")
+                        st.divider()
+                        st.markdown("**🔍 Data Provenance Tracking:**")
+                        st.write(f"- **Primary Source:** {c.source}")
+                        st.write(f"- **Source API Endpoint:** `{c.source_url}`")
 
     # Tab 5: AI Personalization
     with tabs[4]:
@@ -328,6 +331,9 @@ def main():
                     st.caption(f"DM Word Count: **{msg.dm_word_count} words** (Target: 15-30 words)")
 
                     st.json(msg.personalization_signals)
+        else:
+            st.warning("⚠️ No creators currently qualify for AI personalization.")
+            st.info("💡 **Reason:** Creators are only personalized after satisfying all mandatory qualification gates (5,000–100,000 verified followers, mandatory public contact email, and source-backed engagement data). Non-qualifying creators are transparently routed to **REVIEW** rather than using synthetic data.")
 
     # Tab 6: Outreach Sending Layer
     with tabs[5]:
@@ -348,6 +354,14 @@ def main():
                     "Notes": log.error or "Successfully logged"
                 })
             st.dataframe(pd.DataFrame(data), use_container_width=True)
+        else:
+            st.warning("⚠️ No approved creators are currently available for outreach.")
+            o_col1, o_col2, o_col3, o_col4 = st.columns(4)
+            o_col1.metric("Qualified Creators", q_count)
+            o_col2.metric("Personalized Pitches", len(db.query(Message).filter_by(campaign_id=campaign.id).all()))
+            o_col3.metric("Approved for Sending", 0)
+            o_col4.metric("Outreach Records Sent", 0)
+            st.info("💡 **Workflow Status:** Outreach simulation and tracking run automatically when creators satisfy qualification and human review gates. Zero outreach records are generated when 0 creators qualify.")
 
         st.divider()
         st.subheader("📲 Instagram DM Manual Workflow Cards")
@@ -359,6 +373,8 @@ def main():
                 with c1 if idx % 2 == 0 else c2:
                     st.info(f"**Target:** @{c.username}\n\n**DM Copy:**\n{dm_info['dm_body']}")
                     st.caption(f"[Open Instagram Profile]({dm_info['profile_url']})")
+        else:
+            st.caption("No qualified creators available for DM workflow cards.")
 
     # Tab 7: Outreach Tracker & Traceability Matrix
     with tabs[6]:

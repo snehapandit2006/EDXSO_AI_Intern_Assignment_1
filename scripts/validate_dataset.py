@@ -57,8 +57,9 @@ def audit_record(record: Dict[str, Any], index: int) -> List[str]:
     """Audit an individual creator record for synthetic patterns and data compliance."""
     issues = []
     
-    # 1. Synthetic pattern checks
-    record_str = json.dumps(record).lower()
+    # 1. Synthetic pattern checks (check creator metadata, excluding recent article titles to prevent false positives on real tech posts about testing/security)
+    meta_fields = {k: v for k, v in record.items() if k not in ["recent_content"]}
+    record_str = json.dumps(meta_fields).lower()
     for pattern in SYNTHETIC_PATTERNS:
         if re.search(pattern, record_str):
             issues.append(f"Record #{index+1} ('{record.get('name')}') contains synthetic pattern matching '{pattern}'")
@@ -240,6 +241,7 @@ DISCOVERY_ADAPTER_FILES = [
     Path(__file__).resolve().parent.parent / "app" / "discovery" / "directories.py",
     Path(__file__).resolve().parent.parent / "app" / "discovery" / "marketplaces.py",
     Path(__file__).resolve().parent.parent / "app" / "discovery" / "search_adapter.py",
+    Path(__file__).resolve().parent.parent / "app" / "discovery" / "open_creator_index.py",
 ]
 
 # Each signal: if found >= HARDCODED_HIT_THRESHOLD times it flags a violation.

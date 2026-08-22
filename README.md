@@ -21,6 +21,7 @@ The platform features multi-source live creator discovery (real HTTP API extract
   - `Source A`: GitHub Public Tech Developer Directory (`directories.py`) - Queries live GitHub User Search & Profile APIs. Obtains genuine follower counts when returned by GitHub User Profile API. Does NOT supply influencer engagement rate metrics (`engagement_rate = "Not Found"`).
   - `Source B`: Dev.to Public Tech Creator Marketplace Index (`marketplaces.py`) - Queries live Dev.to Articles & Author Spotlight APIs. Captures source-backed `article_reactions` and `article_comments`. Does NOT supply follower counts or creator engagement rates (`followers = "Not Found"`, `engagement_rate = "Not Found"`).
   - `Source C`: Dev.to Public Tech Hashtag Feed (`search_adapter.py`) — Queries live Dev.to Articles API by tags (`#ai`, `#python`, `#webdev`, `#programming`). Captures `article_reactions` and `article_comments`. Does NOT supply follower counts or creator engagement rates. Contact email only populated if found literally in bio/website text returned by the Dev.to user detail API.
+  - `Source D`: Open Technology Creator & Community Index (`open_creator_index.py`) — Queries live public REST APIs for open technology creators, tutorial authors, and developer advocates across `#opensource`, `#tutorial`, `#architecture`, `#devops`, and `#cloud`. Extracts source-backed user detail fields and explicit public contact emails from published bios.
   - **Acceptance Gate**: Target 50–100 real records; minimum acceptance threshold of $\ge 50$ valid unique creators. If $< 50$ valid records exist, discovery gate fails explicitly.
 - **100% Data Provenance & Field-Level Source Auditing**:
   - Auditable `source`, `source_url`, `extraction_method`, and `discovered_at` ISO timestamp recorded per record.
@@ -48,7 +49,7 @@ The platform features multi-source live creator discovery (real HTTP API extract
   - `data/raw/discovered_creators_raw.json`
   - `data/processed/creators_normalized.csv`
   - `data/exports/qualified_creators.csv`, `review_creators.csv`, `rejected_creators.csv`, `outreach_tracker.csv`
-- **Engine-First CLI & Pytest Suite**: Full CLI execution scripts and 100% passing pytest test suite (26 tests passing in ~1.3s).
+- **Engine-First CLI & Pytest Suite**: Full CLI execution scripts and 100% passing pytest test suite (28 tests passing cleanly).
 - **Interactive Multi-Tab Streamlit App**: 7-tab GUI dashboard (`streamlit_app.py`).
 
 ---

@@ -292,7 +292,7 @@ def test_no_hardcoded_creator_dicts_in_search_adapter():
 def test_no_hardcoded_creator_dicts_in_any_discovery_adapter():
     """
     Verify that NO discovery adapter (directories.py, marketplaces.py,
-    search_adapter.py) contains a hardcoded static creator dataset.
+    search_adapter.py, open_creator_index.py) contains a hardcoded static creator dataset.
     Uses the same signal thresholds as validate_dataset.py.
     """
     import re
@@ -302,6 +302,7 @@ def test_no_hardcoded_creator_dicts_in_any_discovery_adapter():
         Path(__file__).resolve().parent.parent / "app" / "discovery" / "directories.py",
         Path(__file__).resolve().parent.parent / "app" / "discovery" / "marketplaces.py",
         Path(__file__).resolve().parent.parent / "app" / "discovery" / "search_adapter.py",
+        Path(__file__).resolve().parent.parent / "app" / "discovery" / "open_creator_index.py",
     ]
     signals = [
         (r"[\"']followers[\"']\s*:\s*\d+", "numeric followers literals"),
@@ -320,6 +321,20 @@ def test_no_hardcoded_creator_dicts_in_any_discovery_adapter():
                 f"{adapter.name}: '{description}' appears {len(hits)}x "
                 f"(threshold {threshold}) — hardcoded creator dataset detected."
             )
+
+
+def test_open_creator_index_adapter(monkeypatch):
+    """Verify that OpenCreatorIndexSource runs cleanly, returns source provenance, and contains no hardcoded static records."""
+    from app.discovery.open_creator_index import OpenCreatorIndexSource
+    _setup_mock_httpx(monkeypatch)
+    source = OpenCreatorIndexSource()
+    creators = source.fetch_creators(target_count=5)
+    assert isinstance(creators, list)
+    for c in creators:
+        assert c["source"] == "Open Technology Creator & Community Index"
+        assert "source_url" in c and c["source_url"]
+        assert c["extraction_method"] == "HTTP GET REST API Extraction (httpx)"
+        assert "profile_fetch_status" in c
 
 
 def test_qualified_creators_cannot_originate_from_hardcoded_source():

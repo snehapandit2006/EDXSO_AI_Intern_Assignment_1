@@ -4,6 +4,7 @@ from app.config import DISCOVERY_TARGET, MIN_ACCEPTANCE_GATE, RAW_DATA_DIR
 from app.discovery.directories import PublicDirectoriesSource
 from app.discovery.marketplaces import MarketplaceListingsSource
 from app.discovery.search_adapter import TechHashtagSource
+from app.discovery.open_creator_index import OpenCreatorIndexSource
 
 
 def deduplicate_creators(creators: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
@@ -53,6 +54,14 @@ def run_discovery(target_count: int = DISCOVERY_TARGET, min_acceptance_gate: int
     discovered.extend(c_records)
     unique_discovered = deduplicate_creators(discovered)
     print(f" -> Source C ('{source_c.source_name}') fetched {len(c_records)} real records. Total unique: {len(unique_discovered)}")
+
+    # Source D (Quaternary: Open Technology Creator & Community Index)
+    print(f" -> Triggering Source D ('Open Technology Creator & Community Index')...")
+    source_d = OpenCreatorIndexSource()
+    d_records = source_d.fetch_creators(target_count=15)
+    discovered.extend(d_records)
+    unique_discovered = deduplicate_creators(discovered)
+    print(f" -> Source D ('{source_d.source_name}') fetched {len(d_records)} real records. Total unique: {len(unique_discovered)}")
 
     # Hard Acceptance Gate Check
     if len(unique_discovered) < min_acceptance_gate:
