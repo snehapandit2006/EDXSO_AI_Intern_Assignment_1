@@ -94,6 +94,29 @@ def load_db_session():
     return SessionLocal()
 
 
+def format_followers(val) -> str:
+    """Safely format follower counts handling int, float, string 'Not Found', or None."""
+    if isinstance(val, int):
+        return f"{val:,}"
+    elif isinstance(val, float):
+        return f"{int(val):,}"
+    elif val is not None and str(val).isdigit():
+        return f"{int(val):,}"
+    return str(val or "Not Found")
+
+
+def format_engagement(val) -> str:
+    """Safely format engagement rate handling numeric floats, strings, or None."""
+    if isinstance(val, (int, float)):
+        return f"{val:.2f}%"
+    elif val is not None and val not in ["Not Found", "None", ""]:
+        try:
+            return f"{float(val):.2f}%"
+        except (ValueError, TypeError):
+            pass
+    return str(val or "Not Found")
+
+
 def main():
     st.markdown('<div class="main-header">EDXSO AI Micro-Influencer Discovery & Outreach Platform</div>', unsafe_allow_html=True)
     st.markdown('<div class="sub-header">Production-Ready Autonomous Outreach Engine for Tech & AI Creator Campaigns</div>', unsafe_allow_html=True)
@@ -106,7 +129,9 @@ def main():
         st.header("⚙️ Control Center")
         st.info(f"**Active Campaign:**\n{campaign.title}")
         st.write(f"**Target Platform:** {campaign.platform}")
-        st.write(f"**Follower Range:** {campaign.min_followers:,} – {campaign.max_followers:,}")
+        min_f_str = format_followers(campaign.min_followers)
+        max_f_str = format_followers(campaign.max_followers)
+        st.write(f"**Follower Range:** {min_f_str} – {max_f_str}")
 
         st.divider()
         st.subheader("⚡ Automated Actions")
@@ -203,19 +228,17 @@ def main():
                 raw_data = json.load(f)
             st.write(f"**Discovered Raw Records ({len(raw_data)}):**")
             df_raw = pd.DataFrame(raw_data)
-            # Coerce engagement_rate to str to avoid ArrowInvalid on mixed float/'Not Found'
             if "engagement_rate" in df_raw.columns:
-                df_raw["engagement_rate"] = df_raw["engagement_rate"].apply(
-                    lambda x: f"{x:.2f}%" if isinstance(x, (int, float)) else str(x)
-                )
+                df_raw["engagement_rate"] = df_raw["engagement_rate"].apply(format_engagement)
+            if "followers" in df_raw.columns:
+                df_raw["followers"] = df_raw["followers"].apply(format_followers)
             display_cols = [c for c in ["name", "username", "followers", "engagement_rate", "source", "source_url", "extraction_method", "discovered_at"] if c in df_raw.columns]
             st.dataframe(df_raw[display_cols], use_container_width=True)
-
 
     # Tab 3: Filtering & Classification
     with tabs[2]:
         st.subheader("📊 Deterministic Qualification & Soft Scoring Engine")
-        st.markdown("**Strict Gates:** Platform = Instagram | 5k–100k Followers | Mandatory Email | Mandatory Engagement")
+        st.markdown("**Strict Gates:** Platform = Tech Creator | 5k–100k Followers | Mandatory Email | Mandatory Engagement")
 
         if st.button("⚡ Run Filtering & Explainability Classifier"):
             creators = get_all_creators(db, campaign.id)
@@ -251,14 +274,12 @@ def main():
         if filter_records:
             data = []
             for fr, c in filter_records:
-                # engagement_rate is stored as Float (None) or a float value — always display as string
-                eng_display = f"{c.engagement_rate:.2f}%" if c.engagement_rate is not None else "Not Found"
                 data.append({
                     "Name": c.name,
                     "Username": f"@{c.username}",
-                    "Followers": c.followers,
+                    "Followers": format_followers(c.followers),
                     "Email": c.contact_email,
-                    "Eng %": eng_display,
+                    "Eng %": format_engagement(c.engagement_rate),
                     "Total Score": fr.total_score,
                     "Classification": fr.classification,
                     "Justification / Filter Reason": fr.filter_reason
@@ -276,11 +297,13 @@ def main():
 
             cols = st.columns(2)
             for idx, c in enumerate(filtered_c):
+                f_str = format_followers(c.followers)
+                eng_str = format_engagement(c.engagement_rate)
                 with cols[idx % 2]:
-                    with st.expander(f"📌 {c.name} (@{c.username}) — {c.followers:,} Followers"):
+                    with st.expander(f"📌 {c.name} (@{c.username}) — {f_str} Followers"):
                         st.write(f"**Bio:** {c.bio}")
                         st.write(f"**Sub-Niche:** {c.sub_niche}")
-                        st.write(f"**Engagement Rate:** {c.engagement_rate}%" if c.engagement_rate else "**Engagement Rate:** Not Found")
+                        st.write(f"**Engagement Rate:** {eng_str}")
                         st.write(f"**Contact Email:** `{c.contact_email}`")
                         st.write(f"**Website:** {c.website}")
                         st.write(f"**Creator Geography:** {c.creator_geography}")
