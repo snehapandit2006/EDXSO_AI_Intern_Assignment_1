@@ -45,6 +45,7 @@ class Creator(Base):
     article_reactions = Column(String(50), default="Not Found")
     article_comments = Column(String(50), default="Not Found")
     article_engagement_source = Column(String(100), default="Not Found")
+    profile_fetch_status = Column(String(50), default="SUCCESS")
     category = Column(String(100), default="Technology")
     sub_niche = Column(String(100), default="Software Engineering")
     content_themes = Column(Text, default="[]")  # JSON List

@@ -95,6 +95,7 @@ def upsert_creator(db: Session, campaign_id: int, creator_data: dict) -> Creator
         existing.article_reactions = str(creator_data.get("article_reactions", existing.article_reactions))
         existing.article_comments = str(creator_data.get("article_comments", existing.article_comments))
         existing.article_engagement_source = str(creator_data.get("article_engagement_source", existing.article_engagement_source))
+        existing.profile_fetch_status = str(creator_data.get("profile_fetch_status", existing.profile_fetch_status))
         existing.category = creator_data.get("category", existing.category)
         existing.sub_niche = creator_data.get("sub_niche", existing.sub_niche)
         existing.content_themes = content_themes_str
@@ -133,6 +134,7 @@ def upsert_creator(db: Session, campaign_id: int, creator_data: dict) -> Creator
             article_reactions=str(creator_data.get("article_reactions", "Not Found")),
             article_comments=str(creator_data.get("article_comments", "Not Found")),
             article_engagement_source=str(creator_data.get("article_engagement_source", "Not Found")),
+            profile_fetch_status=str(creator_data.get("profile_fetch_status", "SUCCESS")),
             category=creator_data.get("category", "Technology"),
             sub_niche=creator_data.get("sub_niche", "Software Engineering"),
             content_themes=content_themes_str,

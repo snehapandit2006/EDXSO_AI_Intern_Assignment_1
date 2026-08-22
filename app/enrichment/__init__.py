@@ -66,6 +66,7 @@ def enrich_creator(raw_record: dict) -> dict:
         "article_reactions": article_reactions,
         "article_comments": article_comments,
         "article_engagement_source": article_engagement_source,
+        "profile_fetch_status": str(raw_record.get("profile_fetch_status") or "SUCCESS"),
         "category": str(raw_record.get("category") or "Technology").strip(),
         "sub_niche": str(raw_record.get("sub_niche") or "Software Engineering").strip(),
         "content_themes": content_themes if isinstance(content_themes, list) else [str(content_themes)],

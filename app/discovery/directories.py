@@ -64,6 +64,7 @@ class PublicDirectoriesSource(DiscoverySource):
                         bio = f"GitHub Developer (@{username})"
                         recent_content = ["Not Found"]
                         content_source = "Not Found"
+                        profile_fetch_status = "UNATTEMPTED"
                         
                         # GitHub API does not provide an influencer engagement rate metric
                         engagement_rate = "Not Found"
@@ -75,6 +76,7 @@ class PublicDirectoriesSource(DiscoverySource):
                         try:
                             u_resp = httpx.get(u_detail_url, headers=headers, timeout=2.5)
                             if u_resp.status_code == 200:
+                                profile_fetch_status = "SUCCESS"
                                 u_data = u_resp.json()
                                 name = u_data.get("name") or username
                                 real_followers = u_data.get("followers")
@@ -104,9 +106,13 @@ class PublicDirectoriesSource(DiscoverySource):
                                 if public_repos_real is not None:
                                     recent_content = [f"Public Repositories: {public_repos_real}"]
                                     content_source = "GitHub Public Profile API"
+                            elif u_resp.status_code == 403:
+                                profile_fetch_status = "HTTP_403_RATE_LIMITED"
+                            else:
+                                profile_fetch_status = f"HTTP_{u_resp.status_code}"
 
-                        except Exception:
-                            pass
+                        except Exception as err:
+                            profile_fetch_status = f"FETCH_EXCEPTION: {err}"
 
                         # Extract email from bio/website if profile email field is empty and explicit email pattern exists
                         if email == "Not Found":
@@ -147,6 +153,7 @@ class PublicDirectoriesSource(DiscoverySource):
                             "article_reactions": "Not Found",
                             "article_comments": "Not Found",
                             "article_engagement_source": "Not Found",
+                            "profile_fetch_status": profile_fetch_status,
                             "audience_geography": "Not Found",
                             "audience_age": "Not Found",
                             "audience_gender": "Not Found",
