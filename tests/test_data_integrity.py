@@ -1,13 +1,52 @@
 import pytest
+import httpx
 from app.discovery import run_discovery
 from app.filtering.classifier import classify_creator
 from scripts.validate_dataset import SYNTHETIC_PATTERNS
 import re
 
 
-def test_zero_synthetic_data_in_discovery():
+def _setup_mock_httpx(monkeypatch):
+    def mock_get(url, **kwargs):
+        class MockResponse:
+            status_code = 200
+            def json(self):
+                if "search/users" in url:
+                    return {
+                        "items": [
+                            {"login": f"dev_user_{i}", "html_url": f"https://github.com/dev_user_{i}"}
+                            for i in range(35)
+                        ]
+                    }
+                elif "users/" in url:
+                    uname = url.split("/")[-1]
+                    return {
+                        "name": f"Developer {uname}",
+                        "followers": 15000,
+                        "email": f"{uname}@devpublic.org",
+                        "blog": f"https://{uname}.io",
+                        "location": "Seattle, WA",
+                        "bio": "Building open source tools",
+                        "public_repos": 30
+                    }
+                elif "articles" in url:
+                    return [
+                        {
+                            "title": f"Building AI Apps #{i}",
+                            "user": {"username": f"writer_{i}", "name": f"Writer {i}", "website_url": f"https://writer_{i}.dev"}
+                        }
+                        for i in range(25)
+                    ]
+                return {}
+        return MockResponse()
+
+    monkeypatch.setattr(httpx, "get", mock_get)
+
+
+def test_zero_synthetic_data_in_discovery(monkeypatch):
     """Verify that no synthetic creator patterns exist in discovery output."""
-    creators = run_discovery()
+    _setup_mock_httpx(monkeypatch)
+    creators = run_discovery(target_count=50, min_acceptance_gate=50)
     assert len(creators) >= 50
     for i, c in enumerate(creators):
         c_str = f"{c.get('name')} {c.get('username')} {c.get('contact_email')} {c.get('website')}".lower()
@@ -54,9 +93,10 @@ def test_missing_data_uses_not_found():
     assert "Mandatory engagement rate missing" in result["filter_reason"]
 
 
-def test_complete_provenance_on_all_creators():
+def test_complete_provenance_on_all_creators(monkeypatch):
     """Verify all discovered creators have complete source provenance metadata."""
-    creators = run_discovery()
+    _setup_mock_httpx(monkeypatch)
+    creators = run_discovery(target_count=50, min_acceptance_gate=50)
     for c in creators:
         assert "source" in c and c["source"], "Missing source field"
         assert "source_url" in c and c["source_url"], "Missing source_url field"

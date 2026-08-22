@@ -52,10 +52,20 @@ def _safe_engagement_rate(value) -> float | None:
         return None
 
 
+def _safe_followers(value) -> int | None:
+    """Coerce followers to int or None — prevents 'Not Found' string in Integer DB column."""
+    if value is None or value == "Not Found" or value == "":
+        return None
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return None
+
+
 def upsert_creator(db: Session, campaign_id: int, creator_data: dict) -> Creator:
     """Save or update creator record."""
     username = creator_data.get("username", "").lower().strip()
-    platform = creator_data.get("platform", "Instagram")
+    platform = creator_data.get("platform", "GitHub")
 
     existing = db.query(Creator).filter_by(campaign_id=campaign_id, username=username, platform=platform).first()
 
@@ -71,16 +81,21 @@ def upsert_creator(db: Session, campaign_id: int, creator_data: dict) -> Creator
     else:
         recent_content_str = str(recent_content)
 
+    safe_followers = _safe_followers(creator_data.get("followers"))
+
     if existing:
         existing.name = creator_data.get("name", existing.name)
         existing.profile_url = creator_data.get("profile_url", existing.profile_url)
-        existing.followers = creator_data.get("followers", existing.followers)
+        existing.followers = safe_followers if safe_followers is not None else existing.followers
+        existing.followers_source = creator_data.get("followers_source", existing.followers_source)
         existing.engagement_rate = _safe_engagement_rate(creator_data.get("engagement_rate", existing.engagement_rate))
+        existing.engagement_source = creator_data.get("engagement_source", existing.engagement_source)
         existing.engagement_method = creator_data.get("engagement_method", existing.engagement_method)
         existing.category = creator_data.get("category", existing.category)
         existing.sub_niche = creator_data.get("sub_niche", existing.sub_niche)
         existing.content_themes = content_themes_str
         existing.content_style = creator_data.get("content_style", existing.content_style)
+        existing.content_source = creator_data.get("content_source", existing.content_source)
         existing.bio = creator_data.get("bio", existing.bio)
         existing.recent_content = recent_content_str
         existing.contact_email = creator_data.get("contact_email", existing.contact_email)
@@ -90,6 +105,7 @@ def upsert_creator(db: Session, campaign_id: int, creator_data: dict) -> Creator
         existing.audience_age = creator_data.get("audience_age", existing.audience_age)
         existing.audience_gender = creator_data.get("audience_gender", existing.audience_gender)
         existing.audience_geography = creator_data.get("audience_geography", existing.audience_geography)
+        existing.demographics_source = creator_data.get("demographics_source", existing.demographics_source)
         existing.source = creator_data.get("source", existing.source)
         existing.source_url = creator_data.get("source_url", existing.source_url)
         existing.extraction_method = creator_data.get("extraction_method", existing.extraction_method)
@@ -103,27 +119,31 @@ def upsert_creator(db: Session, campaign_id: int, creator_data: dict) -> Creator
             name=creator_data.get("name", "Unknown Creator"),
             platform=platform,
             username=username,
-            profile_url=creator_data.get("profile_url", f"https://instagram.com/{username}"),
-            followers=creator_data.get("followers", 0),
+            profile_url=creator_data.get("profile_url", f"https://github.com/{username}"),
+            followers=safe_followers,
+            followers_source=creator_data.get("followers_source", "Not Found"),
             engagement_rate=_safe_engagement_rate(creator_data.get("engagement_rate")),
-            engagement_method=creator_data.get("engagement_method", "Sample post analysis"),
-            engagement_sample_size=creator_data.get("engagement_sample_size", 10),
+            engagement_source=creator_data.get("engagement_source", "Not Found"),
+            engagement_method=creator_data.get("engagement_method", "Not Found"),
+            engagement_sample_size=creator_data.get("engagement_sample_size", 0),
             category=creator_data.get("category", "Technology"),
-            sub_niche=creator_data.get("sub_niche", "AI / Developer Tools"),
+            sub_niche=creator_data.get("sub_niche", "Software Engineering"),
             content_themes=content_themes_str,
-            content_style=creator_data.get("content_style", "Educational & Technical"),
+            content_style=creator_data.get("content_style", "Technical & Software"),
+            content_source=creator_data.get("content_source", "Not Found"),
             bio=creator_data.get("bio", ""),
             recent_content=recent_content_str,
             contact_email=creator_data.get("contact_email", "Not Found"),
-            email_source=creator_data.get("email_source", "Public Profile Bio"),
+            email_source=creator_data.get("email_source", "Not Found"),
             website=creator_data.get("website", "Not Found"),
             creator_geography=creator_data.get("creator_geography", "Not Found"),
             audience_age=creator_data.get("audience_age", "Not Found"),
             audience_gender=creator_data.get("audience_gender", "Not Found"),
             audience_geography=creator_data.get("audience_geography", "Not Found"),
+            demographics_source=creator_data.get("demographics_source", "Not Found"),
             source=creator_data.get("source", "Public Tech Directory"),
-            source_url=creator_data.get("source_url", "https://example.com"),
-            extraction_method=creator_data.get("extraction_method", "Directory Adapter"),
+            source_url=creator_data.get("source_url", "https://api.github.com"),
+            extraction_method=creator_data.get("extraction_method", "HTTP GET REST API"),
             discovered_at=datetime.now(timezone.utc),
             updated_at=datetime.now(timezone.utc)
         )

@@ -9,6 +9,18 @@ Usage:
 """
 import sys
 import json
+from pathlib import Path
+
+# Force UTF-8 standard output encoding for cross-platform compatibility
+if hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
+# Add root directory to sys.path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 from app.config import CAMPAIGN_TITLE, SEND_MODE
 from app.database.models import init_db, SessionLocal
 from app.database.repository import (
@@ -28,7 +40,7 @@ def _human_review_gate(personalized_creators: list) -> list:
     Returns only the approved creators.
     """
     print("\n" + "=" * 70)
-    print("       ⚠️  HUMAN REVIEW GATE — MANDATORY APPROVAL REQUIRED  ⚠️       ")
+    print("       [!] HUMAN REVIEW GATE - MANDATORY APPROVAL REQUIRED  [!]       ")
     print("=" * 70)
     print(f"  {len(personalized_creators)} personalized pitches are pending review.")
     print("  Only APPROVED pitches will be sent to the outreach layer.")
@@ -39,8 +51,8 @@ def _human_review_gate(personalized_creators: list) -> list:
         msg = creator.get("message", {})
         print(f"\n[{i}/{len(personalized_creators)}] Creator: {creator.get('name')} (@{creator.get('username')})")
         print(f"  Email Subject : {msg.get('email_subject', 'N/A')}")
-        print(f"  Email Words   : {msg.get('email_word_count', '?')} (Target: 60–90)")
-        print(f"  DM Words      : {msg.get('dm_word_count', '?')} (Target: 15–30)")
+        print(f"  Email Words   : {msg.get('email_word_count', '?')} (Target: 60-90)")
+        print(f"  DM Words      : {msg.get('dm_word_count', '?')} (Target: 15-30)")
         print(f"  Validation    : {msg.get('validation_status', 'UNKNOWN')}")
         print(f"  Gen Model     : {msg.get('generation_model', 'N/A')}")
         print(f"\n  --- Email Body Preview ---")
@@ -55,14 +67,14 @@ def _human_review_gate(personalized_creators: list) -> list:
             if choice == "y":
                 creator["approval_status"] = "APPROVED"
                 approved.append(creator)
-                print(f"  ✅ APPROVED — @{creator.get('username')}")
+                print(f"  [+] APPROVED - @{creator.get('username')}")
                 break
             elif choice == "n":
                 creator["approval_status"] = "REJECTED_BY_REVIEWER"
-                print(f"  ❌ REJECTED — @{creator.get('username')} will be skipped.")
+                print(f"  [-] REJECTED - @{creator.get('username')} will be skipped.")
                 break
             elif choice == "q":
-                print(f"\n  🛑 Review session terminated by user. Approved so far: {len(approved)}")
+                print(f"\n  [STOP] Review session terminated by user. Approved so far: {len(approved)}")
                 return approved
             else:
                 print("  Please enter 'y', 'n', or 'q'.")
@@ -128,7 +140,7 @@ def execute_full_pipeline(interactive_review: bool = False):
         approved_creators = personalized_creators
 
     if not approved_creators:
-        print("\n[Pipeline] No pitches approved. Outreach layer skipped.")
+        print("\n[Pipeline] No pitches approved for sending. Outreach layer skipped.")
         db.close()
         return
 
