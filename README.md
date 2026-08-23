@@ -4,6 +4,11 @@
 
 > 🌐 **Live Web Application:** [https://snehapandit2006-edxso-ai-intern-assignment-streamlit-app-qyrc46.streamlit.app/](https://snehapandit2006-edxso-ai-intern-assignment-streamlit-app-qyrc46.streamlit.app/)
 
+>🎥 Working Demo
+
+[▶️ Watch the EDXSO Assignment 1 Demo on Loom]([YOUR_LOOM_LINK](https://drive.google.com/file/d/1uZmIB78Abx_6w0g1l8hksOlXOxSPmmIC/view?usp=sharing)
+
+
 A data-honest, transparent, AI-powered micro-influencer discovery and outreach system built for technology and developer tool campaigns (GitHub & Dev.to Tech Platforms, 5,000–100,000 micro-influencer bounds).
 
 The platform features multi-source live creator discovery (real HTTP API extraction via `httpx`, $\ge 50$ hard acceptance gate), 100% data provenance tracking, profile enrichment, technology classification, 3-tier deterministic filtering (`QUALIFIED`, `REVIEW`, `REJECTED`), normalized soft scoring with brand-fit & audience-fit calculations, Gemini LLM message personalization (strictly formatted emails and DMs with auditable signals), message quality control, human review workflow, simulation-first sending layer with duplicate prevention, persistent outreach tracking, dataset validation scripts, engine-first CLI script execution, pytest validation, and an interactive Streamlit web application.
