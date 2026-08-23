@@ -1,17 +1,241 @@
 # EDXSO Automated Micro-Influencer Discovery & Outreach System
 
-A 100% data-honest, transparent, AI-powered micro-influencer discovery and outreach system built for technology and developer tool campaigns (GitHub & Dev.to Tech Platforms, 5,000–100,000 micro-influencer bounds).
+A data-honest, transparent, AI-powered micro-influencer discovery and outreach system built for technology and developer tool campaigns (GitHub & Dev.to Tech Platforms, 5,000–100,000 micro-influencer bounds).
 
 The platform features multi-source live creator discovery (real HTTP API extraction via `httpx`, $\ge 50$ hard acceptance gate), 100% data provenance tracking, profile enrichment, technology classification, 3-tier deterministic filtering (`QUALIFIED`, `REVIEW`, `REJECTED`), normalized soft scoring with brand-fit & audience-fit calculations, Gemini LLM message personalization (strictly formatted emails and DMs with auditable signals), message quality control, human review workflow, simulation-first sending layer with duplicate prevention, persistent outreach tracking, dataset validation scripts, engine-first CLI script execution, pytest validation, and an interactive Streamlit web application.
 
-> [!IMPORTANT]
-> **Zero Fabricated Data — Strict Source-Backed Authenticity**:
-> All hardcoded fallback creator records, hash-derived metrics, guessed emails, and fabricated demographic fields have been permanently removed from every discovery adapter. The system queries genuine public profiles live via REST APIs (`httpx`) and enforces an explicit failure state if fewer than 50 real records are retrieved.
->
-> **Known source limitations** (these are intentional, not bugs):
-> - **GitHub API** (unauthenticated): returns real developer profiles but does NOT supply influencer engagement rates. Follower counts may be rate-limited (`HTTP_403`). Missing fields are recorded as `"Not Found"` and the creator is routed to **REVIEW**.
-> - **Dev.to API**: returns real article author profiles with article reaction/comment counts but does NOT supply follower counts or creator engagement rates. Missing fields are `"Not Found"`. Creator routed to **REVIEW**.
-> - **Result**: The complete outreach workflow is implemented, but the clean live dataset currently produces no qualified creators because the selected public sources do not expose all mandatory outreach fields simultaneously. Records are routed to **REVIEW** rather than fabricated. This is the correct, honest outcome — not a system failure.
+> **"The implementation satisfies the required workflow and enforces the assignment's data-integrity constraints; the current public-source dataset has a documented qualification limitation."**
+
+---
+
+## Data Source Limitations & Qualification Behavior
+
+### Important: Zero-Fabrication Policy
+
+This project follows a strict source-backed data policy.
+
+Every source-dependent creator field must either:
+
+1. Come directly from the underlying public API/source, or
+2. Be explicitly represented as `Not Found`.
+
+The system never:
+- Generates or guesses creator email addresses
+- Derives follower counts from unrelated metrics
+- Derives engagement rates from arbitrary formulas
+- Invents audience demographics
+- Uses hardcoded creator records as fallback data
+- Treats one platform's metrics as another platform's metrics
+
+This policy is intentional because the EDXSO assignment explicitly prohibits fabricated influencer information, guessed email addresses, and fake engagement metrics.
+
+---
+
+### Why Some Fields Are `Not Found`
+
+The current implementation uses legitimate public technology-creator sources, including public GitHub and Dev.to APIs.
+
+These sources provide useful creator and content information, but they do not consistently expose all mandatory outreach fields required by the assignment.
+
+#### Dev.to Public API
+
+Provides:
+- Author/profile information
+- Technical content
+- Article reactions
+- Article comments
+- Public profile information where available
+
+Does not provide:
+- A creator-level follower count equivalent to an influencer-platform follower metric
+- A global creator engagement rate
+
+Therefore:
+
+```text
+followers = Not Found
+engagement_rate = Not Found
+```
+
+unless the source explicitly provides the corresponding field.
+
+Article reactions and comments are retained only as article-level source-backed metrics and are never converted into fabricated follower or engagement-rate values.
+
+#### GitHub Public API
+
+Provides:
+- Public developer profiles
+- Repository information
+- Public follower count where available
+- Public profile metadata
+
+GitHub does not expose a social-media-style creator engagement rate.
+
+Therefore:
+
+```text
+engagement_rate = Not Found
+```
+
+No repository-to-follower ratio or other derived formula is used as a substitute.
+
+#### Contact Email
+
+A creator email is stored only when an explicit public email is available from the source/profile/allowed public enrichment source.
+
+The system never generates:
+- `username@gmail.com`
+- `username@domain.com`
+- `contact@domain.com`
+
+or any other inferred address.
+
+If an explicit public email cannot be verified:
+
+```text
+contact_email = Not Found
+```
+
+#### Public Influencer Directory Investigation
+
+The assignment explicitly permits public influencer directories, so several directory sources were evaluated before finalizing the current implementation.
+
+Investigated sources included:
+- Feedspot
+- Influencers.club
+- Janney AI
+- Reelax
+- HypeAuditor public leaderboards
+- Modash public directory pages
+
+The feasibility investigation found that these directories can expose real Instagram creator profiles and technology-related creator listings, but the free/public interfaces generally do not expose all mandatory outreach fields simultaneously.
+
+In particular, follower information may be rounded or masked, while engagement-rate reports and creator contact emails are commonly restricted behind authentication, credits, or paid plans.
+
+The feasibility investigation therefore found:
+- **Public Instagram creator discovery:** Available
+- **Technology/AI creator discovery:** Available
+- **5K–100K filtering:** Partial / source-dependent
+- **Source-backed engagement rate:** Not consistently available
+- **Explicit public creator email:** Not consistently available
+- **All mandatory fields simultaneously:** Not available through the tested free/public interfaces
+
+No paywall, authentication barrier, CAPTCHA, rate limit, or access-control mechanism was bypassed.
+
+No creator data from paid/private interfaces was fabricated or represented as publicly available.
+
+#### Qualification Gate
+
+The qualification stage deliberately distinguishes between:
+
+##### QUALIFIED
+
+A creator can enter QUALIFIED only when the mandatory outreach requirements are supported by source-backed data.
+
+##### REVIEW
+
+A creator is routed to REVIEW when one or more mandatory fields are unavailable.
+
+Typical reasons include:
+- `MISSING_MANDATORY_EMAIL`
+- `MISSING_MANDATORY_ENGAGEMENT`
+- `MISSING_MANDATORY_FOLLOWERS`
+
+The REVIEW state allows the system to preserve potentially useful creator records without falsely representing incomplete information as verified.
+
+##### REJECTED
+
+A creator is rejected when available source-backed information demonstrates that the creator does not satisfy the defined campaign criteria, such as follower bounds or niche relevance.
+
+#### Why the Clean Live Run Can Produce Zero Qualified Creators
+
+The clean live dataset currently contains real source-backed creator records, but the selected public sources do not expose all mandatory outreach fields simultaneously for the same creator.
+
+Therefore, a clean run can legitimately produce:
+
+```text
+Discovered       > 0
+Normalized       > 0
+QUALIFIED        = 0
+REVIEW           > 0
+REJECTED         >= 0
+Personalized     = 0
+Outreach Sent    = 0
+```
+
+This is an intentional consequence of the qualification gate, not a fallback or synthetic-data mechanism.
+
+The system does not lower the qualification threshold merely to produce qualified records.
+
+#### AI Personalization Behavior
+
+AI personalization is downstream of qualification.
+
+The system generates:
+- **Email collaboration pitch:** 60–90 words
+- **Instagram DM:** 15–30 words
+
+Personalization uses source-backed creator signals such as:
+- Creator name
+- Niche
+- Content themes
+- Recent content
+- Audience context where available
+- Collaboration angle
+
+The personalization stage is executed only for creators that successfully pass qualification.
+
+Consequently, when the clean live dataset produces zero qualified creators:
+
+```text
+AI personalization = 0 generated records
+```
+
+This prevents the system from generating outreach for creators whose mandatory qualification evidence is incomplete.
+
+#### Outreach Behavior
+
+The outreach layer supports:
+- Selecting creators with valid contact emails
+- Retrieving generated personalized messages
+- Simulation or SMTP-based delivery
+- Sending-status tracking
+- Duplicate prevention
+- Outreach logging
+
+Instagram DM automation is not used to bypass platform restrictions. Where direct API-based sending is unavailable, the system supports a manual/simulated workflow.
+
+Because the clean live dataset currently produces zero qualified creators, no outreach records are generated during the clean run.
+
+This is intentional and prevents unverified creators from entering the outreach workflow.
+
+#### Source Feasibility Decision
+
+The project evaluated whether a free/public influencer directory could provide enough source-backed information to replace the current technology-creator discovery sources.
+
+The tested public interfaces did not provide all mandatory fields simultaneously without authentication, paid access, or restricted data access.
+
+A commercial creator-data API such as Modash may provide a richer creator dataset, but it requires separate API access and was not used without legitimate credentials.
+
+The project therefore does not claim access to data that was not actually available.
+
+A future production deployment could add an authenticated creator-data provider as another discovery/enrichment adapter without changing the downstream qualification, personalization, review, and outreach architecture.
+
+#### Final Data Integrity Principle
+
+The system intentionally prefers:
+
+```text
+Real + incomplete + REVIEW
+```
+
+over:
+
+```text
+Complete-looking + inferred + fabricated
+```
+
+This preserves reproducibility, provenance, and compliance with the EDXSO requirement not to submit fabricated influencer information, guessed email addresses, or fake engagement metrics.
 
 ---
 
