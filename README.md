@@ -4,9 +4,9 @@
 
 > 🌐 **Live Web Application:** [https://snehapandit2006-edxso-ai-intern-assignment-streamlit-app-qyrc46.streamlit.app/](https://snehapandit2006-edxso-ai-intern-assignment-streamlit-app-qyrc46.streamlit.app/)
 
->🎥 Working Demo
+> 🎥 **Working Demo**
 
-[▶️ Watch the EDXSO Assignment 1 Demo on Loom]([YOUR_LOOM_LINK](https://drive.google.com/file/d/1uZmIB78Abx_6w0g1l8hksOlXOxSPmmIC/view?usp=sharing)
+[▶️ Watch the EDXSO Assignment 1 Demo](https://drive.google.com/file/d/1uZmIB78Abx_6w0g1l8hksOlXOxSPmmIC/view?usp=sharing)
 
 
 A data-honest, transparent, AI-powered micro-influencer discovery and outreach system built for technology and developer tool campaigns (GitHub & Dev.to Tech Platforms, 5,000–100,000 micro-influencer bounds).
