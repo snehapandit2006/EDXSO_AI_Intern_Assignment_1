@@ -1,5 +1,9 @@
 # EDXSO Automated Micro-Influencer Discovery & Outreach System
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://snehapandit2006-edxso-ai-intern-assignment-streamlit-app-qyrc46.streamlit.app/)
+
+> 🌐 **Live Web Application:** [https://snehapandit2006-edxso-ai-intern-assignment-streamlit-app-qyrc46.streamlit.app/](https://snehapandit2006-edxso-ai-intern-assignment-streamlit-app-qyrc46.streamlit.app/)
+
 A data-honest, transparent, AI-powered micro-influencer discovery and outreach system built for technology and developer tool campaigns (GitHub & Dev.to Tech Platforms, 5,000–100,000 micro-influencer bounds).
 
 The platform features multi-source live creator discovery (real HTTP API extraction via `httpx`, $\ge 50$ hard acceptance gate), 100% data provenance tracking, profile enrichment, technology classification, 3-tier deterministic filtering (`QUALIFIED`, `REVIEW`, `REJECTED`), normalized soft scoring with brand-fit & audience-fit calculations, Gemini LLM message personalization (strictly formatted emails and DMs with auditable signals), message quality control, human review workflow, simulation-first sending layer with duplicate prevention, persistent outreach tracking, dataset validation scripts, engine-first CLI script execution, pytest validation, and an interactive Streamlit web application.
@@ -370,11 +374,12 @@ Execute the complete test suite (26 tests):
 python -m pytest
 ```
 
-### 5. Launch Interactive Streamlit Dashboard
-Launch the multi-tab web application:
-```bash
-streamlit run streamlit_app.py
-```
+### 5. Access / Launch Streamlit Dashboard
+- **Live Cloud Deployment:** [https://snehapandit2006-edxso-ai-intern-assignment-streamlit-app-qyrc46.streamlit.app/](https://snehapandit2006-edxso-ai-intern-assignment-streamlit-app-qyrc46.streamlit.app/)
+- **Local Development Server:**
+  ```bash
+  streamlit run streamlit_app.py
+  ```
 
 ---
 
